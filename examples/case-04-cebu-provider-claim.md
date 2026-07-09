@@ -1,6 +1,6 @@
-# 案例 2：菲律宾宿务护理和机构承诺核验
+# 案例 4：菲律宾宿务护理和机构承诺核验
 
-![菲律宾宿务护理机构话术核验案例](../assets/case-cards/case-02-cebu-provider-claim.svg)
+![菲律宾宿务护理机构话术核验案例](../assets/case-cards/case-04-cebu-provider-claim.svg)
 
 ## 用户原话
 

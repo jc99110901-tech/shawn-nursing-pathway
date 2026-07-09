@@ -19,11 +19,11 @@ English: A Codex skill for nursing education, gaokao nursing fit, and overseas n
 
 完整案例：[`examples/case-01-gaokao-nursing-fit.md`](examples/case-01-gaokao-nursing-fit.md)
 
-### 案例 2：菲律宾宿务护理和机构承诺核验
+### 案例 2：澳洲登记护士、注册护士和护工有什么区别
 
-![菲律宾宿务护理机构话术核验案例](assets/case-cards/case-02-cebu-provider-claim.svg)
+![澳洲 EN RN 护工区别案例](assets/case-cards/case-02-australia-en-rn-care-worker.svg)
 
-完整案例：[`examples/case-02-cebu-provider-claim.md`](examples/case-02-cebu-provider-claim.md)
+完整案例：[`examples/case-02-australia-en-rn-care-worker.md`](examples/case-02-australia-en-rn-care-worker.md)
 
 ### 案例 3：日本护理和介护有什么区别
 

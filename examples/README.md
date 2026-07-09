@@ -13,8 +13,13 @@
 1. [`case-01-gaokao-nursing-fit.md`](case-01-gaokao-nursing-fit.md)  
    高考家长问：孩子分数一般，护理能不能报？
 
-2. [`case-02-cebu-provider-claim.md`](case-02-cebu-provider-claim.md)  
-   家长问：菲律宾宿务护理路径和机构承诺可信吗？
+2. [`case-02-australia-en-rn-care-worker.md`](case-02-australia-en-rn-care-worker.md)  
+   用户问：澳洲登记护士、注册护士和护工有什么区别？
 
 3. [`case-03-japan-nursing-caregiving.md`](case-03-japan-nursing-caregiving.md)  
    用户问：日本护理和介护有什么区别？
+
+## More Cases
+
+- [`case-04-cebu-provider-claim.md`](case-04-cebu-provider-claim.md)  
+  菲律宾宿务护理路径和机构承诺核验。这个案例保留为风险核验示例，但不作为首页主展示。
