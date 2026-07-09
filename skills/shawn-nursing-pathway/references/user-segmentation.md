@@ -11,6 +11,7 @@ Use this file to identify the user's stage and organize the intake profile. The 
 - Segment 4: Non-Nursing Career Changers
 - Segment 5: Exploratory Overseas Path Users
 - Segment 6: Domestic Nurses and Nursing Graduates Asking About Australia OBA
+- Segment 7: Japan Nurse, Nursing Study, and Caregiving Path Users
 
 ## Required Profile Fields
 
@@ -166,3 +167,35 @@ Key caution:
 - Do not say that Chinese nurses can generally use OBA. The user's official Self-check result, qualification evidence, registration status, English, and Ahpra/NMBA assessment determine the next stage.
 - Do not recommend or endorse a training provider, migration agent, employer, school, or package route.
 - Do not turn a passed exam, provider course, or document checklist into a registration, job, visa, or migration outcome.
+
+## Segment 7: Japan Nurse, Nursing Study, and Caregiving Path Users
+
+Common questions:
+
+- I am a Chinese nurse; can I become a nurse in Japan?
+- My child is a gaokao student; is Japan nursing worth considering?
+- Is Japanese caregiving or SSW nursing care the same as being a nurse?
+- Should I learn Japanese first, apply to a school first, or find an employer first?
+
+Key variables:
+
+- current stage: gaokao student, nursing student, domestic nurse, overseas nurse, non-nursing career changer, or caregiver-track user
+- nursing education and license: school, degree, transcript, syllabus, clinical practice, foreign nurse license, and document traceability
+- Japanese: current level, realistic path toward N1 for nurse exam eligibility, or SSW/caregiving language requirements
+- role acceptance: licensed nurse, nursing student, certified care worker, SSW nursing care, caregiver, or healthcare-adjacent work
+- materials: identity, name consistency, translations, notarisation, school recognition, license evidence, and annual MHLW document rules
+- work fit: acceptance of direct care, elderly care, bathing/eating/excretion assistance, night shifts, and Japanese workplace communication
+- final goal: education, nurse exam eligibility, Japanese nurse license, caregiving work, SSW residence status, employment, long-term residence, or exploratory comparison
+
+Useful outputs:
+
+- Japan path triage: nurse route versus nursing study versus caregiving/SSW
+- MHLW document-readiness checklist for foreign nurses
+- SSW nursing-care role and test distinction
+- official-source verification questions
+
+Key caution:
+
+- Do not merge Japanese nurse, caregiving, SSW nursing care, and nursing study into one route.
+- Do not recommend schools, agencies, employers, training providers, or migration agents.
+- Do not treat Japanese learning, test passing, school admission, or employer interest as a license, job, visa, or long-term residence result.

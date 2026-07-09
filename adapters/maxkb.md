@@ -21,6 +21,7 @@ If the platform supports tags or categories, group content as:
 - school and fee verification
 - provider claim review
 - Australia OBA/IQNM screening
+- Japan nurse/caregiving/SSW triage
 - output templates
 
 ## Caution
@@ -28,3 +29,5 @@ If the platform supports tags or categories, group content as:
 Do not treat retrieved school or policy information as permanent. Current operational facts still need official verification.
 
 For Australia OBA/IQNM, current Ahpra/NMBA/ANMAC rules should be treated as operational facts that require official verification.
+
+For Japan triage, current MHLW, SSW, Prometric, employer, Certificate of Eligibility, status of residence, and visa rules should be treated as operational facts that require official verification.

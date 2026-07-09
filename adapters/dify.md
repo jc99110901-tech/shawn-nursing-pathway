@@ -18,6 +18,7 @@ Use this guide to adapt Shawn Nursing Pathway to a Dify application.
    - school/fee verification
    - provider-claim verification
    - Australia OBA/IQNM screening
+   - Japan nurse/caregiving/SSW triage
    - next-step navigation
 2. Collect missing profile fields.
 3. Retrieve only the relevant knowledge files.
@@ -29,3 +30,5 @@ Use this guide to adapt Shawn Nursing Pathway to a Dify application.
 Avoid loading every reference for every question. Nursing fit, country paths, school verification, and safety boundaries should be retrieved according to user intent.
 
 For Australia OBA/IQNM screening, retrieve country paths, official source map, user segmentation, output templates, and safety boundary together.
+
+For Japan triage, retrieve country paths, country scenario cards, official source map, output templates, and safety boundary together.

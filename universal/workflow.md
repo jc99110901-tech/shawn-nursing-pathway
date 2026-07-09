@@ -61,7 +61,18 @@ Use when the user mentions Australia OBA, Ahpra, NMBA, Self-check, Stream A/B/C,
 5. List main risks and current official verification questions.
 6. If the user mentions a provider, treat it as a claim to verify rather than a recommendation.
 
-## Mode 6: Returning User
+## Mode 6: Japan Path Triage
+
+Use when the user mentions Japan nursing, Japanese nurse, caregiving, kaigo, SSW nursing care, Japan care worker, or whether a student should choose Japan nursing.
+
+1. State the boundary: this is path triage, not admission, job, visa, nurse exam, nurse license, registration, long-term residence, or immigration promise.
+2. Classify the user's real route: Japanese nurse, nursing study, caregiving/SSW nursing care, language-school-first study, or exploratory comparison.
+3. Collect only key variables: current stage, nursing education/license if relevant, Japanese level, role acceptance, document traceability, budget/time, direct-care tolerance, and final goal.
+4. Split the path into education, graduation/qualification, license/exam/status, employment/visa, and long-term planning.
+5. Use MHLW for Japanese nurse exam eligibility and Immigration Services Agency/Prometric for SSW nursing care.
+6. If the user mentions a school, employer, agency, or training provider, treat it as a claim to verify.
+
+## Mode 7: Returning User
 
 If the user says "continue," "next step," or "where were we":
 

@@ -86,18 +86,63 @@ Risk:
 
 ## Japan Nursing and Caregiving
 
-Separate:
+First split Japan questions into:
 
-- nurse route
-- caregiver route
-- specified skilled worker or long-term care route
-- student route
+- foreign nurse qualification holder wants to become a nurse in Japan
+- gaokao student or ordinary family asks about "Japan nursing"
+- Japanese caregiving or SSW nursing care
 
-Key factors:
+Do not answer "Japan nursing" as one route. Japanese nurse, nursing study, certified care work, caregiving, and SSW nursing care are different directions.
 
-- Japanese language is central
-- nursing and caregiving are not the same role
-- nurse national exam eligibility, caregiving tests, employer, visa, and residence are separate layers
+### Japan Nurse Route for Foreign Nurses
+
+Use when a Chinese nurse, overseas nurse, or nursing graduate asks whether they can become a nurse in Japan.
+
+Ask for:
+
+- foreign nursing school, degree, graduation year, transcript, syllabus, clinical practice, and curriculum evidence
+- original country or region nurse license status, not only graduation
+- current Japanese level and whether MHLW-level document work in Japanese is realistic
+- translations, notarisation, name/date consistency, and whether documents can be traced to official sources
+- final goal: exam eligibility, Japanese nurse license, employment, visa, long-term planning, or only feasibility screening
+
+Core layers:
+
+- Education: foreign nursing education is reviewed against Japan-side criteria.
+- Qualification: foreign nurse license status is a central review point.
+- Exam eligibility and license: MHLW recognition is needed before sitting Japan's nurse national examination; exam and later licensing steps are separate.
+- Employment and visa: exam eligibility or license progress is not an employer, work contract, Certificate of Eligibility, visa, or residence status.
+- Long-term planning: long-term residence requires separate immigration and employment checks.
+
+### Japan Nursing Study for Ordinary Families
+
+Use when a family asks whether a student should study nursing in Japan, use Japan as a lower-cost path, or compare Japan with domestic nursing.
+
+Ask first whether the user means nursing school, Japanese nurse license, caregiving, SSW nursing care, language school, or general study abroad.
+
+Risks:
+
+- school admission or language study is only the education layer
+- graduation does not automatically create nurse license, work status, visa, or long-term residence
+- if the user has no nursing background, start with fit, language, budget, and work-scene acceptance before discussing schools
+
+### Japan Caregiving or SSW Nursing Care
+
+Use when the user asks about kaigo, caregiving, care worker, nursing-care work, SSW nursing care, or "Japan nursing jobs" that sound like care work.
+
+Key points:
+
+- SSW nursing care is not Japanese nurse licensure.
+- Nursing care under SSW involves direct care and related support work, not a nurse-license route.
+- Skill and language tests are separate from employer matching, Certificate of Eligibility, status change, visa review, and long-term planning.
+- Passing a test does not guarantee residence status, visa, employment, or long-term residence.
+
+Official checks:
+
+- MHLW nurse national exam eligibility recognition system, criteria, FAQ, annual application page, and document list.
+- Immigration Services Agency SSW nursing care page.
+- Prometric Long-term Care Specified Skilled Worker Evaluation Test page.
+- Employer, residence status, Certificate of Eligibility, visa, and long-term residence rules.
 
 ## Germany
 

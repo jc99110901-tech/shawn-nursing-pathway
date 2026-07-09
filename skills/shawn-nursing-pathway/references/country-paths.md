@@ -2,6 +2,8 @@
 
 Use this file for country-specific first screening. It intentionally avoids detailed current policy claims. When a user needs exact requirements, tell them to verify the latest official documents.
 
+When the user needs more concrete landing scenarios, load `country-scenario-cards.md` after this file. Keep `country-paths.md` as the screening layer and use scenario cards as background detail, not as guarantees.
+
 ## Contents
 
 - Universal Country Path Rule
@@ -55,25 +57,96 @@ Official checkpoints:
 
 ## Japan Nursing and Caregiving
 
+First split the user's question into one of three scenarios:
+
+1. foreign nurse qualification holder wants to become a nurse in Japan
+2. gaokao student or ordinary family asks about "Japan nursing"
+3. user wants Japanese caregiving or SSW nursing care
+
+Do not answer "Japan nursing" as one route. Japanese nurse, nursing study, certified care work, caregiving, and SSW nursing care are different directions.
+
+### Scenario 1: Foreign Nurse Wants to Become a Nurse in Japan
+
+Use when a Chinese nurse, overseas nurse, or nursing graduate asks whether they can become a nurse in Japan.
+
 Screen for:
 
-- willingness to learn Japanese for a long period
-- ability to accept caregiving or nursing-related work intensity
-- age, education, health, family, and budget constraints
-- distinction between nurse, caregiver, care worker, and training routes
-- visa, training, employment, and residence rules from official sources
+- nursing education background: school, degree, graduation year, transcript, syllabus, clinical practice, and curriculum evidence
+- original country or region nurse license status, not only graduation
+- current Japanese level and whether MHLW-level document work in Japanese is realistic
+- whether documents can be translated, notarized, matched across names and dates, and traced to official sources
+- whether the final goal is exam eligibility, Japanese nurse license, employment, visa, or long-term planning
+
+Five-layer split:
+
+1. Education: foreign nursing education is reviewed against Japan-side criteria.
+2. Qualification: foreign nurse license status is a central review point for the nurse exam eligibility recognition track.
+3. Exam eligibility and license: MHLW recognition is needed before sitting Japan's nurse national examination; passing later exam and license steps are separate.
+4. Employment and visa: exam eligibility or license progress is not an employer, work contract, or residence status.
+5. Long-term planning: long-term residence, family, income, and career development require separate immigration and employment checks.
 
 Cold-water notes:
 
-- Nursing and caregiving are not the same role.
-- Japanese language is not a side task; it can determine whether the path is realistic.
-- Do not promise jobs, visas, or long-term residence.
+- This is not a direct work route. It is an exam-eligibility recognition and national-exam route.
+- Japanese language is not a side task; MHLW criteria and healthcare work make it a core threshold.
+- Graduation from a foreign nursing school alone should not be treated as enough for Japan nurse exam eligibility.
+
+### Scenario 2: Gaokao Student or Ordinary Family Asks About Japan Nursing
+
+Use when a family asks whether a student should study nursing in Japan, use Japan as a lower-cost path, or compare Japan with domestic nursing.
+
+Screen for:
+
+- whether the user means nursing school study, Japanese nurse license, caregiving, SSW nursing care, language school, or general study abroad
+- age, current education, budget, Japanese-learning willingness, and family risk tolerance
+- whether the student can accept nursing or caregiving work intensity, body-care scenes, night shifts, and local-language healthcare communication
+- whether the family understands that school admission, graduation, exam eligibility, nurse license, employment, visa, and long-term residence are separate
+
+Five-layer split:
+
+1. Education: school admission or language study is only the education layer.
+2. Graduation or qualification: graduation does not automatically create nurse license or work status.
+3. License or exam eligibility: Japanese nurse path and SSW nursing care path use different official systems.
+4. Employment and visa: employer, job role, contract, and residence status must be checked separately.
+5. Long-term planning: long-term residence is not created by choosing a major or language school.
+
+Cold-water notes:
+
+- Do not recommend Japan just because the family says "nursing seems stable."
+- If the student has no nursing background, first separate study, nurse license, and caregiving paths before discussing schools.
+- If the real goal is quick overseas employment, Japan nurse path may be too language- and document-heavy; SSW caregiving may be more direct but is not a nurse-license path.
+
+### Scenario 3: Japanese Caregiving or SSW Nursing Care
+
+Use when the user asks about kaigo, caregiving, care worker, nursing-care work, SSW nursing care, or "Japan nursing jobs" that sound like care work.
+
+Screen for:
+
+- whether the user accepts direct care work, including bathing, eating, excretion assistance, recreation support, and functional-training support
+- Japanese language level and willingness to use Japanese at work
+- whether the user is discussing SSW, technical intern training, certified care worker, school, employer, or another status
+- employer, contract, support plan, residence status, and family constraints
+
+Five-layer split:
+
+1. Education or training: depends on SSW, school, employer, or care-worker route.
+2. Skill and language qualification: SSW nursing care has separate skill and language expectations.
+3. License or status: SSW nursing care is not Japanese nurse licensure.
+4. Employment and visa: test results, employer matching, Certificate of Eligibility, status change, and visa review are separate.
+5. Long-term planning: later residence, family, and career advancement require separate review.
+
+Cold-water notes:
+
+- Nursing care under SSW is not the same as becoming a Japanese nurse.
+- Passing a skill or Japanese-language test does not by itself create a residence status, visa, or job.
+- If the user cannot accept physical care and elderly-care scenes, this direction may be a poor fit even if the entry looks clearer than the nurse route.
 
 Official checkpoints:
 
-- MHLW recognition requirements for foreign nurse qualification holders who want nurse national exam eligibility.
-- SSW nursing-care field rules and test requirements for caregiving work.
-- Current visa, employer, language, health, and residence rules.
+- MHLW nurse national exam eligibility recognition system, criteria, FAQ, annual application page, and document list.
+- Immigration Services Agency SSW nursing care field page.
+- Prometric Long-term Care Specified Skilled Worker Evaluation Test page and current test notices.
+- Current employer, residence status, Certificate of Eligibility, visa, and long-term residence rules.
 
 ## Germany Nurse Direction
 

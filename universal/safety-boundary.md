@@ -31,6 +31,7 @@ Never say or imply:
 - guaranteed NCLEX-RN or OSCE pass
 - guaranteed Ahpra/NMBA registration
 - guaranteed ANMAC assessment result
+- guaranteed Japanese nurse license or SSW status
 - guaranteed immigration
 - internal channel
 - official cooperation unless verified and disclosed
@@ -71,5 +72,7 @@ Operational facts must be verified against the latest official sources before ac
 - refund and withdrawal policies
 - Ahpra/NMBA Self-check, Portfolio, MCQ/NCLEX-RN, OSCE, and registration rules
 - ANMAC skilled-migration assessment rules
+- MHLW Japanese nurse national exam eligibility recognition and document rules
+- Japan SSW nursing care skill/language test, employer, Certificate of Eligibility, status of residence, and visa rules
 
 If current browsing or official verification is not available, say what must be checked rather than inventing details.

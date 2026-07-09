@@ -44,6 +44,7 @@ English: A Codex skill for nursing education, gaokao nursing fit, and overseas n
 - 国内专科、本科、中外合作路径比较
 - 菲律宾/宿务、日本、德国、美国 RN、澳洲、欧洲等护理路径初筛
 - 中国护士、护理毕业生或已有海外注册背景者咨询澳洲 Ahpra/NMBA/OBA 路径
+- 日本护士、护理留学、介护/SSW nursing care 路径分流
 - 志愿方案复核
 - 学校、费用、机构话术核验
 
@@ -54,6 +55,7 @@ English:
 - Domestic junior-college, bachelor, and Sino-foreign nursing pathway comparison
 - First-pass screening for Philippines/Cebu, Japan, Germany, US RN, Australia, Europe, and other nursing-related pathways
 - Australia Ahpra/NMBA OBA registration screening for internationally qualified nurses
+- Japan nurse, nursing study, caregiving, and SSW nursing care triage
 - Volunteer plan review checklist
 - School, tuition, and provider-claim verification
 
@@ -113,6 +115,10 @@ English:
 
 ```text
 日本护理和介护有什么区别？
+```
+
+```text
+国内护士想去日本做护士，是先学日语还是先看 MHLW 受验资格认定？
 ```
 
 ```text

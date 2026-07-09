@@ -18,6 +18,8 @@ Keep source titles visible so the agent can cite which layer it is using: fit, p
 
 For Australia OBA/IQNM questions, include `country-paths.md`, `official-source-map.md`, `user-segmentation.md`, and `output-templates.md` in retrieval if Workbody supports scoped knowledge files.
 
+For Japan questions, include `country-paths.md`, `country-scenario-cards.md`, `official-source-map.md`, and `output-templates.md` so the agent can split Japanese nurse, nursing study, caregiving, and SSW nursing care.
+
 ## If Workbody Supports Workflows
 
 Configure the main workflow from `universal/workflow.md`:

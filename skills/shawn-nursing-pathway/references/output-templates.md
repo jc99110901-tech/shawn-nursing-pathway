@@ -13,6 +13,7 @@ Use these templates to keep responses consistent and non-promissory.
 - Next-Step Navigation Template
 - Case Card Template
 - Australia OBA/IQNM Initial Screening Template
+- Japan Path Triage Template
 - "Do Not Do Now" Options
 
 ## Full Response Template
@@ -51,7 +52,7 @@ Use these templates to keep responses consistent and non-promissory.
 | 路径 C（如确实相关） | ... | ... | ... |
 
 ## 后续可再看的方向
-如果用户明确提到，或当前画像以后可能相关，再补充德国、美国 RN、澳洲、英国、欧洲、东南亚英语护理学历等方向。
+如果用户明确提到，或当前画像以后可能相关，再补充日本、德国、美国 RN、澳洲、英国、欧洲、东南亚英语护理学历等方向。
 
 ## 下一步要核实的问题
 - ...
@@ -256,6 +257,50 @@ Use this when a domestic nurse, nursing graduate, or internationally registered 
 - 不建议用机构口头说法替代 Ahpra/NMBA/ANMAC 官方文件。
 ```
 
+## Japan Path Triage Template
+
+Use this when the user asks about Japan nursing, Japanese nurse, caregiving, SSW nursing care, or whether a student should consider Japan.
+
+```markdown
+## 边界提醒
+我可以帮你把日本护士、护理留学、介护和 SSW nursing care 拆开做初筛，但不能承诺录取、就业、签证、护士国家考试、护士执照、注册、长期居留或移民结果，也不推荐任何学校、中介、培训机构、雇主或移民代理。当前规则以 MHLW、日本出入国在留管理厅、Prometric 和学校/雇主官方文件为准。
+
+## 用户画像
+- 当前身份：高考生/家长/护理学生/中国护士/海外护士/非护理转行/介护方向：
+- 护理学历和护士执照：
+- 日语水平：
+- 能否接受护理或介护真实工作强度：
+- 预算和时间：
+- 最终目标：留学/日本护士/介护/SSW/就业/长期规划/只做可行性判断：
+
+## 先判断你问的是哪条路
+| 路径 | 适用前提 | 不是 |
+|---|---|---|
+| 日本护士路径 | 已有外国护理教育和护士执照背景，愿意走 MHLW 受验资格认定和护士国家考试 | 不是直接就业路线 |
+| 护理留学/学校路径 | 先读书或语言，再看后续资格和就业 | 不是护士执照或签证保证 |
+| 介护/SSW nursing care | 接受照护工作，并按 SSW/介护规则核验技能、日语、雇主和在留资格 | 不是日本护士执照 |
+
+## 五层拆分
+- 教育或入学：
+- 毕业或资格：
+- 执照/考试资格/注册：
+- 就业/雇主/签证：
+- 长期居留或移民相关门槛：
+
+## 主要风险
+- ...
+
+## 需官方核验的问题
+- MHLW 受验资格认定制度、认定基准、申请书类、FAQ 和年度申请页面。
+- SSW nursing care 官方页面、Prometric 当前考试页面、雇主和在留资格规则。
+- 学校官网、课程、学费、退款、升学和后续资格关系。
+
+## 不建议现在做的事
+- 不建议把日本护士、介护、SSW nursing care 和护理留学混成一条路。
+- 不建议先报学校或机构，再确认目标角色和官方路径。
+- 不建议把考试、入学、雇主意向或日语学习当成就业、签证或长期居留结果。
+```
+
 ## "Do Not Do Now" Options
 
 Use these when relevant:
@@ -265,3 +310,4 @@ Use these when relevant:
 - 不建议把"能读书"等同于"能拿执照/能就业/能移民"。
 - 不建议只因为分数尴尬就把护理当兜底，先确认孩子能不能接受真实工作强度。
 - 不建议为了显得信息很多就列一堆学校；先明确预算、国家、语言、目标和申请年份，再做小范围官方检索。
+- 不建议把日本护士、介护、SSW nursing care 和护理留学合并成一个判断；先确认用户要的是哪一种。

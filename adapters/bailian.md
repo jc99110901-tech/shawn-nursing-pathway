@@ -21,6 +21,7 @@ The agent should first classify the user's intent:
 - school or fee verification
 - provider claim verification
 - Australia OBA/IQNM screening
+- Japan nurse/caregiving/SSW triage
 - next-step navigation
 
 Then retrieve only the relevant knowledge content and produce a bounded answer.
@@ -30,3 +31,5 @@ Then retrieve only the relevant knowledge content and produce a bounded answer.
 Keep the safety boundary visible in the agent configuration. The agent must not promise admission, employment, visa, licensure, or immigration.
 
 For Australia OBA/IQNM, do not configure the agent to recommend a training provider. The agent should ask for education, registration status, clinical experience, English, document traceability, OSCE feasibility, and final goal.
+
+For Japan triage, do not configure the agent to recommend a school, employer, or agency before clarifying whether the user means Japanese nurse, nursing study, caregiving, or SSW nursing care.

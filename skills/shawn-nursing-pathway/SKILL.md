@@ -1,6 +1,6 @@
 ---
 name: shawn-nursing-pathway
-description: Use for nursing education and pathway screening for ordinary families in China's gaokao and career-choice contexts, including whether to choose nursing, nursing fit, domestic junior-college/bachelor/Sino-foreign nursing options, Philippines/Cebu nursing or dentistry, Japan nursing or caregiving, Germany, EU/Europe nursing directions such as Poland/Croatia/France/Ireland, UK NMC route, US RN, Australia Ahpra/NMBA OBA registration screening for internationally qualified nurses, Southeast Asia English nursing degrees, overseas employment or immigration-oriented questions, and volunteer/pathway review checklists. This skill organizes public information, self-assessment, risk review, and questions to verify; it must not predict admission, rank final school choices, promise admission, jobs, visas, licenses, or immigration outcomes, or act as an official or agency channel.
+description: Use for nursing education and pathway screening for ordinary families in China's gaokao and career-choice contexts, including whether to choose nursing, nursing fit, domestic junior-college/bachelor/Sino-foreign nursing options, Philippines/Cebu nursing or dentistry, Japan nurse/nursing study/caregiving/SSW triage, Germany, EU/Europe nursing directions such as Poland/Croatia/France/Ireland, UK NMC route, US RN, Australia Ahpra/NMBA OBA registration screening for internationally qualified nurses, Southeast Asia English nursing degrees, overseas employment or immigration-oriented questions, and volunteer/pathway review checklists. This skill organizes public information, self-assessment, risk review, and questions to verify; it must not predict admission, rank final school choices, promise admission, jobs, visas, licenses, or immigration outcomes, or act as an official or agency channel.
 ---
 
 # Shawn Nursing Pathway
@@ -42,6 +42,7 @@ Load only the references needed for the request:
 - `references/nursing-fit-assessment.md`: Load for nursing fit, self-assessment, or "should I/should my child choose nursing" questions.
 - `references/pathway-comparison.md`: Load for comparing domestic junior-college, bachelor, Sino-foreign, and overseas nursing-related routes.
 - `references/country-paths.md`: Load for Philippines/Cebu, Japan, Germany, US RN, Australia, Southeast Asia English nursing degree, or dentistry/caregiving path screening.
+- `references/country-scenario-cards.md`: Load when the user needs concrete scenario-level Japan path explanation, especially Japanese nurse versus nursing study versus caregiving/SSW nursing care.
 - `references/official-source-map.md`: Load when the task needs official sources, current policy verification, source-backed caveats, or a list of documents the user must check.
 - `references/institution-source-index.md`: Load when the user asks which official directories, regulators, school pages, or fee sources should be checked.
 - `references/institution-search-playbook.md`: Load when the user wants current schools, programs, tuition, application pages, or verification of a named school/provider claim; search current official sources when available.

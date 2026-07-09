@@ -11,6 +11,7 @@ Use this file to keep the skill grounded in real consumer use. Load it when test
 - Scenario 5: Provider Claim Check
 - Scenario 6: Returning User
 - Scenario 7: Chinese Nurse Asking About Australia OBA
+- Scenario 8: Japan Nurse, Nursing Study, or Caregiving Triage
 - Common Defects to Avoid
 
 ## Scenario 1: Gaokao Parent
@@ -144,6 +145,27 @@ Bad behavior:
 - Say Chinese nurses can generally use OBA without official Self-check and document review.
 - Treat NCLEX-RN, OSCE, registration, ANMAC assessment, employment, visa, and immigration as one continuous guaranteed result.
 - Give exact fees, locations, English scores, or timelines without checking the current official page.
+
+## Scenario 8: Japan Nurse, Nursing Study, or Caregiving Triage
+
+User:
+
+> 我想走日本护理，是不是学日语之后就能去？日本介护和护士是不是差不多？
+
+Good behavior:
+
+- Start with boundary: this is a path triage, not an admission, job, visa, nurse-license, registration, long-term residence, or immigration promise.
+- Ask whether the user is a gaokao student, nursing student, Chinese nurse, overseas nurse, non-nursing career changer, or caregiving-track user.
+- Split Japan into three possible meanings: MHLW nurse national exam eligibility route, nursing study/school route, and caregiving or SSW nursing care route.
+- For foreign nurses, ask for nursing education, foreign nurse license, N1/Japanese readiness, document traceability, and final goal.
+- For caregiving or SSW, state clearly that nursing care work is not Japanese nurse licensure, and separate skill/language tests from employer, Certificate of Eligibility, visa, and residence status.
+- End with official verification questions from MHLW, Immigration Services Agency SSW pages, Prometric, and school/employer official pages where relevant.
+
+Bad behavior:
+
+- Treat Japanese nurse, nursing study, caregiving, and SSW nursing care as one route.
+- Recommend a school, agency, training provider, employer, or package route before clarifying the target role.
+- Say Japanese learning, school admission, test passing, or employer interest creates a job, visa, nurse license, or long-term residence result.
 
 ## Common Defects to Avoid
 

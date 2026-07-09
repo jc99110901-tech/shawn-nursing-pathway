@@ -93,22 +93,35 @@ Verify next:
 Official or high-trust sources:
 
 - MHLW foreign nurse national exam eligibility recognition system: `https://www.mhlw.go.jp/stf/newpage_29374.html`
+- MHLW foreign nurse national exam eligibility recognition criteria: `https://www.mhlw.go.jp/stf/newpage_29385.html`
 - MHLW nurse eligibility recognition application: `https://www.mhlw.go.jp/stf/newpage_29412.html`
 - MHLW application document list: `https://www.mhlw.go.jp/stf/newpage_37758.html`
+- MHLW nurse eligibility recognition FAQ: `https://www.mhlw.go.jp/content/10805000/001218936.pdf`
+- MHLW annual application page example for nurse exam eligibility recognition: `https://www.mhlw.go.jp/stf/newpage_37746.html`
 - Immigration Services Agency SSW support site, nursing care field: `https://www.ssw.go.jp/en/about/visa/nursing_care_1/`
-- Prometric SSW nursing care test page: `https://www.prometric-jp.com/en/ssw/test_list/archives/2%2A`
+- Immigration Services Agency SSW program overview: `https://www.ssw.go.jp/en/about/visa/`
+- Prometric SSW nursing care test page: `https://www.prometric-jp.com/en/ssw/test_list/archives/2`
+- MHLW nursing care field SSW operational guideline: `https://www.mhlw.go.jp/content/001478839.pdf`
 
 Stable facts to use carefully:
 
 - Foreign nurse qualification holders need MHLW eligibility recognition before sitting Japan's nurse national examination.
 - Nursing care under SSW is not the same as becoming a Japanese nurse.
 - Japanese-language ability and role distinction are central, not optional details.
+- The checked MHLW recognition-criteria page states that criteria changed from 2024 in line with Japanese curriculum revisions; recheck the current criteria before operational advice.
+- The checked MHLW FAQ says graduation alone is not the target condition for nurse exam eligibility recognition; foreign nurse license status is a central review point. Recheck current FAQ and application pages before advising an applicant.
+- The checked MHLW criteria page lists education, recognized school status, foreign nurse license, nurse-license examination system, and Japanese-language ability as review points. Do not simplify this into "study Japanese first" or "license first" without document review.
+- The checked MHLW document page includes identity, health, foreign nurse license, graduation evidence, transcript/syllabus, curriculum comparison, school recognition, Japanese N1 evidence, and possible additional documents. Treat this as a material-readiness problem, not a simple yes/no question.
+- The Immigration Services Agency SSW nursing care page describes nursing care as assistance for people who have difficulty with daily living, including bathing, eating, excretion assistance, and related support services. This is not the same as nurse licensure.
+- The checked SSW nursing care page lists a nursing-care skill test and Japanese-language expectations. Prometric also warns that passing the test does not guarantee SSW status, Certificate of Eligibility, status change, or visa issuance.
 
 Verify next:
 
 - whether the user is asking about nurse, caregiver, certified care worker, student route, or SSW route
 - current Japanese test, skill test, visa, employer, and residence requirements
 - whether the user's education and license documents can support MHLW recognition
+- current MHLW annual application period, required forms, document submission method, original verification, translations, notarisation, and FAQ changes
+- current SSW nursing care test schedule, eligible countries, fees, test languages, retake policy, employer requirements, and residence-status procedure
 
 ## Germany: Nurse Recognition and Training
 
