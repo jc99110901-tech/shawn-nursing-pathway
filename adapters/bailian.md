@@ -20,6 +20,7 @@ The agent should first classify the user's intent:
 - overseas pathway screening
 - school or fee verification
 - provider claim verification
+- Australia OBA/IQNM screening
 - next-step navigation
 
 Then retrieve only the relevant knowledge content and produce a bounded answer.
@@ -27,3 +28,5 @@ Then retrieve only the relevant knowledge content and produce a bounded answer.
 ## Safety Requirement
 
 Keep the safety boundary visible in the agent configuration. The agent must not promise admission, employment, visa, licensure, or immigration.
+
+For Australia OBA/IQNM, do not configure the agent to recommend a training provider. The agent should ask for education, registration status, clinical experience, English, document traceability, OSCE feasibility, and final goal.

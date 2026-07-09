@@ -173,15 +173,73 @@ Screen for:
 - registration requirements and recognized education questions
 - employment and migration-policy uncertainty
 
+First split Australia questions into separate tracks:
+
+- study nursing in Australia as a student
+- Australia RN, EN, or care-worker role comparison
+- Ahpra/NMBA registration screening for internationally qualified nurses, often called OBA in user questions
+- ANMAC skilled-migration assessment
+- employer, visa, and long-term residence planning
+
+Do not merge these tracks into one answer. Registration, visa, employment, and migration assessment are different layers.
+
+### Australia OBA/IQNM Registration Branch
+
+Use this branch when the user is asking about Australia OBA, Ahpra, NMBA, Self-check, Stream A/B/C, NCLEX-RN, OSCE, or "Chinese nurses applying for Australian registration."
+
+Applicable users:
+
+- internationally qualified nurses or midwives with nursing education and registration background
+- domestic Chinese nurses with traceable nursing education, registration, and practice documents
+- nursing graduates who may have education evidence but still need to clarify registration status and clinical background
+- applicants who already have another overseas nursing registration or an NCLEX-RN history
+
+Not applicable as a direct route for:
+
+- gaokao students or guardians choosing an undergraduate major
+- users with no nursing education background
+- ordinary study-abroad users who are choosing a first nursing degree
+- users who only want a quick identity or migration shortcut
+
+Ask first:
+
+- current nursing education: degree level, school, graduation year, transcripts, clinical hours, and internship evidence
+- current registration: nurse qualification, practice certificate, active/inactive status, original regulator, and any name or registration changes
+- clinical experience: department, paid work duration, recent practice, references, and whether evidence is traceable
+- English: current IELTS/OET/PTE/other evidence and clinical communication ability
+- document readiness: identity, degree, transcript, registration, translations, certifications, and consistency across documents
+- budget and timing: assessment, English, exam, documents, travel, accommodation, visa, preparation, and possible repeat attempts
+- whether the user can travel to Australia for OSCE if required
+- final goal: registration, employment, ANMAC assessment, visa, long-term residence, or only feasibility screening
+
+Core decomposition:
+
+1. Self-check: entry point for internationally qualified nurses and midwives. It identifies the assessment stream and does not decide final registration.
+2. Stream A/B/C: the stream determines later assessment stages. Do not assume a Chinese nurse, graduate, or overseas registrant belongs to a stream without official Self-check or Ahpra/NMBA assessment.
+3. Portfolio: document and qualification evidence check. Material consistency, certification, translation, registration evidence, and traceability are major risk points.
+4. MCQ/NCLEX-RN: for relevant RN candidates, this is an exam layer and not registration completion.
+5. OSCE: an in-person clinical assessment layer in Australia for relevant candidates. It can create travel, visa, accommodation, scheduling, and repeat-attempt risk.
+6. Registration: Ahpra handles applications on behalf of NMBA, and NMBA decides whether registration requirements are met.
+7. Visa: visa eligibility is separate from registration.
+8. Employment: Ahpra/NMBA do not place candidates into jobs or influence employment outcomes.
+9. ANMAC: skilled migration assessment is separate from Ahpra/NMBA registration and may consider different evidence.
+
 Cold-water notes:
 
 - Australia is not just "study and stay." Registration, employment, visa, and migration are separate.
 - Check the latest official registration and immigration documents before choosing a program.
+- OBA is not a study-abroad shortcut. It is a registration assessment route for people with nursing or midwifery qualification background.
+- A passed exam stage does not remove the remaining registration, visa, employment, or migration-assessment thresholds.
+- Bridge Medical Language / 新桥 BML, or similar providers, may be used only as provider-claim samples or institution-type information sources. Do not recommend, rank, or endorse them.
 
 Official checkpoints:
 
 - NMBA/Ahpra registration pathway and Self-check for internationally qualified nurses and midwives.
+- NMBA Stream A/B/C assessment-stage guidance and Portfolio requirements.
+- NMBA registered-nurse MCQ/NCLEX-RN and OSCE pages if the user is discussing the OBA route.
+- Ahpra international-practitioner registration standards, including English, criminal history, recency of practice, professional indemnity insurance, and continuing professional development.
 - English-language registration standard currently in force.
+- NMBA immigration and employment page for the separation of registration, visa, employment, and immigration.
 - ANMAC skilled migration assessment and ANZSCO code if the user is asking about migration.
 
 ## Southeast Asia English Nursing Degree Paths

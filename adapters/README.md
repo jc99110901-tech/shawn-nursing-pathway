@@ -13,3 +13,13 @@ Recommended mapping:
 - Safety boundary: `universal/safety-boundary.md`
 
 If a platform supports file-based knowledge import, import the universal files first. Then add the detailed `references/` files only if the platform can keep retrieval scoped and source-aware.
+
+For Australia OBA/IQNM questions, make sure the platform can retrieve:
+
+- `universal/knowledge-base.md`
+- `universal/output-templates.md`
+- `skills/shawn-nursing-pathway/references/country-paths.md`
+- `skills/shawn-nursing-pathway/references/official-source-map.md`
+- `skills/shawn-nursing-pathway/references/user-segmentation.md`
+
+The agent should treat OBA as a registration-path screening topic, not as a study-abroad shortcut or agency recommendation.

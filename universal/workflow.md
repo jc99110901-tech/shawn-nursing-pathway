@@ -50,7 +50,18 @@ Use when the user quotes a provider, school representative, or agency.
 4. Flag guarantee language and hidden cooperation/commission risk.
 5. Give a verification checklist.
 
-## Mode 5: Returning User
+## Mode 5: Australia OBA/IQNM Screening
+
+Use when the user mentions Australia OBA, Ahpra, NMBA, Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, Chinese registered nurse, domestic nurse applying for Australian RN registration, or internationally qualified nurse registration.
+
+1. State the boundary: this is registration-path screening, not a registration, exam, ANMAC, job, visa, PR, or immigration promise.
+2. Collect only the key variables: nursing education, registration status, clinical experience, English, document traceability, budget, OSCE travel feasibility, and final goal.
+3. Decide whether OBA/IQNM is a direction worth discussing or whether the user is asking from the wrong stage.
+4. Split the path: Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, Registration, Visa, Employment, ANMAC.
+5. List main risks and current official verification questions.
+6. If the user mentions a provider, treat it as a claim to verify rather than a recommendation.
+
+## Mode 6: Returning User
 
 If the user says "continue," "next step," or "where were we":
 

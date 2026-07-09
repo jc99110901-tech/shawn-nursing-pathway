@@ -28,6 +28,9 @@ Never say or imply:
 - guaranteed employment
 - guaranteed visa
 - guaranteed licensure
+- guaranteed NCLEX-RN or OSCE pass
+- guaranteed Ahpra/NMBA registration
+- guaranteed ANMAC assessment result
 - guaranteed immigration
 - internal channel
 - official cooperation unless verified and disclosed
@@ -66,5 +69,7 @@ Operational facts must be verified against the latest official sources before ac
 - credential evaluation rules
 - visa and immigration rules
 - refund and withdrawal policies
+- Ahpra/NMBA Self-check, Portfolio, MCQ/NCLEX-RN, OSCE, and registration rules
+- ANMAC skilled-migration assessment rules
 
 If current browsing or official verification is not available, say what must be checked rather than inventing details.

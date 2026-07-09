@@ -210,9 +210,16 @@ Verify next:
 Official or high-trust sources:
 
 - Nursing and Midwifery Board of Australia IQNM page: `https://www.nursingmidwiferyboard.gov.au/accreditation/iqnm.aspx`
+- NMBA before-you-apply pathway page: `https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Before-you-apply.aspx`
 - NMBA Self-check for internationally qualified nurses and midwives: `https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Self-check-and-Portfolio/Completing-the-Self-check.aspx`
+- NMBA Portfolio stage: `https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Self-check-and-Portfolio/Portfolio.aspx`
+- NMBA information for registered nurses, including MCQ/NCLEX and OSCE: `https://www.nursingmidwiferyboard.gov.au/accreditation/iqnm/examination/registered-nurses.aspx`
+- NMBA Objective Structured Clinical Exam page: `https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Examination/Objective-structured-clinical-exam.aspx`
+- NMBA immigration and employment page: `https://www.nursingmidwiferyboard.gov.au/Accreditation/IQNM/Before-you-apply/Immigration-and-employment.aspx`
 - NMBA English language skills registration standard: `https://www.nursingmidwiferyboard.gov.au/registration-standards/english-language-skills.aspx`
 - Ahpra international health practitioners: `https://www.ahpra.gov.au/Registration/International-practitioners.aspx`
+- Ahpra streamlined pathway news for internationally qualified registered nurses: `https://www.ahpra.gov.au/News/2025-01-27-media-release-IQRN.aspx`
+- Ahpra second OSCE location news: `https://www.ahpra.gov.au/News/2023-11-20-Second-location-selected-for-examination-of-internationally-qualified-nurses-and-midwives.aspx`
 - Ahpra English language skills: `https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills.aspx`
 - ANMAC ANZSCO codes: `https://anmac.org.au/skilled-migrants/anzsco-codes-information`
 - Australian Bureau of Statistics ANZSCO 2544 Registered Nurses: `https://www.abs.gov.au/statistics/classifications/anzsco-australian-and-new-zealand-standard-classification-occupations/2022/browse-classification/2/25/254/2544`
@@ -220,15 +227,24 @@ Official or high-trust sources:
 Stable facts to use carefully:
 
 - Internationally qualified nurses and midwives use NMBA/Ahpra registration pathways; the Self-check is an entry point.
+- Self-check assigns internationally qualified nurses and midwives to different assessment streams. The assigned stream determines later stages, but Self-check and later assessment stages do not guarantee final registration.
+- Portfolio is the stage where Ahpra checks Self-check information and asks for identity, qualification, registration, certification, and translation evidence where relevant.
+- For registered nurse Stream B candidates, the pathway can include portfolio review, an MCQ exam using NCLEX-RN, and an in-person OSCE in Australia. Exact eligibility, fees, timing, test sites, and sequence must be checked from NMBA/Ahpra and the relevant exam provider at the time of use.
+- RN OSCE is an in-person clinical assessment in Australia. Check the current NMBA OSCE page before mentioning locations, schedules, fees, or attempt rules.
 - Registration standards include English-language skills and other fitness-to-practise requirements.
 - ANMAC skilled-migration assessment and Ahpra/NMBA registration are related but not the same thing.
+- NMBA states that registration, immigration/visa, and employment are separate processes, and success in one does not automatically guarantee success in another.
 - ANZSCO 2544 registered nurses are treated as requiring registration/licensing.
+- Treat "OBA" as a user-facing shorthand. In official-source checks, map it back to NMBA internationally qualified nurse or midwife assessment stages, including Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, and registration.
 
 Verify next:
 
 - current NMBA pathway and whether the user's country/qualification fits any streamlined route
-- English pathway or test score standard in force at the time of application
+- whether the user is asking about study in Australia, OBA registration as an internationally qualified nurse, ANMAC migration assessment, employer sponsorship, or state nomination
+- current Self-check stream result, portfolio evidence, certified/translated documents, NCLEX/OSCE requirements, fees, time limits, and exam locations
+- English pathway or test score standard in force at the time of application, especially because English standards and transition rules can change
 - ANMAC skilled migration assessment requirements, ANZSCO code, occupation list, visa subclass, invitation, and state nomination rules
+- provider claims, service contracts, refund rules, training claims, and any cooperation or commission disclosure if the user has contacted an agency or training provider
 
 ## ASEAN and Southeast Asia English Nursing Degrees
 

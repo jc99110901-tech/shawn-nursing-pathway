@@ -10,6 +10,7 @@ Use this file to keep the skill grounded in real consumer use. Load it when test
 - Scenario 4: School and Fee Check
 - Scenario 5: Provider Claim Check
 - Scenario 6: Returning User
+- Scenario 7: Chinese Nurse Asking About Australia OBA
 - Common Defects to Avoid
 
 ## Scenario 1: Gaokao Parent
@@ -121,6 +122,28 @@ Bad behavior:
 
 - Start the intake from zero every time.
 - Give a long generic overview.
+
+## Scenario 7: Chinese Nurse Asking About Australia OBA
+
+User:
+
+> 我是国内注册护士/护理本科毕业，想通过 OBA 去澳洲做 RN，能不能走？要不要报机构？
+
+Good behavior:
+
+- Start with boundary: this is an Ahpra/NMBA registration-pathway screening, not a registration, job, visa, ANMAC, PR, or immigration promise.
+- Ask for the minimum key profile: nursing degree, Chinese registration status, clinical experience, English level, material traceability, budget, ability to travel to Australia for OSCE, and final goal.
+- Split the path into Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, registration, visa, employment, and ANMAC.
+- Explain that OBA is mainly relevant to internationally qualified nurses or midwives with nursing qualification background, not gaokao families or people without nursing education.
+- If the user mentions Bridge Medical Language / 新桥 BML or another provider, treat the materials as provider claims to verify, not as a recommendation.
+- End with official verification questions and a document-readiness checklist.
+
+Bad behavior:
+
+- Recommend a provider, training course, employer, school, migration agent, or package route.
+- Say Chinese nurses can generally use OBA without official Self-check and document review.
+- Treat NCLEX-RN, OSCE, registration, ANMAC assessment, employment, visa, and immigration as one continuous guaranteed result.
+- Give exact fees, locations, English scores, or timelines without checking the current official page.
 
 ## Common Defects to Avoid
 

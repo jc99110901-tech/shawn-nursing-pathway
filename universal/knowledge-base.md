@@ -145,6 +145,51 @@ Risk:
 
 - "study and stay" is not a safe claim. Registration, employment, visa, and migration are separate.
 
+### Australia OBA/IQNM for Internationally Qualified Nurses
+
+Use this branch when the user asks about OBA, Ahpra, NMBA, Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, or a Chinese nurse applying for Australian RN registration.
+
+Suitable for discussion:
+
+- internationally qualified nurses or midwives with nursing education and registration background
+- Chinese domestic nurses with traceable education, registration, and practice documents
+- nursing graduates whose education and registration status need clarification
+- applicants with another overseas nursing registration or previous NCLEX-RN history
+
+Not a direct route for:
+
+- gaokao students choosing a major
+- users without nursing education
+- ordinary first-degree study-abroad users
+- users seeking a quick identity or migration shortcut
+
+Core layers:
+
+- Self-check: entry point for IQNMs; identifies assessment stream but does not decide final registration
+- Stream A/B/C: official assessment stream; do not pre-assign without official process
+- Portfolio: document, qualification, identity, registration, translation, and certification evidence
+- MCQ/NCLEX-RN: exam layer for relevant RN candidates
+- OSCE: in-person clinical assessment layer in Australia if required
+- Registration: Ahpra/NMBA decision layer
+- Visa and employment: separate from registration
+- ANMAC: skilled migration assessment, separate from Ahpra/NMBA registration
+
+Ask for:
+
+- highest nursing education, school, graduation year, transcript, clinical hours, and internship evidence
+- nurse qualification, practice certificate, registration status, regulator, and registration changes
+- clinical experience, department, paid work duration, recency, and references
+- English test status and clinical communication ability
+- document traceability, translations, certifications, name changes, and consistency across records
+- budget for assessment, English, exams, documents, travel, accommodation, visa, preparation, and repeat attempts
+- ability to travel to Australia for OSCE if required
+- final goal: registration, employment, ANMAC, visa, long-term residence, or feasibility screening
+
+Provider handling:
+
+- Bridge Medical Language / 新桥 BML and similar providers may be treated only as provider-claim samples or institution-type information sources.
+- Do not recommend, rank, or endorse a training provider, migration agent, employer, school, or package route.
+
 ## Europe
 
 For Poland, Croatia, France, Ireland, the UK, Germany, and other European countries:

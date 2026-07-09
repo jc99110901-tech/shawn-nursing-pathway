@@ -17,6 +17,7 @@ Use this guide to adapt Shawn Nursing Pathway to a Dify application.
    - overseas path comparison
    - school/fee verification
    - provider-claim verification
+   - Australia OBA/IQNM screening
    - next-step navigation
 2. Collect missing profile fields.
 3. Retrieve only the relevant knowledge files.
@@ -26,3 +27,5 @@ Use this guide to adapt Shawn Nursing Pathway to a Dify application.
 ## Retrieval Note
 
 Avoid loading every reference for every question. Nursing fit, country paths, school verification, and safety boundaries should be retrieved according to user intent.
+
+For Australia OBA/IQNM screening, retrieve country paths, official source map, user segmentation, output templates, and safety boundary together.

@@ -16,6 +16,8 @@ Import:
 
 Keep source titles visible so the agent can cite which layer it is using: fit, pathway comparison, official source map, school/fee verification, or provider-claim review.
 
+For Australia OBA/IQNM questions, include `country-paths.md`, `official-source-map.md`, `user-segmentation.md`, and `output-templates.md` in retrieval if Workbody supports scoped knowledge files.
+
 ## If Workbody Supports Workflows
 
 Configure the main workflow from `universal/workflow.md`:

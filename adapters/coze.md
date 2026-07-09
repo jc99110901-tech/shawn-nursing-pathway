@@ -19,7 +19,10 @@ Create clear user entry points:
 - 学校/费用核验
 - 机构话术核验
 - 下一步规划
+- 澳洲 OBA/IQNM 初筛
 
 ## Safety Notes
 
 Do not configure the bot to promise admission, employment, visa, licensure, or immigration. If browsing or official-source checking is unavailable, the bot should output a verification checklist instead of current facts.
+
+For Australia OBA/IQNM, the bot should split Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, Registration, Visa, Employment, and ANMAC instead of recommending a provider.

@@ -31,12 +31,19 @@ English: A Codex skill for nursing education, gaokao nursing fit, and overseas n
 
 完整案例：[`examples/case-03-japan-nursing-caregiving.md`](examples/case-03-japan-nursing-caregiving.md)
 
+### 案例 4：中国护士问澳洲 OBA / Ahpra / NMBA 注册路径
+
+![中国护士澳洲 OBA 初筛案例](assets/case-cards/case-05-australia-oba-iqnm.svg)
+
+完整案例：[`examples/case-05-australia-oba-iqnm.md`](examples/case-05-australia-oba-iqnm.md)
+
 ## 适用场景 / Use Cases
 
 - 高考志愿里是否选择护理
 - 护理适配度初筛
 - 国内专科、本科、中外合作路径比较
 - 菲律宾/宿务、日本、德国、美国 RN、澳洲、欧洲等护理路径初筛
+- 中国护士、护理毕业生或已有海外注册背景者咨询澳洲 Ahpra/NMBA/OBA 路径
 - 志愿方案复核
 - 学校、费用、机构话术核验
 
@@ -46,6 +53,7 @@ English:
 - First-pass nursing fit assessment
 - Domestic junior-college, bachelor, and Sino-foreign nursing pathway comparison
 - First-pass screening for Philippines/Cebu, Japan, Germany, US RN, Australia, Europe, and other nursing-related pathways
+- Australia Ahpra/NMBA OBA registration screening for internationally qualified nurses
 - Volunteer plan review checklist
 - School, tuition, and provider-claim verification
 
@@ -113,6 +121,10 @@ English:
 
 ```text
 澳洲护理学校和学费应该怎么查？
+```
+
+```text
+我是国内注册护士，想通过澳洲 OBA 去做 RN，第一步该核实什么？
 ```
 
 ## 文件结构 / Repository Structure

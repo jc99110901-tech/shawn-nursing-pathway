@@ -36,6 +36,12 @@ If the platform supports retrieval:
 澳洲护理学费和学校应该怎么查？
 ```
 
+```text
+我是国内注册护士，想通过澳洲 OBA 去做 RN，第一步该核实什么？
+```
+
 ## Expected Behavior
 
 The agent should not rush to a final answer. It should clarify user profile, separate education/license/job/visa/immigration layers, flag risks, and provide the next official checks.
+
+For Australia OBA/IQNM questions, it should additionally separate Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, Registration, Visa, Employment, and ANMAC.

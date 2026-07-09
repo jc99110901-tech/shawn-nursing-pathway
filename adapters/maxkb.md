@@ -20,8 +20,11 @@ If the platform supports tags or categories, group content as:
 - country pathway
 - school and fee verification
 - provider claim review
+- Australia OBA/IQNM screening
 - output templates
 
 ## Caution
 
 Do not treat retrieved school or policy information as permanent. Current operational facts still need official verification.
+
+For Australia OBA/IQNM, current Ahpra/NMBA/ANMAC rules should be treated as operational facts that require official verification.

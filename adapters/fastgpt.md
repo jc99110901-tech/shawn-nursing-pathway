@@ -21,6 +21,7 @@ Create a first node that classifies the user request into one of:
 - 海外路径比较
 - 学校/费用核验
 - 机构话术核验
+- 澳洲 OBA/IQNM 初筛
 - 下一步规划
 
 Then retrieve the matching knowledge chunk only.
@@ -28,3 +29,5 @@ Then retrieve the matching knowledge chunk only.
 ## Caution
 
 Do not use a giant always-on knowledge prompt. If all references are injected at once, answers may become too long and less useful.
+
+For Australia OBA/IQNM questions, retrieve only the Australia path, official source map, user segmentation, safety boundary, and OBA output template.

@@ -10,6 +10,7 @@ Use this file to identify the user's stage and organize the intake profile. The 
 - Segment 3: Nursing Students and Domestic Nurses
 - Segment 4: Non-Nursing Career Changers
 - Segment 5: Exploratory Overseas Path Users
+- Segment 6: Domestic Nurses and Nursing Graduates Asking About Australia OBA
 
 ## Required Profile Fields
 
@@ -131,3 +132,37 @@ Key caution:
 
 - Keep "possible" separate from "eligible."
 - Keep "education path" separate from "license path," "job path," and "immigration path."
+
+## Segment 6: Domestic Nurses and Nursing Graduates Asking About Australia OBA
+
+Common questions:
+
+- I am a Chinese registered nurse; can I apply for Australia OBA?
+- I graduated from nursing in China but have limited work experience; is OBA still worth discussing?
+- I passed NCLEX-RN elsewhere; does that help with Australia?
+- Should I prepare Ahpra/NMBA registration, ANMAC assessment, employer sponsorship, or study first?
+
+Key variables:
+
+- education: highest nursing credential, school, graduation year, transcripts, clinical hours, and internship evidence
+- registration status: nurse qualification, practice certificate, active/inactive status, regulator, and whether evidence can be verified
+- clinical experience: department, paid work duration, recency, references, and match with claimed role
+- English: current test type and score if any, plus ability to handle clinical communication
+- material traceability: identity, name changes, school name changes, registration changes, certified copies, translations, and consistency across records
+- budget: Self-check/assessment, English, exams, documents, translation/certification, preparation, visa, flights, accommodation, and repeat-attempt risk
+- OSCE feasibility: whether the user can travel to Australia for an in-person clinical exam if required
+- final goal: Ahpra/NMBA registration, employment, ANMAC skilled-migration assessment, visa, long-term residence, or only feasibility screening
+
+Useful outputs:
+
+- OBA or IQNM initial-screen template
+- document-readiness checklist
+- separation of Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, registration, visa, employment, and ANMAC
+- official-source verification questions
+- provider-claim risk review if the user has spoken with an agency or training provider
+
+Key caution:
+
+- Do not say that Chinese nurses can generally use OBA. The user's official Self-check result, qualification evidence, registration status, English, and Ahpra/NMBA assessment determine the next stage.
+- Do not recommend or endorse a training provider, migration agent, employer, school, or package route.
+- Do not turn a passed exam, provider course, or document checklist into a registration, job, visa, or migration outcome.

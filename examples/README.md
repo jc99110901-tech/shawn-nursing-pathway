@@ -19,6 +19,9 @@
 3. [`case-03-japan-nursing-caregiving.md`](case-03-japan-nursing-caregiving.md)  
    用户问：日本护理和介护有什么区别？
 
+4. [`case-05-australia-oba-iqnm.md`](case-05-australia-oba-iqnm.md)  
+   用户问：中国注册护士/护理毕业生想通过澳洲 OBA 去做 RN，第一步该核实什么？
+
 ## More Cases
 
 - [`case-04-cebu-provider-claim.md`](case-04-cebu-provider-claim.md)  
