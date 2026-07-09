@@ -1,0 +1,214 @@
+# Output Templates
+
+Use these templates to keep responses consistent and non-promissory.
+
+## Contents
+
+- Full Response Template
+- Missing-Info Prompt
+- Nursing Fit Template
+- Volunteer Review Template
+- Country Path Screening Template
+- School and Fee Verification Template
+- Next-Step Navigation Template
+- Case Card Template
+- "Do Not Do Now" Options
+
+## Full Response Template
+
+```markdown
+## 边界提醒
+我可以帮你整理公开信息、解释路径、做护理适配度初筛和风险复核，但不替你做最终志愿或留学决定，也不承诺录取、就业、签证、执照或移民结果。最终信息请以考试院、学校官网、执照机构和官方政策为准。
+
+## 用户画像
+- 阶段：
+- 年龄/学历：
+- 分数或层次：
+- 预算：
+- 语言：
+- 是否接受护理强度：
+- 是否接受海外生活：
+- 最终诉求：
+- 可接受国家/城市：
+
+## 初步判断
+基于目前信息，这更适合先做「路径初筛/风险复核」，还不适合直接下最终结论。
+
+## 适配优势
+- ...
+
+## 主要风险
+- ...
+
+## 可比较路径
+只列和用户画像最相关的 2-3 条路径。不要为了显得全面，把所有国家和路线一次性列出来。
+
+| 路径 | 可能适合点 | 主要门槛 | 需要核实 |
+|---|---|---|---|
+| 路径 A | ... | ... | ... |
+| 路径 B | ... | ... | ... |
+| 路径 C（如确实相关） | ... | ... | ... |
+
+## 后续可再看的方向
+如果用户明确提到，或当前画像以后可能相关，再补充德国、美国 RN、澳洲、英国、欧洲、东南亚英语护理学历等方向。
+
+## 下一步要核实的问题
+- ...
+
+## 不建议现在做的事
+- ...
+```
+
+## Missing-Info Prompt
+
+```markdown
+我先不直接判断，因为现在缺少几个会改变结论的信息。你可以只回答大概范围，不需要提供身份证号、准考证号或完整截图：
+
+1. 现在是高考生/家长/护理在读/国内护士/转行人群里的哪一种？
+2. 年龄、当前学历、分数或大致层次？
+3. 预算大概是多少，能接受几年准备期？
+4. 英语/日语/德语基础如何，愿不愿意长期学语言？
+5. 能不能接受护理的夜班、轮班、病患接触和高压场景？
+6. 最终更想要国内就业、留学、海外就业、移民可能性，还是家庭稳定？
+```
+
+## Nursing Fit Template
+
+```markdown
+## 边界提醒
+这是护理适配度初筛，不是医学、心理或最终职业诊断。
+
+## 初步判断
+现在只能判断「可能优势、主要风险、需要核实的问题」，不能直接说一定适合或一定不适合。
+
+## 可能优势
+- ...
+
+## 主要风险
+- ...
+
+## 需要进一步核实的问题
+- ...
+```
+
+## Volunteer Review Template
+
+```markdown
+## 边界提醒
+我只能帮你复核志愿方案的风险点，不输出最终排序，也不替你提交志愿。
+
+## 已有方案概况
+- ...
+
+## 需要逐项复核
+- 分数/位次是否匹配：
+- 专业限制是否核实：
+- 学费和生活费是否能承受：
+- 城市是否能接受：
+- 转专业/升学/执照/就业路径是否清楚：
+- 中外合作或海外路径备选是否清楚：
+- 家庭是否理解护理工作的真实强度：
+- 最终诉求和路径是否一致：
+
+## 主要风险
+- ...
+
+## 下一步核实
+- ...
+```
+
+## Country Path Screening Template
+
+```markdown
+## 边界提醒
+国家路径只能做公开信息整理和初筛。教育、执照、就业、签证和长期居留是不同问题，不能合并成保证。
+
+## 你现在的问题更像是哪一层
+- 教育入学：
+- 毕业/学历：
+- 执照/注册：
+- 就业/签证：
+- 长期居留或移民：
+
+## 这个方向可能值得看的原因
+- ...
+
+## 最大风险
+- ...
+
+## 官方信息要核实
+- ...
+```
+
+## School and Fee Verification Template
+
+Use this only when the user asks for current schools, tuition, application pages, or whether a named school/provider claim is reliable.
+
+```markdown
+## 边界提醒
+学校和费用信息会随年份、校区、学生身份和课程负荷变化。我可以帮你查官方来源和做风险复核，但不能把学费、录取、注册、就业、签证或移民结果当成承诺。
+
+## 这次先查哪一层
+- 教育入学：
+- 学费/生活费：
+- 执照/注册：
+- 就业/签证：
+- 长期居留：
+
+## 当前查到的官方信息
+| 学校/项目 | 官方依据 | 费用/时长 | 对这个家庭的意义 | 还要核实 |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
+
+## 主要风险
+- ...
+
+## 下一步要问学校/机构的话
+- 请提供最新 fee schedule、refund policy、program approval、clinical placement、international student requirements。
+- 如果存在合作、代理、佣金、就业推荐或雇主关系，请书面披露。
+```
+
+## Next-Step Navigation Template
+
+Use this after a substantial answer. Pick only 2-3 next actions.
+
+```markdown
+## 下一步建议
+基于上面的判断，下一步最值得做的是：
+
+- **护理适配继续问**：因为现在最大不确定性是能不能接受护理真实工作强度。
+- **学校/费用核验**：因为路径比较已经进入预算层，需要查官方学费和非学费成本。
+- **机构话术核验**：因为对方说法里混合了录取、就业、签证、执照或移民承诺。
+```
+
+Do not use all three mechanically. Choose based on the user's actual case.
+
+## Case Card Template
+
+Use this when the user has completed a substantial screening or says they may come back later.
+
+```markdown
+## 本次案例卡
+- 用户阶段：
+- 年龄/学历：
+- 预算/时间：
+- 语言基础：
+- 护理强度接受度：
+- 目标国家/城市：
+- 最终诉求：
+- 当前最主要风险：
+- 已经排除的方向：
+- 下一步要核实：
+```
+
+Keep it short. Do not include sensitive identifiers.
+
+## "Do Not Do Now" Options
+
+Use these when relevant:
+
+- 不建议现在直接定学校或国家，先把目标、预算、语言和护理强度接受度说清楚。
+- 不建议只听机构口头承诺，先看学校官网、官方政策、合同、退款规则和合作关系披露。
+- 不建议把"能读书"等同于"能拿执照/能就业/能移民"。
+- 不建议只因为分数尴尬就把护理当兜底，先确认孩子能不能接受真实工作强度。
+- 不建议为了显得信息很多就列一堆学校；先明确预算、国家、语言、目标和申请年份，再做小范围官方检索。

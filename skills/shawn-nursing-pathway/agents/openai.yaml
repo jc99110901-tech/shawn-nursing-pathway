@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shawn Nursing Pathway"
+  short_description: "Nursing decision and pathway workbench"
+  default_prompt: "Use $shawn-nursing-pathway as the Shawn nursing workbench for fit screening, volunteer review, overseas path comparison, school/fee checks, provider-claim verification, and next-step routing."
