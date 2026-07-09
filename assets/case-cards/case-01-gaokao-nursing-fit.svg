@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">高考家长护理适配案例</title>
+  <desc id="desc">A Chinese-first case card showing how the skill handles a gaokao parent asking whether nursing is worth choosing.</desc>
+  <rect width="1200" height="630" fill="#f6fbfc"/>
+  <rect x="54" y="48" width="1092" height="534" rx="28" fill="#ffffff" stroke="#bfd7dc" stroke-width="2"/>
+  <rect x="54" y="48" width="1092" height="96" rx="28" fill="#0f5d66"/>
+  <text x="92" y="108" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="38" font-weight="700" fill="#ffffff">案例 1：高考家长问护理能不能报</text>
+  <text x="92" y="188" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="29" font-weight="700" fill="#153b42">用户问题</text>
+  <text x="92" y="230" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="28" fill="#1f2f33">孩子分数一般，家里觉得护理稳定，能不能报护理？</text>
+  <text x="92" y="294" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="29" font-weight="700" fill="#153b42">Skill 不直接做</text>
+  <text x="92" y="337" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="26" fill="#5f2222">不预测录取，不给最终志愿排序，不先甩学校名单。</text>
+  <text x="92" y="400" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="29" font-weight="700" fill="#153b42">Skill 先做</text>
+  <text x="92" y="443" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="26" fill="#1f2f33">护理强度接受度 + 专科/本科/中外合作路径 + 招生章程风险。</text>
+  <rect x="92" y="492" width="1016" height="54" rx="12" fill="#e9f5f6"/>
+  <text x="116" y="528" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="24" fill="#0f5d66">Next: fit screen, volunteer risk review, official brochure check.</text>
+</svg>

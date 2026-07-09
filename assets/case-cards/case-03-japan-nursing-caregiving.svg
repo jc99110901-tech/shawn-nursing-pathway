@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">日本护理和介护路径区分案例</title>
+  <desc id="desc">A Chinese-first case card showing how the skill separates Japan nursing from caregiving.</desc>
+  <rect width="1200" height="630" fill="#f8f7fb"/>
+  <rect x="54" y="48" width="1092" height="534" rx="28" fill="#ffffff" stroke="#c9c1dd" stroke-width="2"/>
+  <rect x="54" y="48" width="1092" height="96" rx="28" fill="#4d4275"/>
+  <text x="92" y="108" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="38" font-weight="700" fill="#ffffff">案例 3：日本护理和介护有什么区别</text>
+  <text x="92" y="188" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="29" font-weight="700" fill="#352d53">用户问题</text>
+  <text x="92" y="230" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="28" fill="#302d38">是不是先去介护，以后就能转日本护士？</text>
+  <text x="92" y="294" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="29" font-weight="700" fill="#352d53">Skill 先区分</text>
+  <text x="92" y="337" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="26" fill="#302d38">护士、介护、特定技能、学校、雇主、签证是不同层。</text>
+  <text x="92" y="400" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="29" font-weight="700" fill="#352d53">关键风险</text>
+  <text x="92" y="443" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="26" fill="#5f2222">介护不自动等于护士资格，日语是核心门槛。</text>
+  <rect x="92" y="492" width="1016" height="54" rx="12" fill="#eeeaf8"/>
+  <text x="116" y="528" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="24" fill="#4d4275">Next: role definition, language plan, school/employer/visa check.</text>
+</svg>

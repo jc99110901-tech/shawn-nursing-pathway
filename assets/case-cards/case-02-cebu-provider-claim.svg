@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">菲律宾宿务护理机构话术核验案例</title>
+  <desc id="desc">A Chinese-first case card showing how the skill reviews Cebu nursing and provider claims.</desc>
+  <rect width="1200" height="630" fill="#fbfaf5"/>
+  <rect x="54" y="48" width="1092" height="534" rx="28" fill="#ffffff" stroke="#decf9a" stroke-width="2"/>
+  <rect x="54" y="48" width="1092" height="96" rx="28" fill="#756126"/>
+  <text x="92" y="108" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="38" font-weight="700" fill="#ffffff">案例 2：菲律宾宿务护理与机构承诺</text>
+  <text x="92" y="188" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="29" font-weight="700" fill="#463b18">用户问题</text>
+  <text x="92" y="230" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="28" fill="#2d2c27">机构说宿务读护理，以后能去美国 RN，还能安排就业。</text>
+  <text x="92" y="294" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="29" font-weight="700" fill="#463b18">Skill 拆成五层</text>
+  <text x="92" y="337" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="26" fill="#2d2c27">学校认可、课程毕业、美国州要求、NCLEX/评估、就业和签证。</text>
+  <text x="92" y="400" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="29" font-weight="700" fill="#463b18">关键风险</text>
+  <text x="92" y="443" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="26" fill="#5f2222">不能把“能读书”说成“能就业、能签证、能移民”。</text>
+  <rect x="92" y="492" width="1016" height="54" rx="12" fill="#f4eed7"/>
+  <text x="116" y="528" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="24" fill="#756126">Next: CHED check, fee/refund proof, US RN state-board verification.</text>
+</svg>
