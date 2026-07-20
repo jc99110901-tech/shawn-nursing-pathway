@@ -2,6 +2,16 @@
 
 Use this guide for any AI platform that supports custom prompts or knowledge files.
 
+## 30 秒版
+
+只上传 [`Lite 中文单文件`](../dist/shawn-nursing-pathway-lite.md)，然后发送：
+
+```text
+请按文件中的规则回答。先判断我的问题属于哪个模块，不替我做最终决定。
+```
+
+需要完整国家路径和核验资料时，再换成 [`Full 知识库单文件`](../dist/shawn-nursing-pathway-full.md)。
+
 ## Minimal Setup
 
 1. Paste `universal/system-prompt.md` into the system prompt.

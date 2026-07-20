@@ -12,6 +12,8 @@ Use this file to keep the skill grounded in real consumer use. Load it when test
 - Scenario 6: Returning User
 - Scenario 7: Chinese Nurse Asking About Australia OBA
 - Scenario 8: Japan Nurse, Nursing Study, or Caregiving Triage
+- Scenario 9: Domestic Nurse Asking About Career Change and an International Hospital
+- Scenario 10: Multi-Perspective Review for a Conflicted Decision
 - Common Defects to Avoid
 
 ## Scenario 1: Gaokao Parent
@@ -167,6 +169,59 @@ Bad behavior:
 - Recommend a school, agency, training provider, employer, or package route before clarifying the target role.
 - Say Japanese learning, school admission, test passing, or employer interest creates a job, visa, nurse license, or long-term residence result.
 
+## Scenario 9: Domestic Nurse Asking About Career Change and an International Hospital
+
+User:
+
+> 我考了非全研究生，也在备考雅思，以后不想一直做临床。和睦家这类国际医院前景怎么样？公立还是私立更好？
+
+Good behavior:
+
+- Treat this as career-path screening, not a generic public-versus-private ranking.
+- Ask only for variables that change the answer: clinical department and years, graduate major, city, language level, and what part of clinical work the user wants to leave.
+- Load `current-information-protocol.md` before using workforce data, hospital statistics, named-hospital information, vacancies, hiring requirements, salary, benefits, or market claims.
+- Include a section titled exactly `## 信息时效` before the analysis, with one row per material dynamic claim. Do not replace it with dates scattered through the prose.
+- Separate a named hospital's general background from dated active recruitment evidence.
+- State the search date, data period, publication/update date, and freshness status for each material current fact.
+- Before calling an NHC or other statistical release "latest," inspect the official same-series listing or archive for later periods. Keep complete annual data separate from partial-period data.
+- If the latest official nationwide hospital statistic found describes an older year, say that explicitly and state that no newer same-scope official release was found in this search.
+- If the named hospital has only an old or undated nursing/careers page, say it is background only and that no dated current vacancy or requirement was verified.
+- Compare 2-3 realistic directions such as hospital-based role transition, international/private medical services, and healthcare-adjacent industry roles.
+
+Bad behavior:
+
+- Describe an old or undated careers page as the hospital's current hiring requirement.
+- Use a search-engine crawl date as the page's publication or update date.
+- Omit the required `## 信息时效` section or leave out the publication/update date for a material statistic.
+- Say "目前国内数据是 2024 年" without naming the exact metric, source, publication date, and search date.
+- Call one official search result "latest" without checking the official same-series directory for later releases.
+- Infer salary, benefits, vacancy status, job stability, or future growth from institution marketing copy.
+- Treat a graduate degree or IELTS score alone as proof that the user can leave clinical work.
+
+## Scenario 10: Multi-Perspective Review for a Conflicted Decision
+
+User:
+
+> 我考了非全研究生，也在备考雅思，不想一直做临床。能不能从临床现实、职业发展、家庭成本和医院用人几个角度一起帮我看看，是留公立、去私立国际医院，还是转相关行业？直接开始。
+
+Good behavior:
+
+- Route to `multi-perspective-review.md` because the user explicitly asks for different perspectives and says to start directly.
+- First collect only the missing variables that materially change the discussion, or state which assumptions are provisional: city, department, years of experience, graduate major, current registration, target income floor, and what "不想做临床" specifically means.
+- Build one shared evidence brief. Search current official or first-party sources before using named-hospital vacancies, salaries, workforce statistics, hiring requirements, or market claims.
+- Select 3-5 non-overlapping perspectives, such as clinical work reality, healthcare career transition, family budget/opportunity cost, and current employer-market verification.
+- When independent Agent tools are available, give each role the same profile and evidence brief. Do not tell one role what conclusion another role reached.
+- Let the moderator preserve real disagreement, identify the decision variables, and propose reversible next steps such as an informational interview, a dated vacancy sample, or a skills-gap check.
+
+Bad behavior:
+
+- Use five role names that repeat the same generic advice.
+- Let each role invent separate current facts or browse without a shared evidence standard.
+- Claim that the roles are real nurses, HR leaders, regulators, or licensed career advisers.
+- Decide by majority vote that the user "should" resign, enter a named hospital, or change industries.
+- Describe a named hospital's future, current vacancies, salary, or hiring standards without dated current evidence.
+- Hide uncertainty in a polished moderator summary.
+
 ## Common Defects to Avoid
 
 - Single-answer trap: answering one question but not suggesting the next useful module.
@@ -176,3 +231,6 @@ Bad behavior:
 - Over-questioning trap: asking ten questions before giving any frame.
 - Under-routing trap: not telling the user whether the next best step is fit, volunteer review, path comparison, school check, or provider risk check.
 - No-continuity trap: not producing a reusable case summary after a substantial screening.
+- Freshness trap: using an old, undated, cached, or mixed-year source as if it were one current fact, or failing to disclose that no newer official source was found.
+- Fake-panel trap: presenting one model's role-play as independent experts, or presenting AI role perspectives as a real professional consultation.
+- Repetition trap: selecting several roles that ask the same question and add no decision value.

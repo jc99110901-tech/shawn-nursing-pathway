@@ -320,15 +320,20 @@ Official checkpoints:
 Screen for:
 
 - reason for choosing an English-language regional education path
+- whether the user means English-taught education, English-speaking healthcare workplace, English-friendly city life, or an actual nurse-registration and employment route
 - school legitimacy and degree recognition
 - whether the path is a stepping stone, a final degree, or an employment route
 - downstream license eligibility in the target country
+- whether the country is genuinely English-usable for nursing work, or only has English-taught programmes/international hospitals
 
 Cold-water notes:
 
 - A lower-cost English degree can be useful, but only if downstream recognition is clear.
 - Do not treat "English teaching" as equal to "international license eligibility."
+- Do not treat "some English is used" as equal to "English is enough to practise nursing."
 - ASEAN mutual recognition arrangements do not override host-country law. Always check the local nursing regulator in the country where the user wants to work.
+- The Philippines/Cebu can be a core English-education research direction. Singapore and Malaysia can be checked as English-usable healthcare-work candidates, but registration, employer, quota, work permit, and local rules must be verified. Thailand can be researched for English-taught programmes, international hospitals, or regional healthcare opportunities, but do not default to calling it an English work-language nursing route.
+- For Vietnam, Indonesia, Cambodia, Laos, Myanmar, or other local-language-heavy countries, do not make them default paths unless the user names a specific English-taught programme, employer, or official registration route.
 
 ## Domestic China Nursing Paths
 

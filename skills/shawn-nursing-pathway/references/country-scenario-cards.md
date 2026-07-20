@@ -117,3 +117,195 @@ Official checkpoints:
 - Immigration Services Agency SSW nursing-care field.
 - Prometric SSW nursing-care test pages.
 - MHLW nursing care field operation guidelines if the user is checking employer or job-scope claims.
+
+## Germany: Foreign Nurse Recognition Route
+
+Use when a domestic Chinese nurse, nursing graduate, or overseas nurse asks how Germany nursing works.
+
+Applicable users:
+
+- users with nursing education or nurse license background
+- users willing to study German seriously
+- users prepared for document review, adaptation, knowledge test, or state-level authority checks
+
+Ask first:
+
+- exact nursing education and license status
+- target federal state or city
+- German level and timeline
+- whether the user has an employer, school, agency, or recognition partnership claim
+- whether the route is professional recognition, vocational training, assistant care work, or employment first
+
+Path split:
+
+1. Education: foreign qualification is compared with the German reference profession.
+2. Recognition: the competent authority checks equivalence.
+3. Professional title: after recognition or compensation measures, the user may need authorization to use the professional title.
+4. Employment and visa: employer contract and residence status are separate checks.
+5. Long-term residence: depends on current immigration rules, employment, language, income, and family conditions.
+
+Cold-water notes:
+
+- "Germany lacks nurses" does not remove recognition, language, document, employer, or visa thresholds.
+- Germany is federal; state and competent authority matter.
+- Agency contracts, salary promises, refund rules, and training claims must be checked in writing.
+
+Official checkpoints:
+
+- Recognition in Germany profession finder for general nurse / Pflegefachperson.
+- Make it in Germany nursing professionals.
+- The competent authority for the target federal state.
+
+## United States: Internationally Educated Nurse to RN Direction
+
+Use when a Chinese nurse or nursing graduate asks about US RN, NCLEX, state board, CGFNS, VisaScreen, or US employment.
+
+Applicable users:
+
+- users with nursing education background
+- users who can tolerate long state-by-state and immigration uncertainty
+- users prepared for credential evaluation, English evidence where required, NCLEX, and employer/visa layers
+
+Ask first:
+
+- target state board of nursing
+- nursing degree, transcript, clinical hours, license, and work experience
+- credential evaluation provider required by the state
+- English test status if relevant
+- whether the user wants licensure only, employment, visa, or immigration
+
+Path split:
+
+1. Education: the state board or its required evaluator reviews foreign nursing education.
+2. Licensure process: requirements vary by state; credential evaluation and English rules may differ.
+3. NCLEX: passing NCLEX is one exam layer, not the whole path.
+4. Employment and visa: employer sponsorship, healthcare worker certification, and immigration filings are separate.
+5. Long-term immigration: depends on USCIS rules, employer process, priority date, and legal review.
+
+Cold-water notes:
+
+- Do not say "pass NCLEX and you can go to the US."
+- State board rules are not uniform.
+- VisaScreen or healthcare worker certification is not a job offer or visa approval.
+- Immigration questions may require licensed immigration counsel.
+
+Official checkpoints:
+
+- NCSBN and the target state board of nursing.
+- NCLEX official site.
+- CGFNS/VisaScreen or other authorized healthcare worker certification route.
+- USCIS healthcare worker certification and employment-based petition rules.
+
+## Australia: OBA / Ahpra / NMBA as the Sample Deep-Dive
+
+Use the Australia OBA branch in `country-paths.md` as the current sample for deeper country detail. Australia already has a stronger decomposition:
+
+- Self-check
+- Stream A/B/C
+- Portfolio
+- MCQ/NCLEX-RN
+- OSCE
+- Registration
+- Visa
+- Employment
+- ANMAC skilled migration assessment
+
+Cold-water note:
+
+- This is a registration-assessment route for internationally qualified nurses or midwives, not a gaokao or first-degree study-abroad shortcut.
+
+## Philippines / Cebu: Education Pathway Needs Downstream Verification
+
+Use when the user asks about Cebu nursing, Philippines nursing, dentistry-adjacent routes, English healthcare education, or lower-cost overseas study.
+
+Ask first:
+
+- Is the goal a first degree, return-to-China development, third-country work, or long-term overseas planning?
+- Is the specific school and program recognized by the relevant Philippine authority?
+- Does the user understand local licensure, foreign-student eligibility, China authentication, and third-country credential evaluation are separate?
+
+Cold-water notes:
+
+- Cebu should be treated as one city strategy to verify, not as "the Philippines all works."
+- A degree does not automatically create local practice rights, third-country registration, or immigration eligibility.
+
+Official checkpoints:
+
+- CHED program and school recognition.
+- PRC licensure requirements and legal restrictions.
+- Bureau of Immigration Student Visa 9F.
+- CSCSE authentication if the plan includes returning to China.
+
+## Southeast Asia: English-Usability Filter
+
+Use when the user asks about Thailand, Singapore, Malaysia, or "other Southeast Asian countries" as English-related nursing, healthcare education, or work-language directions.
+
+First split the user's meaning of English:
+
+- English-taught nursing or healthcare education
+- English-friendly city life or campus environment
+- English-speaking workplace in private/international healthcare
+- legal nurse registration and employment route where English is sufficient
+- stepping stone for later US, Australia, UK, Ireland, Singapore, or another third-country pathway
+
+Priority handling:
+
+- Philippines/Cebu: core English-education and healthcare-degree research direction.
+- Singapore: English-usable healthcare-work candidate, but SNB registration/enrolment, licensure exam, employer HR, work pass, and role level must be checked.
+- Malaysia: English-usable candidate in some healthcare and education contexts, but Malaysia Nursing Board/TPC, employer/quota, work permit, and local practice rules must be checked.
+- Thailand: can be researched for English-taught programmes, international hospitals, medical-tourism environment, or regional healthcare opportunities, but do not default to calling it an English work-language nursing route.
+- Vietnam, Indonesia, Cambodia, Laos, Myanmar, and similar local-language-heavy contexts: do not make them default paths unless the user names a specific official programme, employer, regulator route, or English-language healthcare setting.
+
+Ask first:
+
+- Is the user choosing a first degree, using an existing nursing license, seeking healthcare work, or looking for a stepping stone?
+- Does the user want English study, English work, or long-term overseas residence?
+- Is the target role registered nurse, enrolled/assistant nurse, caregiver, healthcare assistant, student, or non-clinical healthcare role?
+- Which country and city are acceptable?
+- Is the user prepared for local registration, employer sponsorship, work permit, and possible local-language limits?
+
+Path split:
+
+1. Education: English-taught does not automatically mean recognized for nursing practice.
+2. Qualification: school recognition, clinical practice, and degree level must be checked.
+3. Registration/license: each country's nursing regulator controls whether foreign-trained nurses can practise.
+4. Employment and visa/work permit: employer, quota, HR process, work pass, and role level are separate from education.
+5. Long-term plan: third-country eligibility, China authentication, and immigration or residence pathways must be checked separately.
+
+Cold-water notes:
+
+- Do not say "Southeast Asia can all use English to work as a nurse."
+- Do not treat ASEAN MRA as automatic free movement.
+- Do not treat international hospitals as proof that foreign nurses can legally practise there.
+- Do not sell Thailand as an English nursing-work shortcut.
+
+Official checkpoints:
+
+- ASEAN nursing MRA for regional context only.
+- Singapore Nursing Board for Singapore registration/enrolment and licensure exam.
+- Malaysia Ministry of Health Nursing Division and Malaysia Nursing Board processes for TPC and foreign-trained nurse requirements.
+- Thailand Nursing and Midwifery Council for foreign-nurse licensing and assessment.
+
+## UK / Ireland / English-Language Europe: Do Not Sell "Europe" as One Route
+
+Use when the user asks about the UK, Ireland, Malta, English-language Europe, or broad Europe nursing.
+
+Ask first:
+
+- Is the user trying to study nursing, recognize an existing credential, work as a nurse, or work in care?
+- Is the qualification from China, the Philippines, EU/EEA/Switzerland, UK, or another country?
+- What exact country, regulator, language, and role are involved?
+
+Cold-water notes:
+
+- EU recognition is not a job offer, visa, residence permit, or immigration result.
+- The UK is outside EU recognition. NMC registration and Health and Care Worker visa are separate.
+- Ireland NMBI recognition and registration are separate steps.
+- Poland, Croatia, France, and other small-language European countries are not default Shawn expansion routes. Check them only when the user specifically names them, and do not describe them as low-cost backdoors to the wider EU.
+
+Official checkpoints:
+
+- EU regulated professions database and Directive 2005/36/EC context.
+- Target-country regulator or competent authority.
+- UK NMC and GOV.UK visa pages for the UK.
+- Ireland NMBI recognition and registration pages for Ireland.

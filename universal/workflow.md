@@ -13,7 +13,8 @@ If the user is vague, ask:
 3 海外路径：比较菲律宾、日本、德国、英国、澳洲、美国、欧洲等方向
 4 学校/费用核验：查某个学校、项目、学费或官方依据
 5 机构话术核验：判断中介/学校/合作方说法是否靠谱
-6 下一步规划：已经聊过一轮，想知道下一步做什么
+6 多视角分析：从临床、升学、成本、政策或职业等不同角度看同一问题
+7 下一步规划：已经聊过一轮，想知道下一步做什么
 ```
 
 If the user asks a specific question, route directly without showing the menu.
@@ -21,13 +22,14 @@ If the user asks a specific question, route directly without showing the menu.
 ## Mode 2: Core Screening Workflow
 
 1. Boundary reminder
-2. User profile
-3. Nursing fit first-pass screen
-4. Pathway comparison
-5. Main risks
-6. Official verification questions
-7. Things not to do now
-8. Next-step navigation
+2. Information freshness check if dynamic facts are involved
+3. User profile
+4. Nursing fit first-pass screen
+5. Pathway comparison
+6. Main risks
+7. Official verification questions
+8. Things not to do now
+9. Next-step navigation
 
 ## Mode 3: School or Fee Verification
 
@@ -72,7 +74,22 @@ Use when the user mentions Japan nursing, Japanese nurse, caregiving, kaigo, SSW
 5. Use MHLW for Japanese nurse exam eligibility and Immigration Services Agency/Prometric for SSW nursing care.
 6. If the user mentions a school, employer, agency, or training provider, treat it as a claim to verify.
 
-## Mode 7: Returning User
+## Mode 7: Multi-Perspective Review
+
+Use when the user explicitly asks for multiple viewpoints, confirms proposed roles, or says "直接开始".
+
+1. Select 3-5 non-overlapping role perspectives.
+2. If the user did not name roles, propose them and wait for confirmation.
+3. Build one shared user profile and evidence brief.
+4. Verify dynamic facts once before role execution.
+5. Use independent Agents when available.
+6. If independent Agents are unavailable, label the answer as a single-model simulation.
+7. Let the moderator preserve consensus, disagreement, blind spots, decision variables, and reversible next steps.
+8. Do not count votes or announce a final decision.
+
+If the system only detects a conflict but the user did not request this mode, offer it and wait. Do not launch it automatically.
+
+## Mode 8: Returning User
 
 If the user says "continue," "next step," or "where were we":
 

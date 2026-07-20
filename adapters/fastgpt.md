@@ -2,6 +2,16 @@
 
 Use this guide to adapt Shawn Nursing Pathway to FastGPT-like knowledge-base and workflow agents.
 
+## 1 分钟版
+
+1. 把 [`Lite 中文单文件`](../dist/shawn-nursing-pathway-lite.md) 放入系统提示词。
+2. 把 [`Full 知识库单文件`](../dist/shawn-nursing-pathway-full.md) 作为 Markdown 文档上传知识库。
+3. 把知识库关联到对话应用并测试。
+
+FastGPT 官方文档确认知识库可上传 Markdown 等本地文件。
+
+官方说明：[快速上手](https://doc.fastgpt.io/zh-CN/guide/getting-started/quick-start)
+
 ## Suggested Setup
 
 - System prompt: `universal/system-prompt.md`

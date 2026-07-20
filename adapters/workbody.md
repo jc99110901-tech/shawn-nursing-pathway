@@ -1,35 +1,39 @@
-# Workbody Adapter
+# WorkBuddy / 腾讯云智能体开发平台适配
 
-This is a cautious, platform-neutral adaptation guide. It does not claim an official one-click import format.
+用户有时会把 WorkBuddy 写成 Workbody。本文件指腾讯 WorkBuddy 和腾讯云智能体开发平台。
 
-## If Workbody Supports System Prompts
+## 1 分钟版
 
-Copy `universal/system-prompt.md` into the agent's system prompt or role instruction field.
+下载：
 
-## If Workbody Supports Knowledge Bases
+[`shawn-nursing-pathway-workbuddy.zip`](../dist/shawn-nursing-pathway-workbuddy.zip)
 
-Import:
+然后在腾讯云智能体开发平台：
 
-- `universal/knowledge-base.md`
-- `universal/safety-boundary.md`
-- selected files from `skills/shawn-nursing-pathway/references/`
+1. 打开“资源中心 > Skills > 自定义 Skills”。
+2. 选择新建并上传 ZIP。
+3. 如版本号未自动识别，填写仓库 [`release.json`](../release.json) 中的版本号。
+4. 等待平台完成格式校验和安全审核。
 
-Keep source titles visible so the agent can cite which layer it is using: fit, pathway comparison, official source map, school/fee verification, or provider-claim review.
+腾讯云当前官方规范要求 ZIP 小于 10 MB，且 ZIP 根目录包含 `SKILL.md`。本仓库的 WorkBuddy ZIP 按该结构生成。
 
-For Australia OBA/IQNM questions, include `country-paths.md`, `official-source-map.md`, `user-segmentation.md`, and `output-templates.md` in retrieval if Workbody supports scoped knowledge files.
+官方说明：[新建 Skills](https://cloud.tencent.com/document/product/1759/129562)
 
-For Japan questions, include `country-paths.md`, `country-scenario-cards.md`, `official-source-map.md`, and `output-templates.md` so the agent can split Japanese nurse, nursing study, caregiving, and SSW nursing care.
+## 更新
 
-## If Workbody Supports Workflows
+GitHub 是最新版来源，但 WorkBuddy 自定义 Skill 不应被描述为会自动追踪 GitHub。
 
-Configure the main workflow from `universal/workflow.md`:
+仓库发布新版本后：
 
-1. front-desk routing
-2. profile collection
-3. fit/pathway/school/provider module selection
-4. risk output
-5. next-step navigation
+1. 重新下载同一个固定 ZIP 链接。
+2. 在 Skill 详情中按更高版本号更新。
+3. 重新等待安全审核。
 
-## Do Not Invent Platform Features
+## 没有 Skills 入口时
 
-If the Workbody workspace does not clearly support a feature, do not describe it as available. Use the generic prompt and knowledge-base approach instead.
+不同账号、套餐或部署版本可能显示不同功能。看不到自定义 Skills 时，使用：
+
+- [`Lite 中文单文件`](../dist/shawn-nursing-pathway-lite.md) 作为专家规则。
+- [`Full 知识库单文件`](../dist/shawn-nursing-pathway-full.md) 作为知识资料。
+
+不要编造当前工作区不存在的导入按钮。

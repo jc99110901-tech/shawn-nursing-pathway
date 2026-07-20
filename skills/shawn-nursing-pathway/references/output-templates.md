@@ -5,22 +5,46 @@ Use these templates to keep responses consistent and non-promissory.
 ## Contents
 
 - Full Response Template
+- Information Freshness Block
 - Missing-Info Prompt
 - Nursing Fit Template
 - Volunteer Review Template
 - Country Path Screening Template
 - School and Fee Verification Template
+- Multi-Perspective Review Template
 - Next-Step Navigation Template
 - Case Card Template
 - Australia OBA/IQNM Initial Screening Template
 - Japan Path Triage Template
 - "Do Not Do Now" Options
 
+## Information Freshness Block
+
+Use this block whenever the answer relies on time-sensitive statistics, policy, fees, programmes, licensing rules, exams, visas, migration rules, named institutions, vacancies, hiring requirements, salaries, or market claims.
+
+```markdown
+## 信息时效
+| 事实 | 检索日期 | 数据/规则适用期 | 发布或更新日期 | 时效状态 |
+|---|---|---|---|---|
+| ... | YYYY-MM-DD | ... | YYYY-MM-DD / 官网未标日期 | 最新官方已确认 / 当前官方 / 官方已核验但未确认最新 / 最新官方但数据期较早 / 官方但未标日期 / 仅有二手来源 / 未找到 |
+
+- 尚未找到或仍需核验：
+```
+
+This section is mandatory and must appear before analysis that uses dynamic facts. If different claims use different data periods, list them separately. Do not hide mixed-year evidence under one general date or scatter the dates through later prose.
+
 ## Full Response Template
 
 ```markdown
 ## 边界提醒
 我可以帮你整理公开信息、解释路径、做护理适配度初筛和风险复核，但不替你做最终志愿或留学决定，也不承诺录取、就业、签证、执照或移民结果。最终信息请以考试院、学校官网、执照机构和官方政策为准。
+
+## 信息时效
+| 事实 | 检索日期 | 数据/规则适用期 | 发布或更新日期 | 时效状态 |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
+
+- 未找到或仍需核验：
 
 ## 用户画像
 - 阶段：
@@ -52,7 +76,7 @@ Use these templates to keep responses consistent and non-promissory.
 | 路径 C（如确实相关） | ... | ... | ... |
 
 ## 后续可再看的方向
-如果用户明确提到，或当前画像以后可能相关，再补充日本、德国、美国 RN、澳洲、英国、欧洲、东南亚英语护理学历等方向。
+如果用户明确提到，或当前画像以后可能相关，再补充菲律宾/宿务、东南亚英语可用性路径、美国 RN、澳洲、英国/爱尔兰、日本、德国等方向。小语种国家不默认展开，除非用户点名。
 
 ## 下一步要核实的问题
 - ...
@@ -150,6 +174,13 @@ Use this only when the user asks for current schools, tuition, application pages
 ## 边界提醒
 学校和费用信息会随年份、校区、学生身份和课程负荷变化。我可以帮你查官方来源和做风险复核，但不能把学费、录取、注册、就业、签证或移民结果当成承诺。
 
+## 信息时效
+| 事实 | 检索日期 | 目标入学年份/适用期 | 发布或更新日期 | 时效状态 |
+|---|---|---|---|---|
+| ... | ... | ... | ... | ... |
+
+- 未找到或仍需核验：
+
 ## 这次先查哪一层
 - 教育入学：
 - 学费/生活费：
@@ -169,6 +200,77 @@ Use this only when the user asks for current schools, tuition, application pages
 - 请提供最新 fee schedule、refund policy、program approval、clinical placement、international student requirements。
 - 如果存在合作、代理、佣金、就业推荐或雇主关系，请书面披露。
 ```
+
+## Multi-Perspective Review Template
+
+Use this only when the user explicitly requests multiple viewpoints, confirms the proposed roles, says "直接开始", or presents a consequential conflict that genuinely benefits from competing perspectives.
+
+If the user has not selected roles:
+
+```markdown
+## 建议会诊视角
+这次问题建议用以下 3-5 个互不重复的视角：
+
+1. **[角色视角]**：重点判断……
+2. **[角色视角]**：重点判断……
+3. **[角色视角]**：重点判断……
+
+你回复“开始”即可；也可以删掉或替换其中一个视角。
+```
+
+For the completed review:
+
+```markdown
+## 边界提醒
+以下是护理升学和路径决策的角色视角分析，不是真实专家会诊或官方意见，也不替你做最终志愿、教育或职业决定。
+
+## 会诊方式
+- 如果实际调用了独立 Agent：`本轮实际调用了 [数量] 个相互独立的角色 Agent；主持人在角色完成后统一收敛。`
+- 如果没有调用独立 Agent：`当前平台未调用独立 Agent；以下为单模型多视角模拟，不代表真实专家会诊。`
+- 只能输出以上符合事实的一种，不得保留二选一占位文本。
+- 本次视角：
+
+## 信息时效
+仅在使用动态事实时保留本节，并按 Information Freshness Block 完整填写。
+
+## 用户画像与共同事实
+- 已确认：
+- 尚不确定：
+- 本轮暂用假设：
+
+## 视角 1：[角色名称]
+- 核心判断：
+- 最强依据：
+- 最大风险：
+- 什么信息会改变判断：
+- 下一项核验：
+
+## 视角 2：[角色名称]
+- 核心判断：
+- 最强依据：
+- 最大风险：
+- 什么信息会改变判断：
+- 下一项核验：
+
+## 视角 3：[角色名称]
+- 核心判断：
+- 最强依据：
+- 最大风险：
+- 什么信息会改变判断：
+- 下一项核验：
+
+## 主持人收敛
+- 共识：
+- 真正分歧：
+- 容易忽略的盲点：
+- 决策关键变量：
+- 建议先做的 2-3 件事：
+
+## 不建议现在做的事
+- ...
+```
+
+Do not rank the roles, count votes, or create a synthetic final answer that hides disagreement.
 
 ## Next-Step Navigation Template
 

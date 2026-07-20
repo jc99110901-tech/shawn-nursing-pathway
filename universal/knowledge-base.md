@@ -10,6 +10,34 @@ This file is a platform-neutral knowledge base for AI agents. It should be used 
 - Domestic nurse: considering recognition, exams, overseas work, or career transition.
 - Non-nursing career changer: considering nursing, caregiving, or healthcare-related routes.
 - Provider-claim checker: wants to verify school, agency, cooperation, employment, visa, or migration claims.
+- Conflicted decision user: wants several distinct perspectives on a family, study, career, or overseas-pathway tradeoff.
+
+## Multi-Perspective Review
+
+Use 3-5 perspectives only when the user asks for them or confirms the proposed roles:
+
+- nursing clinical reality
+- education and degree pathway
+- licensing and official-policy verification
+- family budget and opportunity cost
+- career development and employer evidence
+- overseas life and family fit
+- student autonomy and family communication
+- irreversible-risk review
+
+Every role must own one distinct decision dimension and receive the same evidence brief. If independent Agents are unavailable, disclose that the result is a single-model simulation. The moderator preserves disagreement and identifies decision variables; it does not count votes or make the final decision.
+
+## Information Freshness
+
+Dynamic facts include statistics, policy, fees, programmes, licensing rules, exams, visas, migration rules, named institutions, active jobs, hiring requirements, salaries, and market claims.
+
+Before using them:
+
+1. Search current official sources.
+2. Check the same-series official listing or archive before saying "latest".
+3. Record search date, effective/data period, publication/update date, and freshness status.
+4. Say explicitly when no newer official source or dated active vacancy was found.
+5. Do not use a crawl date, undated marketing page, or third-party summary as a current official fact.
 
 ## Nursing Fit Dimensions
 

@@ -7,6 +7,7 @@ Use this file when the user enters with a vague question, asks "what should I do
 - Routing-First Pattern
 - Mode A: Before-Task Routing
 - Mode B: After-Task Navigation
+- Multi-Perspective Review Route
 - Routing Table
 - Dashboard Prompt
 - Split-Later Candidates
@@ -37,7 +38,8 @@ If the user is vague, ask one question:
 3 海外路径：比较菲律宾、日本、德国、英国、澳洲、美国、欧洲等方向
 4 学校/费用核验：查某个学校、项目、学费或官方依据
 5 机构话术核验：判断中介/学校/合作方说法是否靠谱
-6 下一步规划：已经聊过一轮，想知道下一步做什么
+6 多视角会诊：从临床、升学、成本、政策或职业等不同角度看同一问题
+7 下一步规划：已经聊过一轮，想知道下一步做什么
 ```
 
 Then route based on the answer. Do not ask a second broad question.
@@ -58,6 +60,22 @@ Extract the current module result and recommend 2-3 next actions:
 
 Do not recommend every module. Pick the next few that reduce uncertainty most.
 
+## Multi-Perspective Review Route
+
+Route to `multi-perspective-review.md` when the user says things such as:
+
+- "从不同角度帮我看看"
+- "帮我会诊一下"
+- "家长和孩子意见不一样"
+- "我在两条路之间拿不定主意"
+- "让临床、政策和职业发展几个视角讨论一下"
+
+Do not use this route for a single current fact, fee, policy clause, or school lookup. Verify that fact directly first.
+
+If the user has not named the desired perspectives, propose 3-5 relevant role perspectives and wait for confirmation. If the user says "直接开始" or names the roles, execute without another confirmation.
+
+If the user did not ask for a multi-perspective review but the skill detects a family conflict or competing values, offer this route and wait for consent. Do not launch it automatically.
+
 ## Routing Table
 
 | User signal | Route to module/reference | What the module should do |
@@ -71,6 +89,7 @@ Do not recommend every module. Pick the next few that reduce uncertainty most.
 | "哪个国家最好走" | `consumer-intent-routing.md` + `pathway-comparison.md` | Reframe into budget/language/goal fit; no country ranking |
 | "某学校学费多少" / "哪些学校可选" | `institution-search-playbook.md` + `institution-source-index.md` | Search or specify current official sources; output a small table |
 | "中介说包就业/包移民/保注册" | `product-boundary.md` + `institution-search-playbook.md` | Provider-claim risk review and disclosure checklist |
+| "多视角看看" / "帮我会诊" / "家长和孩子意见不一致" | `multi-perspective-review.md` | Propose or run 3-5 distinct role perspectives; use independent Agents only when actually available, otherwise disclose the single-model fallback |
 | "继续/下一步" after a result | This file, Mode B | 2-3 next-step recommendations |
 
 ## Dashboard Prompt
@@ -84,7 +103,8 @@ Shawn 护理路径工作台：
 3 海外路径
 4 学校/费用核验
 5 机构话术核验
-6 下一步规划
+6 多视角会诊
+7 下一步规划
 ```
 
 Do not show this dashboard when the user's request is already specific.

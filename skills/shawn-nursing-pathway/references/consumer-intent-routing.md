@@ -99,7 +99,7 @@ Route to:
 
 Do not turn Cebu into a universal answer.
 
-### "欧洲护理能不能走? 波兰/克罗地亚/法国/英国呢?"
+### "英国/爱尔兰护理能不能走? 欧洲其他国家呢?"
 
 Route to:
 
@@ -110,6 +110,8 @@ Route to:
 - visa/residence and employer layer
 
 Do not say one European diploma automatically works across Europe.
+
+Default to English-language routes such as UK/Ireland when the user has not named a small-language country. For Poland, Croatia, France, or other local-language-heavy European routes, only expand if the user specifically names that country.
 
 ## What to Ask Next
 

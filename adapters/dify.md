@@ -2,6 +2,12 @@
 
 Use this guide to adapt Shawn Nursing Pathway to a Dify application.
 
+## 1 分钟版
+
+1. 把 [`Lite 中文单文件`](../dist/shawn-nursing-pathway-lite.md) 放入 Instructions。
+2. 把 [`Full 知识库单文件`](../dist/shawn-nursing-pathway-full.md) 上传到 Knowledge。
+3. 关联知识库后直接测试，不需要第一天就搭 Workflow。
+
 ## Suggested Setup
 
 - Instructions / system prompt: `universal/system-prompt.md`

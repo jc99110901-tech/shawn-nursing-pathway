@@ -2,6 +2,16 @@
 
 Use this guide to adapt Shawn Nursing Pathway to MaxKB-like knowledge-base agents.
 
+## 1 分钟版
+
+1. 把 [`Lite 中文单文件`](../dist/shawn-nursing-pathway-lite.md) 放入应用角色设定。
+2. 创建通用型知识库并上传 [`Full 知识库单文件`](../dist/shawn-nursing-pathway-full.md)。
+3. 关联知识库后直接测试。
+
+MaxKB 官方文档确认通用型知识库支持 Markdown 文件；Web 站点知识库支持 URL 文档和手动同步。使用 Raw URL 前先在自己的部署中测试抓取结果。
+
+官方说明：[知识库](https://maxkb.cn/docs/v2/user_manual/dataset/dataset/)、[文档同步](https://maxkb.cn/docs/v2/user_manual/dataset/doclist/)
+
 ## Suggested Setup
 
 - Use `universal/system-prompt.md` as the main role instruction.

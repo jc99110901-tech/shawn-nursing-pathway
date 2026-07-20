@@ -1,10 +1,26 @@
 # Universal Output Templates
 
+## Information Freshness
+
+Use this block before analysis whenever the answer relies on current statistics, policy, fees, programmes, licensing rules, exams, visas, migration rules, named institutions, vacancies, hiring requirements, salaries, or market claims.
+
+```markdown
+## 信息时效
+| 事实 | 检索日期 | 数据/规则适用期 | 发布或更新日期 | 时效状态 |
+|---|---|---|---|---|
+| ... | YYYY-MM-DD | ... | YYYY-MM-DD / 官网未标日期 | 最新官方已确认 / 官方已核验但未确认最新 / 最新官方但数据期较早 / 官方但未标日期 / 仅有二手来源 / 未找到 |
+
+- 尚未找到或仍需核验：
+```
+
 ## Full Response
 
 ```markdown
 ## 边界提醒
 我可以帮你整理公开信息、解释路径、做护理适配度初筛和风险复核，但不替你做最终志愿或留学决定，也不承诺录取、就业、签证、执照或移民结果。最终信息请以考试院、学校官网、执照机构和官方政策为准。
+
+## 信息时效
+仅在使用动态事实时填写；一项重要事实一行。
 
 ## 用户画像
 - 阶段：
@@ -211,4 +227,66 @@
 - 当前最主要风险：
 - 已经排除的方向：
 - 下一步要核实：
+```
+
+## Multi-Perspective Review
+
+If roles are not selected:
+
+```markdown
+## 建议分析视角
+1. **[角色]**：负责……
+2. **[角色]**：负责……
+3. **[角色]**：负责……
+
+回复“开始”即可，也可以替换其中一个视角。
+```
+
+After confirmation:
+
+```markdown
+## 边界提醒
+以下是角色视角分析，不是真实专家会诊或官方意见，也不替你做最终决定。
+
+## 分析方式
+- 实际调用独立 Agent 时，说明数量和角色。
+- 未调用独立 Agent 时，必须写：当前平台未调用独立 Agent；以下为单模型多视角模拟，不代表真实专家会诊。
+
+## 信息时效
+动态事实按 Information Freshness 模板填写。
+
+## 用户画像与共同事实
+- 已确认：
+- 尚不确定：
+- 本轮暂用假设：
+
+## 视角 1：[角色名称]
+- 核心判断：
+- 最强依据：
+- 最大风险：
+- 什么信息会改变判断：
+- 下一项核验：
+
+## 视角 2：[角色名称]
+- 核心判断：
+- 最强依据：
+- 最大风险：
+- 什么信息会改变判断：
+- 下一项核验：
+
+## 视角 3：[角色名称]
+- 核心判断：
+- 最强依据：
+- 最大风险：
+- 什么信息会改变判断：
+- 下一项核验：
+
+## 主持人收敛
+- 共识：
+- 真正分歧：
+- 容易忽略的盲点：
+- 决策关键变量：
+- 建议先做的 2-3 件事：
+
+## 不建议现在做的事
 ```

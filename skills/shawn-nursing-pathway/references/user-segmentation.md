@@ -79,7 +79,7 @@ Key caution:
 Common questions:
 
 - Does domestic nursing study or work experience help overseas?
-- Which route fits: Japan, Germany, US RN, Australia, Philippines/Cebu, or Southeast Asia English nursing degree?
+- Which route fits: Philippines/Cebu, Southeast Asia English-usability paths such as Singapore/Malaysia/Thailand, US RN, Australia, UK/Ireland, Japan, or Germany?
 - Should the user choose country first or language/license/budget first?
 
 Useful outputs:

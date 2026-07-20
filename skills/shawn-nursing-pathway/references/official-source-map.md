@@ -1,10 +1,11 @@
 # Official Source Map
 
-Last checked: 2026-07-09. Use these sources as starting points, not as permanent facts. Policies, admissions rules, licensing rules, fees, and immigration rules can change.
+Broad source-map review: 2026-07-09. This date is not proof that every linked fact is current. Use these sources as starting points, not as permanent facts. Re-run the freshness check for every time-sensitive answer.
 
 ## Contents
 
 - How to Use Sources
+- Freshness Gate
 - China: Nursing Education, Gaokao, and Domestic Nurse Practice
 - Philippines: Nursing, Cebu, Dentistry, and Student Visa
 - Japan: Nurse Examination Recognition and Caregiving
@@ -21,6 +22,19 @@ Last checked: 2026-07-09. Use these sources as starting points, not as permanent
 - When advising a user, state which layer is being discussed: education admission, graduation, license/registration, employment, visa, or long-term residence.
 - Do not copy exact current requirements into user-facing advice unless they have just been checked from the source.
 - If the user is near payment, application, deposit, contract, or final volunteer submission, require source verification before advice becomes operational.
+
+## Freshness Gate
+
+Load `current-information-protocol.md` before using this map for any current or latest fact.
+
+- Re-search the exact claim at answer time; a link in this map is not automatically the newest version.
+- Define the comparison scope, inspect the official same-series listing or archive, compare publication/update dates, and look for superseding notices.
+- If the official series listing cannot be inspected, use "officially verified, latest not confirmed" instead of "latest."
+- Record search date, data/effective period, publication/update date, and freshness status.
+- Check each metric separately. For example, the latest nationwide hospital activity data and the latest nurse-workforce data may come from different reporting years.
+- If the newest official data found is from an older period, say exactly that and state that no newer same-scope official release was found in this search.
+- An undated official page may support background explanation, but it cannot by itself prove a current fee, vacancy, recruitment threshold, programme status, or policy version.
+- Never use a search-engine crawl date as the publication or update date.
 
 ## China: Nursing Education, Gaokao, and Domestic Nurse Practice
 
@@ -198,9 +212,11 @@ Verify next:
 Official or high-trust sources:
 
 - NCSBN internationally educated nurses: `https://www.ncsbn.org/nursing-regulation/licensure/internationally-educated-nurses.page`
+- NCSBN licensure of internationally educated nurses resource manual: `https://www.ncsbn.org/public-files/23_IEN_manual.pdf`
 - NCSBN nurse licensure guidance: `https://www.ncsbn.org/nursing-regulation/licensure/nurse-licensure-guidance.page`
 - NCLEX official site: `https://www.nclex.com/`
 - CGFNS VisaScreen: `https://www.cgfns.org/services/certification/visascreen-visa-credentials-assessment/`
+- CGFNS state-by-state service selector for foreign nurses: `https://www.cgfns.org/select-your-service-by-state/`
 - CGFNS steps to working as a nurse in the United States: `https://www.cgfns.org/steps-to-working-as-nurse-in-united-states/`
 - USCIS health care worker certification: `https://www.uscis.gov/working-in-the-united-states/temporary-workers/health-care-worker-certification`
 - USCIS Schedule A designation petitions: `https://www.uscis.gov/policy-manual/volume-6-part-e-chapter-7`
@@ -210,6 +226,7 @@ Stable facts to use carefully:
 - US nursing licensure requirements vary by state board.
 - NCLEX passage is one layer; state licensure, employment, visa, and immigration are separate.
 - VisaScreen/healthcare worker certification is relevant to many foreign-trained healthcare workers seeking US occupational visas; verify current USCIS and CGFNS rules.
+- The checked USCIS healthcare-worker certification page separates licensure/NCLEX-related evidence from visa and petition review. Do not describe healthcare worker certification as visa approval.
 
 Verify next:
 
@@ -266,14 +283,26 @@ Official or high-trust sources:
 - ASEAN Mutual Recognition Arrangement on Nursing Services: `https://agreement.asean.org/media/download/20150119183446.pdf`
 - ASEAN healthcare page covering nursing and dental MRAs: `https://asean.org/our-communities/economic-community/services/healthcare/`
 - ASEAN agreements page: `https://asean.org/our-communities/economic-community/services/agreements/`
+- Singapore Nursing Board foreign trained nurses and midwives: `https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/foreign-trained-nurses-midwives/`
+- Singapore Nursing Board licensure examinations: `https://www.snb.gov.sg/for-professionals/becoming-a-nurse-or-midwife/apply-for-registration-enrolment/snb-licensure-examinations/`
+- Malaysia Ministry of Health Nursing Division, Temporary Practicing Certificate and International Affairs: `https://hq.moh.gov.my/nursing/en/about-us/units-function-introduction/tpc-international-affairs/`
+- Malaysia Ministry of Health Nursing Division FAQ for foreign trained nurses: `https://hq.moh.gov.my/nursing/en/faq/`
+- Thailand Nursing and Midwifery Council licensing page: `https://www.tnmc.or.th/news/en/311`
 
 Stable facts to use carefully:
 
 - ASEAN MRAs are meant to facilitate professional mobility and information exchange, but they do not override host-country laws and regulations.
 - A regional English-taught degree does not automatically create license, employment, visa, or immigration eligibility in another country.
+- Singapore should be checked through the Singapore Nursing Board. The checked SNB pages indicate foreign-trained nurses/midwives need SNB registration or enrolment, and employment-institution HR can be part of the application/examination process. Recheck current SNB requirements before operational advice.
+- Malaysia should be checked through the Ministry of Health Nursing Division and Malaysia Nursing Board processes. The checked MOH pages refer to foreign-trained nurse registration, assessment, quota, and Temporary Practicing Certificate topics. Recheck the current official checklist before advising an applicant.
+- Thailand should not be treated as an English work-language nursing route by default. The checked Thailand Nursing and Midwifery Council licensing page indicates a foreign nurse who wants to practise as a registered nurse in Thailand must pass nursing competency assessment and licensing examination. Recheck current TNMC rules and language requirements before advising.
 
 Verify next:
 
 - target host country's nursing regulator and local law
 - local license/registration, language, work experience, employer, and immigration rules
 - whether the school and degree are recognized for the downstream country the user cares about
+- whether the user is asking about English-taught education, English-speaking workplace, or legal permission to practise nursing
+- Singapore: employer/institution role, SNB registration or enrolment, licensure exam, work pass, and role level
+- Malaysia: foreign-trained nurse assessment, Temporary Practicing Certificate, quota or institution sponsorship, work permit, and local practice limits
+- Thailand: TNMC licensing, exam or assessment, Thai-language/local practice requirements, international hospital claims, and work permit

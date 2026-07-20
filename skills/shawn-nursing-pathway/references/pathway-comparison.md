@@ -240,19 +240,24 @@ Usually relevant for:
 
 - users seeking English-language exposure at a potentially lower cost than some Western destinations
 - users exploring staged overseas education before deciding on license or job goals
+- users comparing Philippines/Cebu with Singapore, Malaysia, Thailand, or another Southeast Asian candidate through an English-usability lens
 
 Review:
 
 - school legitimacy
 - degree recognition
 - clinical practice and language environment
+- whether English is only the teaching language, or also realistically usable in healthcare work
+- local nursing regulator, employer, work permit, and role-level limits
 - connection or lack of connection to license, job, and immigration goals
 
 Risk notes:
 
 - English-language education is not the same as a foreign nursing license.
+- English-friendly does not mean English is enough for legal nursing practice.
 - Verify recognition and downstream eligibility before paying deposits.
 - Use ASEAN MRA materials only as regional context. Host-country nursing regulators still control local registration and practice rights.
+- Treat Thailand as a candidate for English-taught programmes, international hospital context, or regional healthcare exposure unless official nurse-registration and work-permit conditions are verified.
 
 ## Source-Backed Caveat Pattern
 
