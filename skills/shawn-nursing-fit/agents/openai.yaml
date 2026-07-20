@@ -1,4 +1,4 @@
 interface:
   display_name: "SNP Fit"
-  short_description: "Screen nursing fit without making the final choice"
-  default_prompt: "Use $shawn-nursing-fit to screen nursing fit without making the final decision."
+  short_description: "Find nursing-fit strengths, gaps, and questions to test"
+  default_prompt: "Use $shawn-nursing-fit to identify my likely nursing-fit strengths, preparation gaps, and the questions or experiences I should test next."

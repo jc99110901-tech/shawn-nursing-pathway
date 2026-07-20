@@ -1,4 +1,4 @@
 interface:
   display_name: "SNP Skill"
   short_description: "Route nursing choices, learning, careers, and verification"
-  default_prompt: "Use $shawn-nursing-pathway to route my nursing question to fit screening, pathway exploration, chosen-path planning, adaptive learning, career and salary reality, job and interview preparation, or current-information verification. Give one minimum executable next task when a direction is chosen, and never make the final decision or promise an outcome."
+  default_prompt: "Use $shawn-nursing-pathway to locate my current stage, route my nursing question to the right module, show the most relevant directions and preparation gaps, and give me one practical next step with current official verification where needed."

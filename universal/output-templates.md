@@ -1,5 +1,7 @@
 # SNP Skill Universal Output Templates
 
+Keep safety constraints active internally. Ordinary answers should lead with the user's current goal and the route being worked on, not a routine disclaimer.
+
 ## Information Freshness
 
 Use this block before analysis whenever the answer relies on current statistics, policy, fees, programmes, licensing rules, exams, visas, migration rules, named institutions, vacancies, hiring requirements, salaries, or market claims.
@@ -16,13 +18,13 @@ Use this block before analysis whenever the answer relies on current statistics,
 ## Full Response
 
 ```markdown
-## 边界提醒
-我可以帮你整理公开信息、解释路径、做护理适配度初筛和风险复核，但不替你做最终志愿或留学决定，也不承诺录取、就业、签证、执照或移民结果。最终信息请以考试院、学校官网、执照机构和官方政策为准。
+## 这次先解决什么
+这次先把你当前阶段、真正想去的方向和最值得核实的 2-3 条路径拆清楚。
 
 ## 信息时效
 仅在使用动态事实时填写；一项重要事实一行。
 
-## 用户画像
+## 你现在在哪一步
 - 阶段：
 - 年龄/学历：
 - 分数或层次：
@@ -33,11 +35,11 @@ Use this block before analysis whenever the answer relies on current statistics,
 - 最终诉求：
 - 可接受国家/城市：
 
-## 初步判断
+## 当前可以争取的方向
 
-## 适配优势
+## 你已经具备的条件
 
-## 主要风险
+## 需要补齐的条件
 
 ## 可比较路径
 | 路径 | 可能适合点 | 主要门槛 | 需要核实 |
@@ -52,9 +54,9 @@ Use this block before analysis whenever the answer relies on current statistics,
 | 澳洲护理 | ... | ... | ... |
 | 欧洲方向 | ... | ... | ... |
 
-## 下一步要核实的问题
+## 这一步怎么做
 
-## 不建议现在做的事
+## 后续还可以继续看什么
 
 ## 下一步建议
 ```
@@ -62,24 +64,23 @@ Use this block before analysis whenever the answer relies on current statistics,
 ## Nursing Fit
 
 ```markdown
-## 边界提醒
-这是护理适配度初筛，不是医学、心理或最终职业诊断。
+## 这次先看什么
+先把你和护理学习、实习及真实工作之间的匹配点拆开，找出优势、需要准备的条件和仍要体验确认的部分。
 
-## 初步判断
-现在只能判断「可能优势、主要风险、需要核实的问题」，不能直接说一定适合或一定不适合。
+## 当前匹配点
 
 ## 可能优势
 
-## 主要风险
+## 需要准备的条件
 
-## 需要进一步核实的问题
+## 还要体验或核实什么
 ```
 
 ## Volunteer Review
 
 ```markdown
-## 边界提醒
-我只能帮你复核志愿方案的风险点，不输出最终排序，也不替你提交志愿。
+## 这次复核什么
+把已有志愿方案里的分数、专业、费用、城市和后续升学就业路径逐项对齐，找出需要补证据的地方。
 
 ## 已有方案概况
 
@@ -93,16 +94,16 @@ Use this block before analysis whenever the answer relies on current statistics,
 - 家庭是否理解护理工作的真实强度：
 - 最终诉求和路径是否一致：
 
-## 主要风险
+## 需要补齐的条件
 
-## 下一步核实
+## 这一步怎么做
 ```
 
 ## School and Fee Check
 
 ```markdown
-## 边界提醒
-学校和费用信息会随年份、校区、学生身份和课程负荷变化。我可以帮你查官方来源和做风险复核，但不能把学费、录取、注册、就业、签证或移民结果当成承诺。
+## 这次查什么
+按你的目标入学年份、学生身份、课程层级和预算，核验学校、项目、学费及其后续资格关系。
 
 ## 这次先查哪一层
 - 教育入学：
@@ -116,7 +117,7 @@ Use this block before analysis whenever the answer relies on current statistics,
 |---|---|---|---|---|
 | ... | ... | ... | ... | ... |
 
-## 主要风险
+## 还缺什么信息
 
 ## 下一步要问学校/机构的话
 - 请提供最新 fee schedule、refund policy、program approval、clinical placement、international student requirements。
@@ -149,8 +150,8 @@ If exact current evidence is unavailable:
 ## Australia OBA/IQNM Initial Screen
 
 ```markdown
-## 边界提醒
-我可以帮你把澳洲 Ahpra/NMBA 的国际护士注册路径拆开做初筛，但不能承诺注册、NCLEX-RN、OSCE、ANMAC 评估、工作、签证、PR 或移民结果，也不推荐任何培训机构、中介、学校、雇主或移民代理。当前规则以 Ahpra/NMBA/ANMAC 和澳洲官方最新文件为准。
+## 这次先拆什么
+把澳洲 Ahpra/NMBA 国际护士注册方向按 Self-check、官方分流、材料、考试、注册、工作和后续规划逐层拆开，先找到你当前所在的位置。
 
 ## 用户画像
 - 当前身份：中国注册护士/护理毕业生/海外注册护士/其他：
@@ -198,8 +199,8 @@ If exact current evidence is unavailable:
 ## Japan Path Triage
 
 ```markdown
-## 边界提醒
-我可以帮你把日本护士、护理留学、介护和 SSW nursing care 拆开做初筛，但不能承诺录取、就业、签证、护士国家考试、护士执照、注册、长期居留或移民结果，也不推荐任何学校、中介、培训机构、雇主或移民代理。当前规则以 MHLW、日本出入国在留管理厅、Prometric 和学校/雇主官方文件为准。
+## 这次先拆什么
+先把日本护士、护理留学、介护和 SSW nursing care 分成不同路径，再看你的学历、执照、日语和目标对应哪一条。
 
 ## 用户画像
 - 当前身份：高考生/家长/护理学生/中国护士/海外护士/非护理转行/介护方向：
@@ -255,8 +256,6 @@ If exact current evidence is unavailable:
 ## Chosen-Path Minimum Task
 
 ```markdown
-## 边界提醒
-
 ## 当前目标与状态
 - 暂定方向：
 - 最终诉求：
@@ -335,7 +334,7 @@ If exact current evidence is unavailable:
 ## Career and Job Readiness
 
 ```markdown
-## 边界提醒
+## 这次先解决什么
 ## 当前职业画像
 ## 候选岗位／场景
 ## 当前信息时效
@@ -364,8 +363,8 @@ If roles are not selected:
 After confirmation:
 
 ```markdown
-## 边界提醒
-以下是角色视角分析，不是真实专家会诊或官方意见，也不替你做最终决定。
+## 分析说明
+以下用多个角色视角拆解同一个问题；角色用于呈现不同关注点，主持人负责保留共识、分歧和待核实变量。
 
 ## 分析方式
 - 实际调用独立 Agent 时，说明数量和角色。

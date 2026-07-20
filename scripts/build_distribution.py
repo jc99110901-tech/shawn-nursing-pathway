@@ -58,8 +58,9 @@ Canonical source: https://github.com/jc99110901-tech/shawn-nursing-pathway
 Stable technical package: shawn-nursing-pathway
 
 This is the low-friction, Chinese-first, single-file distribution. Upload it to
-an AI chat or use it as the system/role instruction. It does not provide any
-admission, employment, visa, licensure, or immigration guarantee.
+an AI chat or use it as the system/role instruction. It helps users locate their
+current stage, compare relevant routes, identify preparation gates, and take one
+practical next step. Safety and current-source rules are included below.
 
 ---
 
@@ -77,9 +78,8 @@ Stable technical package: shawn-nursing-pathway
 
 This is the single-file knowledge-base distribution. Use the Lite file as the
 system/role instruction when the platform separates prompts from knowledge.
-Detailed references below are public screening material, not current official
-policy. Time-sensitive facts must still be checked against current official
-sources at answer time.
+Detailed references below provide reusable screening material. Check
+time-sensitive facts against current official sources at answer time.
 """
     paths = [ROOT / "universal" / "quick-start-cn.md"]
     for skill_name in SUITE_SKILL_NAMES:

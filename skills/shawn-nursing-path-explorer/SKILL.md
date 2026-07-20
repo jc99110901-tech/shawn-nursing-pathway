@@ -41,11 +41,11 @@ Help the user reduce a broad option set to a small group worth further investiga
 ## Output
 
 ```markdown
-## 边界提醒
-## 用户画像
-## 先排除的误区
+## 这次先找什么
+## 你现在在哪一步
+## 先理清的路径关系
 ## 值得继续了解的 2-3 条路径
-## 暂缓路径及原因
+## 后续再看的方向
 ## 真正会改变选择的变量
 ## 下一步核验任务
 ```

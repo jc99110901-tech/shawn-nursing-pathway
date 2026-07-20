@@ -45,12 +45,12 @@ If exact current evidence is unavailable, say so. A broader benchmark may be use
 ## Output
 
 ```markdown
-## 边界提醒
+## 这次先解决什么
 ## 当前职业画像
 ## 先把“相关行业”拆开
 ## 值得核实的 2-4 个岗位／场景
 ## 薪资现实
-## 转换成本与主要风险
+## 需要补齐的条件与转换成本
 ## 一个岗位验证任务
 ## 下一步
 ```

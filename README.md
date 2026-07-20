@@ -1,13 +1,13 @@
 # SNP Skill
 
-Shawn Nursing Pathway 的中文优先护理选择、学习、职业与路径智能体套件。
+Shawn Nursing Pathway 的中文优先护理选择、学习、职业与路径智能体套件。它希望缩小护理信息差，让护理学子从选专业、学习、实习、升学到求职和海外注册，都能更早看见值得争取的方向和需要完成的准备。
 A Chinese-first modular AI skill suite for nursing choices, learning, careers, and pathway screening.
 
 公开名称是 **SNP Skill**。为兼容已有安装、GitHub 链接和更新路径，主 Skill 的稳定技术 ID 仍为 `shawn-nursing-pathway`。
 
 ## 一句话说明
 
-面向中国普通家庭，从“护理值不值得考虑”一路支持到路径探索、单步规划、护理／英语学习、岗位与薪资现实、求职面试和当前信息核验。
+面向中国普通家庭和护理学子，把分散的升学、英语、实习、执照、岗位、薪资和海外路径信息整理成一套可以持续使用的路径工具。
 
 English: A Codex skill for nursing education, gaokao nursing fit, and overseas nursing pathway screening.
 

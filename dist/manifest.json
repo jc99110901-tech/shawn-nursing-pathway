@@ -1,27 +1,27 @@
 {
   "name": "shawn-nursing-pathway",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "release_date": "2026-07-21",
   "canonical_repository": "https://github.com/jc99110901-tech/shawn-nursing-pathway",
   "files": {
     "shawn-nursing-pathway-lite.md": {
-      "bytes": 13130,
-      "sha256": "8652ee307a8ba31cee160d908927bc4eca47f206f62b2ec4edc075c491f02b2b",
+      "bytes": 13533,
+      "sha256": "bb09cccecdbd41dbd36616c840e1bec28f69b15cb43a4eb304ebf70db61703c9",
       "url": "https://raw.githubusercontent.com/jc99110901-tech/shawn-nursing-pathway/main/dist/shawn-nursing-pathway-lite.md"
     },
     "shawn-nursing-pathway-full.md": {
-      "bytes": 257326,
-      "sha256": "85f174dde357dcf837f5a4dad895c4d41f541c552f5e361c0954a24fc381386b",
+      "bytes": 258980,
+      "sha256": "e3ea007fc4cbfab1e27ad7fbeff1b9b927fad4594c97c593d8b7c465a73742c0",
       "url": "https://raw.githubusercontent.com/jc99110901-tech/shawn-nursing-pathway/main/dist/shawn-nursing-pathway-full.md"
     },
     "shawn-nursing-pathway-workbuddy.zip": {
-      "bytes": 107263,
-      "sha256": "a29a27688edaa176e76358a5c7e83cbdf13727702730f3e444dd6044dfb9fc7b",
+      "bytes": 107969,
+      "sha256": "1acd985c80da6016ccd48849748bea0caf716467cb5af74720f1f03729a37080",
       "url": "https://raw.githubusercontent.com/jc99110901-tech/shawn-nursing-pathway/main/dist/shawn-nursing-pathway-workbuddy.zip"
     },
     "shawn-nursing-pathway-suite.zip": {
-      "bytes": 110456,
-      "sha256": "67c5beceee7a23103a3570babe49f0d29d8324c68c38bbae998a6e6f47737b91",
+      "bytes": 111204,
+      "sha256": "e75b0d77367f26e28ed65e7f224ce074937f204de5bc51973951234d87d36a20",
       "url": "https://raw.githubusercontent.com/jc99110901-tech/shawn-nursing-pathway/main/dist/shawn-nursing-pathway-suite.zip"
     }
   }

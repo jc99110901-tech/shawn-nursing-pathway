@@ -35,7 +35,6 @@ Turn one provisional direction into an evidence-producing next step. This skill 
 ## Output
 
 ```markdown
-## 边界提醒
 ## 当前目标与状态
 ## 阶段地图
 ## 当前最大不确定性

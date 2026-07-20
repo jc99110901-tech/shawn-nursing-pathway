@@ -1,5 +1,5 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.1",
   "release_date": "2026-07-21",
-  "notes": "Adds a main router and seven focused Skills for fit, pathway exploration, chosen-path planning, adaptive learning, career reality, job readiness, and current-information verification."
+  "notes": "Reframes user-facing responses around reducing nursing information gaps and making viable routes actionable. Safety constraints remain active but are now stated contextually instead of appearing as routine disclaimer-first openings."
 }

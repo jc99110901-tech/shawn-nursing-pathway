@@ -1,6 +1,6 @@
 # Output Templates
 
-Use these templates to keep responses consistent and non-promissory.
+Use these templates to keep responses consistent, constructive, and safe. Safety constraints remain active internally, but ordinary answers should lead with the user's goal and the path being worked on, not a routine disclaimer.
 
 ## Contents
 
@@ -37,8 +37,8 @@ This section is mandatory and must appear before analysis that uses dynamic fact
 ## Full Response Template
 
 ```markdown
-## 边界提醒
-我可以帮你整理公开信息、解释路径、做护理适配度初筛和风险复核，但不替你做最终志愿或留学决定，也不承诺录取、就业、签证、执照或移民结果。最终信息请以考试院、学校官网、执照机构和官方政策为准。
+## 这次先解决什么
+这次先把你当前阶段、真正想去的方向和最值得核实的 2-3 条路径拆清楚。
 
 ## 信息时效
 | 事实 | 检索日期 | 数据/规则适用期 | 发布或更新日期 | 时效状态 |
@@ -47,7 +47,7 @@ This section is mandatory and must appear before analysis that uses dynamic fact
 
 - 未找到或仍需核验：
 
-## 用户画像
+## 你现在在哪一步
 - 阶段：
 - 年龄/学历：
 - 分数或层次：
@@ -58,16 +58,16 @@ This section is mandatory and must appear before analysis that uses dynamic fact
 - 最终诉求：
 - 可接受国家/城市：
 
-## 初步判断
-基于目前信息，这更适合先做「路径初筛/风险复核」，还不适合直接下最终结论。
+## 当前可以争取的方向
+基于目前信息，先判断哪些方向值得继续投入，以及各自需要补齐什么。
 
-## 适配优势
+## 你已经具备的条件
 - ...
 
-## 主要风险
+## 需要补齐的条件
 - ...
 
-## 可比较路径
+## 最相关的路径
 只列和用户画像最相关的 2-3 条路径。不要为了显得全面，把所有国家和路线一次性列出来。
 
 | 路径 | 可能适合点 | 主要门槛 | 需要核实 |
@@ -79,10 +79,10 @@ This section is mandatory and must appear before analysis that uses dynamic fact
 ## 后续可再看的方向
 如果用户明确提到，或当前画像以后可能相关，再补充菲律宾/宿务、东南亚英语可用性路径、美国 RN、澳洲、英国/爱尔兰、日本、德国等方向。小语种国家不默认展开，除非用户点名。
 
-## 下一步要核实的问题
+## 这一步怎么做
 - ...
 
-## 不建议现在做的事
+## 后续还可以继续看什么
 - ...
 ```
 
@@ -102,27 +102,27 @@ This section is mandatory and must appear before analysis that uses dynamic fact
 ## Nursing Fit Template
 
 ```markdown
-## 边界提醒
-这是护理适配度初筛，不是医学、心理或最终职业诊断。
+## 这次先看什么
+先把你和护理学习、实习及真实工作之间的匹配点拆开，找出优势、需要准备的条件和仍要体验确认的部分。
 
-## 初步判断
-现在只能判断「可能优势、主要风险、需要核实的问题」，不能直接说一定适合或一定不适合。
+## 当前匹配点
+- ...
 
 ## 可能优势
 - ...
 
-## 主要风险
+## 需要准备的条件
 - ...
 
-## 需要进一步核实的问题
+## 还要体验或核实什么
 - ...
 ```
 
 ## Volunteer Review Template
 
 ```markdown
-## 边界提醒
-我只能帮你复核志愿方案的风险点，不输出最终排序，也不替你提交志愿。
+## 这次复核什么
+把已有志愿方案里的分数、专业、费用、城市和后续升学就业路径逐项对齐，找出需要补证据的地方。
 
 ## 已有方案概况
 - ...
@@ -137,18 +137,18 @@ This section is mandatory and must appear before analysis that uses dynamic fact
 - 家庭是否理解护理工作的真实强度：
 - 最终诉求和路径是否一致：
 
-## 主要风险
+## 需要补齐的条件
 - ...
 
-## 下一步核实
+## 这一步怎么做
 - ...
 ```
 
 ## Country Path Screening Template
 
 ```markdown
-## 边界提醒
-国家路径只能做公开信息整理和初筛。教育、执照、就业、签证和长期居留是不同问题，不能合并成保证。
+## 这次先拆哪条路
+先把教育、执照、就业、签证和长期规划分开，看你当前最应该推进哪一层。
 
 ## 你现在的问题更像是哪一层
 - 教育入学：
@@ -160,10 +160,10 @@ This section is mandatory and must appear before analysis that uses dynamic fact
 ## 这个方向可能值得看的原因
 - ...
 
-## 最大风险
+## 需要补齐的条件
 - ...
 
-## 官方信息要核实
+## 这一步去哪里核实
 - ...
 ```
 
@@ -172,8 +172,8 @@ This section is mandatory and must appear before analysis that uses dynamic fact
 Use this only when the user asks for current schools, tuition, application pages, or whether a named school/provider claim is reliable.
 
 ```markdown
-## 边界提醒
-学校和费用信息会随年份、校区、学生身份和课程负荷变化。我可以帮你查官方来源和做风险复核，但不能把学费、录取、注册、就业、签证或移民结果当成承诺。
+## 这次查什么
+按你的目标入学年份、学生身份、课程层级和预算，核验学校、项目、学费及其后续资格关系。
 
 ## 信息时效
 | 事实 | 检索日期 | 目标入学年份/适用期 | 发布或更新日期 | 时效状态 |
@@ -194,10 +194,10 @@ Use this only when the user asks for current schools, tuition, application pages
 |---|---|---|---|---|
 | ... | ... | ... | ... | ... |
 
-## 主要风险
+## 还缺什么信息
 - ...
 
-## 下一步要问学校/机构的话
+## 下一步要问学校／机构的话
 - 请提供最新 fee schedule、refund policy、program approval、clinical placement、international student requirements。
 - 如果存在合作、代理、佣金、就业推荐或雇主关系，请书面披露。
 ```
@@ -245,8 +245,8 @@ If the user has not selected roles:
 For the completed review:
 
 ```markdown
-## 边界提醒
-以下是护理升学和路径决策的角色视角分析，不是真实专家会诊或官方意见，也不替你做最终志愿、教育或职业决定。
+## 分析说明
+以下用多个角色视角拆解同一个问题；角色用于呈现不同关注点，主持人负责保留共识、分歧和待核实变量。
 
 ## 会诊方式
 - 如果实际调用了独立 Agent：`本轮实际调用了 [数量] 个相互独立的角色 Agent；主持人在角色完成后统一收敛。`
@@ -336,8 +336,6 @@ Keep it short. Do not include sensitive identifiers.
 Use this after the user has selected a provisional direction.
 
 ```markdown
-## 边界提醒
-
 ## 当前目标与状态
 - 暂定方向：
 - 最终诉求：
@@ -426,8 +424,8 @@ Activate only one lesson. A high-level map is allowed, but do not dump a complet
 Use this when a domestic nurse, nursing graduate, or internationally registered nurse asks about Australia OBA, Ahpra, NMBA, Self-check, NCLEX-RN, OSCE, or Australian RN registration.
 
 ```markdown
-## 边界提醒
-我可以帮你把澳洲 Ahpra/NMBA 的国际护士注册路径拆开做初筛，但不能承诺注册、NCLEX-RN、OSCE、ANMAC 评估、工作、签证、PR 或移民结果，也不推荐任何培训机构、中介、学校、雇主或移民代理。当前规则以 Ahpra/NMBA/ANMAC 和澳洲官方最新文件为准。
+## 这次先拆什么
+把澳洲 Ahpra/NMBA 国际护士注册方向按 Self-check、官方分流、材料、考试、注册、工作和后续规划逐层拆开，先找到你当前所在的位置。
 
 ## 用户画像
 - 当前身份：中国注册护士/护理毕业生/海外注册护士/其他：
@@ -478,8 +476,8 @@ Use this when a domestic nurse, nursing graduate, or internationally registered 
 Use this when the user asks about Japan nursing, Japanese nurse, caregiving, SSW nursing care, or whether a student should consider Japan.
 
 ```markdown
-## 边界提醒
-我可以帮你把日本护士、护理留学、介护和 SSW nursing care 拆开做初筛，但不能承诺录取、就业、签证、护士国家考试、护士执照、注册、长期居留或移民结果，也不推荐任何学校、中介、培训机构、雇主或移民代理。当前规则以 MHLW、日本出入国在留管理厅、Prometric 和学校/雇主官方文件为准。
+## 这次先拆什么
+先把日本护士、护理留学、介护和 SSW nursing care 分成不同路径，再看你的学历、执照、日语和目标对应哪一条。
 
 ## 用户画像
 - 当前身份：高考生/家长/护理学生/中国护士/海外护士/非护理转行/介护方向：

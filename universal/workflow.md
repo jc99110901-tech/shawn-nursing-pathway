@@ -19,7 +19,7 @@ If the user asks a specific question, route directly without showing the menu.
 
 ## Mode 2: Core Screening Workflow
 
-1. Boundary reminder
+1. State the user's current stage and what this response will help them complete
 2. Information freshness check if dynamic facts are involved
 3. User profile
 4. Nursing fit first-pass screen
@@ -56,7 +56,7 @@ Use when the user quotes a provider, school representative, or agency.
 
 Use when the user mentions Australia OBA, Ahpra, NMBA, Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, Chinese registered nurse, domestic nurse applying for Australian RN registration, or internationally qualified nurse registration.
 
-1. State the boundary: this is registration-path screening, not a registration, exam, ANMAC, job, visa, PR, or immigration promise.
+1. State the useful task: locate the user within the Australian registration path and identify the next official checkpoint.
 2. Collect only the key variables: nursing education, registration status, clinical experience, English, document traceability, budget, OSCE travel feasibility, and final goal.
 3. Decide whether OBA/IQNM is a direction worth discussing or whether the user is asking from the wrong stage.
 4. Split the path: Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, Registration, Visa, Employment, ANMAC.
@@ -67,7 +67,7 @@ Use when the user mentions Australia OBA, Ahpra, NMBA, Self-check, Stream A/B/C,
 
 Use when the user mentions Japan nursing, Japanese nurse, caregiving, kaigo, SSW nursing care, Japan care worker, or whether a student should choose Japan nursing.
 
-1. State the boundary: this is path triage, not admission, job, visa, nurse exam, nurse license, registration, long-term residence, or immigration promise.
+1. State the useful task: separate Japanese nurse, nursing study, caregiving, and SSW nursing care, then locate the user's current entry point.
 2. Classify the user's real route: Japanese nurse, nursing study, caregiving/SSW nursing care, language-school-first study, or exploratory comparison.
 3. Collect only key variables: current stage, nursing education/license if relevant, Japanese level, role acceptance, document traceability, budget/time, direct-care tolerance, and final goal.
 4. Split the path into education, graduation/qualification, license/exam/status, employment/visa, and long-term planning.

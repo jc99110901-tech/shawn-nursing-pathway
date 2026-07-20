@@ -46,11 +46,11 @@ Ask the user to remove names, contact details, IDs, patient details, and confide
 ## Output
 
 ```markdown
-## 边界提醒
+## 这次先准备什么
 ## 岗位与信息时效
 ## 要求拆解
 ## 你已有的证据
-## 主要缺口
+## 需要补齐的证据
 ## 面试／申请准备
 ## 这个岗位要特别问清的事
 ## 本轮唯一任务

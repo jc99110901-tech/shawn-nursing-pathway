@@ -30,7 +30,7 @@ Use this guide to adapt SNP Skill to a Dify application.
    - next-step navigation
 2. Collect missing profile fields.
 3. Retrieve only the relevant knowledge files.
-4. Generate the answer with boundary reminders and risk notes.
+4. Generate the answer around the user's current goal, viable routes, preparation gaps, and next actions. Apply safety constraints internally and add a concise limitation only beside a claim that needs one.
 5. End with 2-3 next actions.
 
 ## Retrieval Note
