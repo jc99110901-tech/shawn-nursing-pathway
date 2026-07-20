@@ -15,6 +15,8 @@ English: A Codex skill for nursing education, gaokao nursing fit, and overseas n
 
 不懂 Skill、Prompt、RAG 或工作流也可以使用。先选一个文件：
 
+**第一次使用，直接打开 [`SNP Skill 1 分钟上手指南（PDF）`](docs/SNP-Skill-1分钟上手指南.pdf)。**
+
 | 你在哪里使用 | 最简单的入口 |
 |---|---|
 | 手机豆包、千问或其他普通 AI 对话 | 下载并上传 [`Lite 中文单文件`](dist/shawn-nursing-pathway-lite.md) |
@@ -209,6 +211,8 @@ shawn-nursing-pathway/
 ├── release.json
 ├── LICENSE
 ├── .gitignore
+├── docs/
+│   └── SNP-Skill-1分钟上手指南.pdf
 ├── dist/
 │   ├── shawn-nursing-pathway-lite.md
 │   ├── shawn-nursing-pathway-full.md
@@ -255,6 +259,7 @@ shawn-nursing-pathway/
 - 当前公开版本见 [`release.json`](release.json)。
 - 发行文件哈希和固定 URL 见 [`dist/manifest.json`](dist/manifest.json)。
 - `scripts/build_distribution.py` 从仓库当前源文件重新生成 Lite、Full、WorkBuddy ZIP 和完整 Suite ZIP，避免平台包各自分叉。
+- `scripts/build_quickstart_pdf.py` 从当前公开版本信息重新生成 1 分钟上手 PDF。
 - GitHub 能保证固定 URL 指向最新提交，但不能主动替换第三方平台里已经上传的旧文件。
 
 ## 公开安全说明 / Public Safety
