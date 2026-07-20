@@ -1,4 +1,4 @@
-# Universal Workflow
+# SNP Skill Universal Workflow
 
 Use this workflow for any AI platform implementation.
 
@@ -8,13 +8,11 @@ If the user is vague, ask:
 
 ```text
 你现在最想解决的是哪一件？
-1 护理适配：孩子/自己到底适不适合护理
-2 志愿复核：已有学校或专业方案，想查风险
-3 海外路径：比较菲律宾、日本、德国、英国、澳洲、美国、欧洲等方向
-4 学校/费用核验：查某个学校、项目、学费或官方依据
-5 机构话术核验：判断中介/学校/合作方说法是否靠谱
-6 多视角分析：从临床、升学、成本、政策或职业等不同角度看同一问题
-7 下一步规划：已经聊过一轮，想知道下一步做什么
+1 看自己／孩子是否适合护理
+2 比较国内外学习和执业路径
+3 已经选了方向，拆下一步
+4 学护理／英语，或准备岗位和面试
+5 核验政策、学校、费用、薪资或机构说法
 ```
 
 If the user asks a specific question, route directly without showing the menu.
@@ -29,7 +27,9 @@ If the user asks a specific question, route directly without showing the menu.
 6. Main risks
 7. Official verification questions
 8. Things not to do now
-9. Next-step navigation
+9. One minimum executable task when a direction is selected
+10. Progress card when continued use is likely
+11. Next-step navigation
 
 ## Mode 3: School or Fee Verification
 
@@ -110,6 +110,53 @@ Use when the user asks about a specific occupation, role, employer type, work se
 
 Do not present gross salary as take-home pay, convert foreign pay to RMB without a dated exchange-rate caveat, or rank countries by raw salary alone.
 
+## Mode 10: Chosen-Path Planning
+
+Use when the user has selected a provisional direction and asks what to do next.
+
+1. Confirm the direction and actual end goal.
+2. Establish current education, registration, experience, language, budget, documents, location, and time.
+3. Map eligibility, evidence, language, application/exam, registration, employment, and visa/residence stages as relevant.
+4. Mark each stage `已完成`, `正在验证`, `未开始`, `不适用`, or `被阻塞`.
+5. Identify the largest current uncertainty.
+6. Give one 15-60 minute, reversible task with one deliverable and completion condition.
+7. Ask the user to bring back the result and update the progress card.
+
+Do not make payment, resignation, application submission, or another irreversible action the first task.
+
+## Mode 11: Adaptive Nursing or English Learning
+
+Use when the user wants step-by-step nursing knowledge, professional English, clinical communication, interview English, or pathway literacy.
+
+1. Define one observable learning goal and target setting.
+2. Get one quick baseline or performance sample.
+3. Teach the minimum concept needed.
+4. Show one relevant example.
+5. Give one practice task.
+6. Correct the largest concept, language, or performance gap.
+7. Adjust the next lesson and update the learning progress card.
+
+Do not replace accredited nursing education, clinical supervision, or patient-specific medical advice. Do not promise scores, registration, employment, or migration.
+
+## Mode 12: Career and Job Readiness
+
+Use career mode when the user asks about roles, work settings, bedside-to-non-bedside transitions, public/private/international hospitals, or pay.
+
+1. Convert broad labels into 2-4 named roles or settings.
+2. Compare actual work, patient contact, entry evidence, transferable proof, gaps, schedule, pressure, pay, and transition cost.
+3. Verify current vacancies, requirements, employer claims, and salary at answer time.
+4. Give one reversible role experiment.
+
+Use job-readiness mode after a target role or vacancy is selected:
+
+1. Split requirements into must-have, preferred, and unclear.
+2. Map only truthful user evidence.
+3. Identify the largest addressable gap.
+4. Practise role-specific interview answers and employer questions.
+5. Give one application or interview task.
+
+Never invent qualifications, experience, metrics, certificates, clinical cases, or language scores.
+
 ## Minimal Case Card
 
 ```text
@@ -123,3 +170,20 @@ Do not present gross salary as take-home pay, convert foreign pay to RMB without
 当前最主要风险：
 下一步要核实：
 ```
+
+## Portable Progress Card
+
+```text
+当前阶段：
+用户目标：
+已知画像：
+暂定方向：
+已核验事实与日期：
+当前最大不确定性：
+已完成的最小任务：
+任务结果／反馈：
+下一项最小任务：
+建议模块：
+```
+
+This card supports continued use when platform memory is unavailable. It is not a permanent-memory guarantee.

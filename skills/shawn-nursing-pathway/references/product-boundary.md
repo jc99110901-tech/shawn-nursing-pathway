@@ -1,6 +1,6 @@
 # Product Boundary
 
-Use these rules in every Shawn Nursing Pathway response.
+Use these rules in every SNP Skill response.
 
 ## Position
 

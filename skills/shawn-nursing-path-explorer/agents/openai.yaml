@@ -1,0 +1,4 @@
+interface:
+  display_name: "SNP Explore"
+  short_description: "Shortlist domestic and overseas nursing pathways"
+  default_prompt: "Use $shawn-nursing-path-explorer to shortlist nursing pathways for this user profile."

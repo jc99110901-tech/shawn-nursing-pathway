@@ -1,6 +1,24 @@
-# Shawn Nursing Pathway Knowledge Base
+# SNP Skill Knowledge Base
 
 This file is a platform-neutral knowledge base for AI agents. It should be used with `system-prompt.md`, `workflow.md`, `output-templates.md`, and `safety-boundary.md`.
+
+## Modular Suite
+
+`SNP Skill` is the user-facing main router. Its stable technical package name is `shawn-nursing-pathway`.
+
+Focused modules:
+
+| Public name | Purpose |
+|---|---|
+| SNP Fit | Nursing-fit and work-reality screening |
+| SNP Explore | Domestic and overseas pathway shortlisting |
+| SNP Plan | Chosen-path milestones and one minimum next task |
+| SNP Learn | Adaptive nursing knowledge and professional English learning |
+| SNP Career | Roles, work settings, transitions, and salary reality |
+| SNP Interview | Job-description, evidence, application, and interview preparation |
+| SNP Verify | Current official information and claim verification |
+
+Platforms without native multi-Skill routing should use the combined Lite or Full distribution and run the same internal modules.
 
 ## User Segments
 
@@ -11,6 +29,10 @@ This file is a platform-neutral knowledge base for AI agents. It should be used 
 - Non-nursing career changer: considering nursing, caregiving, or healthcare-related routes.
 - Provider-claim checker: wants to verify school, agency, cooperation, employment, visa, or migration claims.
 - Conflicted decision user: wants several distinct perspectives on a family, study, career, or overseas-pathway tradeoff.
+- Chosen-path user: has a provisional direction but needs the next evidence-producing task.
+- Learner: wants nursing knowledge, professional English, or pathway literacy one step at a time.
+- Career-transition user: wants to compare bedside and non-bedside roles, work settings, and pay.
+- Job candidate: has a role, vacancy, application, or interview and needs truthful evidence mapping.
 
 ## Multi-Perspective Review
 
@@ -70,6 +92,55 @@ Required scope:
 Prefer current official occupational statistics, public pay scales, collective agreements, and dated official employer vacancies. Separate base pay from night, weekend, overtime, bonuses, and allowances.
 
 An average is not a personal offer. A pay scale is not proof that every employer pays the same. A vacancy is evidence for one vacancy, not the entire market. If exact current evidence cannot be verified, say so and use a broader figure only as labelled background.
+
+## Chosen-Path Planning
+
+After the user selects a provisional direction:
+
+1. map eligibility, evidence, language, application/exam, registration, employment, and visa/residence stages as relevant
+2. mark each stage `已完成`, `正在验证`, `未开始`, `不适用`, or `被阻塞`
+3. identify the largest current uncertainty
+4. give one reversible 15-60 minute task with one deliverable and completion condition
+5. update a portable `SNP 进度卡`
+
+The first task should not be payment, resignation, application submission, or another irreversible action. Completing a task can reveal that the route should be paused.
+
+## Adaptive Learning
+
+Learning tracks can include:
+
+- nursing foundations and professional concepts
+- clinical communication and nursing English
+- English for a named role or interview
+- licensing and pathway literacy
+- documentation or structured handover practice
+- role-transition knowledge
+
+Every lesson has one observable objective, one baseline check, the minimum input, one worked example, one practice task, feedback on the largest gap, and an updated progress card.
+
+This support does not replace accredited nursing education, clinical supervision, or patient-specific medical advice. Do not promise language-test scores, licensure, employment, or migration.
+
+## Career and Job Readiness
+
+Role exploration should compare:
+
+- normal work and patient-contact level
+- must-have and preferred entry evidence
+- transferable nursing evidence
+- gaps and transition cost
+- schedule, travel, target, on-call, and accountability reality
+- current salary evidence and its metric
+- one reversible role experiment
+
+After a target role or current vacancy is selected:
+
+1. verify that the job information is current
+2. split requirements into must-have, preferred, and unclear
+3. map each item to proven, partial, absent, or not-applicable evidence
+4. practise role-specific interview questions
+5. prepare questions about scope, supervision, schedule, pay, training, and official sponsorship wording
+
+Never invent experience, metrics, responsibilities, certificates, language scores, or clinical cases.
 
 ## Domestic China Pathways
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SNP Interview"
+  short_description: "Prepare evidence, applications, and nursing interviews"
+  default_prompt: "Use $shawn-nursing-job-readiness to review this nursing job and give me one interview or application task."

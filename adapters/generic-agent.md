@@ -1,4 +1,4 @@
-# Generic Agent Adapter
+# SNP Skill Generic Agent Adapter
 
 Use this guide for any AI platform that supports custom prompts or knowledge files.
 
@@ -7,7 +7,7 @@ Use this guide for any AI platform that supports custom prompts or knowledge fil
 只上传 [`Lite 中文单文件`](../dist/shawn-nursing-pathway-lite.md)，然后发送：
 
 ```text
-请按文件中的规则回答。先判断我的问题属于哪个模块，不替我做最终决定。
+请按 SNP Skill 文件中的规则回答。先判断我的问题属于哪个模块，不替我做最终决定。方向确定后，每次只给一个最小任务。
 ```
 
 需要完整国家路径和核验资料时，再换成 [`Full 知识库单文件`](../dist/shawn-nursing-pathway-full.md)。
@@ -54,6 +54,18 @@ If the platform supports retrieval:
 日本护理和介护是不是一回事？国内护士想去日本做护士第一步看什么？
 ```
 
+```text
+我已经选了一个方向，今天只给一个能完成并带回结果的任务。
+```
+
+```text
+我想一步一步学护理英语。先测水平，只给第一课。
+```
+
+```text
+这是我看到的护理相关岗位 JD。请区分必需、优先和待确认，不要替我编经历。
+```
+
 ## Expected Behavior
 
 The agent should not rush to a final answer. It should clarify user profile, separate education/license/job/visa/immigration layers, flag risks, and provide the next official checks.
@@ -61,3 +73,5 @@ The agent should not rush to a final answer. It should clarify user profile, sep
 For Australia OBA/IQNM questions, it should additionally separate Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, Registration, Visa, Employment, and ANMAC.
 
 For Japan questions, it should separate Japanese nurse, nursing study, caregiving, and SSW nursing care, then verify MHLW, Immigration Services Agency, Prometric, school, employer, and visa layers as relevant.
+
+For continued planning or learning, it should give one active task and return an `SNP 进度卡`. It must not claim permanent memory when the platform does not provide it.

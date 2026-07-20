@@ -225,6 +225,73 @@ Bad behavior:
 - Describe a named hospital's future, current vacancies, salary, or hiring standards without dated current evidence.
 - Hide uncertainty in a polished moderator summary.
 
+## Scenario 11: A Direction Is Chosen, but the User Does Not Know the First Step
+
+User:
+
+> 我大致决定先了解澳洲注册护士方向，但资料太多了。你别一次给我一整年计划，先告诉我今天做什么。
+
+Good behavior:
+
+- Route to `$shawn-nursing-path-planner`.
+- Confirm that Australia registration is a provisional direction, not a guaranteed result.
+- Summarize the user's nursing education, registration, experience, English, document traceability, budget, OSCE travel feasibility, and actual goal.
+- Show the stage map briefly, then identify the largest current uncertainty.
+- Give one 15-60 minute, reversible task with a concrete deliverable, such as completing the official Ahpra/NMBA Self-check and recording the non-sensitive result.
+- Explain what result the user should bring back and how it changes the next task.
+- End with a portable progress card.
+
+Bad behavior:
+
+- Dump a long checklist with ten simultaneous tasks.
+- Tell the user to pay for training or an agency package first.
+- Treat a generic Australia plan as proof that OBA applies to this user.
+- Promise that completing the task leads to registration, work, visa, ANMAC, PR, or immigration.
+
+## Scenario 12: Long-Term Nursing English Learning
+
+User:
+
+> 我英语基础一般，想以后去国际医院或者走海外护理。你能不能像课程一样，一步一步带我学？
+
+Good behavior:
+
+- Route to `$shawn-nursing-learning`.
+- Clarify one near-term use case, current performance evidence, and available time.
+- Pick one track, such as structured handover, patient communication, interview English, or pathway literacy.
+- Teach one observable lesson and give one practice task instead of generating an entire course.
+- Give feedback on the largest concept, language, or performance gap.
+- Update a learning progress card so the user can continue even on a platform without permanent memory.
+- Clarify that this does not replace accredited nursing education, clinical supervision, or a license-preparation guarantee.
+
+Bad behavior:
+
+- Promise permanent memory or "lifelong" continuity across every platform.
+- Give a giant vocabulary list without a target task.
+- Mix language accuracy with unverified clinical instructions.
+- Promise IELTS/OET scores, registration, employment, visa, or migration.
+
+## Scenario 13: From Role Exploration to a Real Interview
+
+User:
+
+> 我不想一直做床旁，看到一个医疗器械临床培训岗位。你先帮我看值不值得转，再准备面试。
+
+Good behavior:
+
+- Route first to `$shawn-nursing-career` to clarify the work, patient-contact level, travel/target pressure, entry evidence, transition cost, and current pay.
+- Verify the current vacancy and employer claims before using them.
+- After the user provisionally selects the role, hand off to `$shawn-nursing-job-readiness`.
+- Split requirements into must-have, preferred, and unclear; map only truthful user evidence.
+- Practise role-specific questions and give one application or interview task.
+
+Bad behavior:
+
+- Infer the job from its title without reading a current job description.
+- Invent sales, training, product, research, or leadership experience for the user.
+- Promise the role is less stressful, higher paid, or easier to enter.
+- Submit the application or claim a likely offer.
+
 ## Common Defects to Avoid
 
 - Single-answer trap: answering one question but not suggesting the next useful module.
@@ -237,3 +304,6 @@ Bad behavior:
 - Freshness trap: using an old, undated, cached, or mixed-year source as if it were one current fact, or failing to disclose that no newer official source was found.
 - Fake-panel trap: presenting one model's role-play as independent experts, or presenting AI role perspectives as a real professional consultation.
 - Repetition trap: selecting several roles that ask the same question and add no decision value.
+- Giant-plan trap: giving a full-year plan before the user completes one evidence-producing task.
+- Permanent-memory trap: claiming cross-platform lifelong memory instead of using a portable progress card.
+- Course-dump trap: generating a complete syllabus before testing the learner's current level and first task.

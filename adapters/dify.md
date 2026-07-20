@@ -1,6 +1,6 @@
 # Dify Adapter
 
-Use this guide to adapt Shawn Nursing Pathway to a Dify application.
+Use this guide to adapt SNP Skill to a Dify application.
 
 ## 1 分钟版
 
@@ -19,10 +19,12 @@ Use this guide to adapt Shawn Nursing Pathway to a Dify application.
 
 1. Classify user intent:
    - nursing fit
-   - volunteer review
-   - overseas path comparison
-   - school/fee verification
-   - provider-claim verification
+   - pathway exploration
+   - chosen-path planning
+   - adaptive learning
+   - career and salary reality
+   - job and interview readiness
+   - current-information verification
    - Australia OBA/IQNM screening
    - Japan nurse/caregiving/SSW triage
    - next-step navigation

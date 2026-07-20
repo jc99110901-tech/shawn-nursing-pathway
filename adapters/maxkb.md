@@ -1,6 +1,6 @@
 # MaxKB Adapter
 
-Use this guide to adapt Shawn Nursing Pathway to MaxKB-like knowledge-base agents.
+Use this guide to adapt SNP Skill to MaxKB-like knowledge-base agents.
 
 ## 1 分钟版
 
@@ -28,6 +28,10 @@ If the platform supports tags or categories, group content as:
 - nursing fit
 - domestic pathway
 - country pathway
+- chosen-path planning
+- adaptive nursing and English learning
+- career and salary reality
+- job and interview readiness
 - school and fee verification
 - provider claim review
 - Australia OBA/IQNM screening

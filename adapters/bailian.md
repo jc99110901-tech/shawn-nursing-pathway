@@ -1,6 +1,6 @@
 # Bailian Agent Adapter
 
-Use this guide to adapt Shawn Nursing Pathway to Bailian-style agent applications.
+Use this guide to adapt SNP Skill to Bailian-style agent applications.
 
 This file is intentionally cautious. It does not claim an official import package or one-click setup.
 
@@ -24,10 +24,12 @@ This file is intentionally cautious. It does not claim an official import packag
 The agent should first classify the user's intent:
 
 - nursing fit
-- volunteer plan review
-- overseas pathway screening
-- school or fee verification
-- provider claim verification
+- pathway exploration
+- chosen-path planning
+- adaptive learning
+- career and salary reality
+- job and interview readiness
+- current-information verification
 - Australia OBA/IQNM screening
 - Japan nurse/caregiving/SSW triage
 - next-step navigation

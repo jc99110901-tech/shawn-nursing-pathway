@@ -1,6 +1,6 @@
 # Coze / Kouzi Adapter
 
-Use this guide to adapt Shawn Nursing Pathway to Coze-like bot builders.
+Use this guide to adapt SNP Skill to Coze-like bot builders.
 
 ## 1 分钟版
 
@@ -21,12 +21,13 @@ Use this guide to adapt Shawn Nursing Pathway to Coze-like bot builders.
 
 Create clear user entry points:
 
-- 护理适配
-- 志愿复核
-- 海外路径
-- 学校/费用核验
-- 机构话术核验
-- 下一步规划
+- SNP Fit：护理适配
+- SNP Explore：路径探索
+- SNP Plan：选定方向后的单步规划
+- SNP Learn：护理知识和职业英语学习
+- SNP Career：岗位、工作场景和薪资现实
+- SNP Interview：JD、申请和面试准备
+- SNP Verify：当前事实核验
 - 澳洲 OBA/IQNM 初筛
 - 日本护士/介护/SSW 分流
 

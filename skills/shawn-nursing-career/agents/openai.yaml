@@ -1,0 +1,4 @@
+interface:
+  display_name: "SNP Career"
+  short_description: "Compare nursing roles, work settings, and current pay"
+  default_prompt: "Use $shawn-nursing-career to compare nursing-related roles, work settings, and current salary evidence."

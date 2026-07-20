@@ -1,4 +1,4 @@
-# WorkBuddy / 腾讯云智能体开发平台适配
+# SNP Skill：WorkBuddy / 腾讯云智能体开发平台适配
 
 用户有时会把 WorkBuddy 写成 Workbody。本文件指腾讯 WorkBuddy 和腾讯云智能体开发平台。
 
@@ -16,6 +16,8 @@
 4. 等待平台完成格式校验和安全审核。
 
 腾讯云当前官方规范要求 ZIP 小于 10 MB，且 ZIP 根目录包含 `SKILL.md`。本仓库的 WorkBuddy ZIP 按该结构生成。
+
+这个 ZIP 对外显示一个主入口 `SNP Skill`。7 个细分模块以包内参考流程合并，不声称 WorkBuddy 原生安装或并行调用了 7 个独立 Skill。
 
 官方说明：[新建 Skills](https://cloud.tencent.com/document/product/1759/129562)
 

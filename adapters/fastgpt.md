@@ -1,6 +1,6 @@
 # FastGPT Adapter
 
-Use this guide to adapt Shawn Nursing Pathway to FastGPT-like knowledge-base and workflow agents.
+Use this guide to adapt SNP Skill to FastGPT-like knowledge-base and workflow agents.
 
 ## 1 分钟版
 
@@ -27,13 +27,14 @@ FastGPT 官方文档确认知识库可上传 Markdown 等本地文件。
 Create a first node that classifies the user request into one of:
 
 - 护理适配
-- 志愿复核
-- 海外路径比较
-- 学校/费用核验
-- 机构话术核验
+- 路径探索
+- 选定方向后的单步规划
+- 护理知识和职业英语学习
+- 岗位、工作场景和薪资现实
+- JD、申请和面试准备
+- 当前事实核验
 - 澳洲 OBA/IQNM 初筛
 - 日本护士/介护/SSW 分流
-- 下一步规划
 
 Then retrieve the matching knowledge chunk only.
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SNP Plan"
+  short_description: "Turn a chosen nursing path into the next small task"
+  default_prompt: "Use $shawn-nursing-path-planner to turn my chosen nursing direction into one verifiable next task."

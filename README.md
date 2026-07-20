@@ -1,11 +1,13 @@
-# Shawn Nursing Pathway Skill
+# SNP Skill
 
-中文优先的护理升学与海外护理路径智能体提示词包。  
-A Chinese-first Codex skill and universal agent prompt package for nursing education, gaokao nursing fit, and overseas nursing pathway screening.
+Shawn Nursing Pathway 的中文优先护理选择、学习、职业与路径智能体套件。
+A Chinese-first modular AI skill suite for nursing choices, learning, careers, and pathway screening.
+
+公开名称是 **SNP Skill**。为兼容已有安装、GitHub 链接和更新路径，主 Skill 的稳定技术 ID 仍为 `shawn-nursing-pathway`。
 
 ## 一句话说明
 
-面向中国普通家庭，帮助用户初步判断：高考志愿是否考虑护理、自己或孩子是否适合护理、国内外护理路径如何比较、学校/费用/机构话术如何核验。
+面向中国普通家庭，从“护理值不值得考虑”一路支持到路径探索、单步规划、护理／英语学习、岗位与薪资现实、求职面试和当前信息核验。
 
 English: A Codex skill for nursing education, gaokao nursing fit, and overseas nursing pathway screening.
 
@@ -18,11 +20,27 @@ English: A Codex skill for nursing education, gaokao nursing fit, and overseas n
 | 手机豆包、千问或其他普通 AI 对话 | 下载并上传 [`Lite 中文单文件`](dist/shawn-nursing-pathway-lite.md) |
 | 扣子、Dify、FastGPT、MaxKB、百炼等工作台 | 用 Lite 文件做角色指令，上传 [`Full 知识库单文件`](dist/shawn-nursing-pathway-full.md) |
 | WorkBuddy / 腾讯云智能体开发平台 | 上传 [`WorkBuddy Skill ZIP`](dist/shawn-nursing-pathway-workbuddy.zip) |
-| Codex | 安装 [`skills/shawn-nursing-pathway/`](skills/shawn-nursing-pathway/) |
+| Codex | 安装 [`完整 SNP Skill 套件`](skills/) 或下载 [`Suite ZIP`](dist/shawn-nursing-pathway-suite.zip) |
 
 完整的傻瓜式步骤见 [`QUICKSTART.md`](QUICKSTART.md)。
 
 GitHub `main` 分支是公开发行真源。固定链接始终指向仓库当前版本；已经下载或上传到第三方平台的文件属于版本快照，需要在仓库更新后重新同步。
+
+## SNP Skill 模块 / Modules
+
+普通用户只调用主入口 **SNP Skill**，不需要记住下面的名字。主路由会按问题调用：
+
+| 模块 | 负责什么 |
+|---|---|
+| SNP Fit | 护理适配与真实工作条件初筛 |
+| SNP Explore | 国内外路径筛选与比较 |
+| SNP Plan | 选定方向后拆阶段，并给本轮唯一最小任务 |
+| SNP Learn | 护理知识、职业英语和路径知识逐步学习 |
+| SNP Career | 岗位、工作场景、转行成本和薪资现实 |
+| SNP Interview | 真实 JD、简历证据、申请和面试准备 |
+| SNP Verify | 当前政策、学校、费用、招聘、薪资和机构说法核验 |
+
+支持长期迭代不等于平台拥有永久记忆。平台无法保留历史时，使用 `SNP 进度卡` 续接。
 
 ## 图文案例 / Illustrated Cases
 
@@ -64,6 +82,9 @@ GitHub `main` 分支是公开发行真源。固定链接始终指向仓库当前
 - 学校、费用、机构话术核验
 - 具体职业、岗位或工作场景的当前薪资现实核验
 - 用户面对家庭分歧或路径冲突时进行多视角分析
+- 选定方向后把大计划拆成一个可执行、可验证的下一步
+- 一步一步学习护理知识、职业英语或岗位沟通
+- 护理临床转岗、相关行业、岗位要求与面试准备
 
 English:
 
@@ -77,6 +98,9 @@ English:
 - School, tuition, and provider-claim verification
 - Source-backed salary reality checks for specific roles and work settings
 - Multi-perspective review for conflicted nursing decisions
+- One-task-at-a-time planning after a direction is chosen
+- Adaptive nursing knowledge and professional English learning
+- Nursing career transition, job-description, and interview preparation
 
 ## 免责声明 / Disclaimer
 
@@ -94,13 +118,13 @@ English: This project is an information-organization and risk-review tool. It do
 
 ## Codex 安装方式 / Install for Codex
 
-将 Codex 原生 Skill 复制到本地 Codex skills 目录：
+将完整 SNP Skill 套件复制到本地 Codex skills 目录：
 
 ```bash
-cp -R skills/shawn-nursing-pathway ~/.codex/skills/
+cp -R skills/shawn-nursing-* ~/.codex/skills/
 ```
 
-或者将 `skills/shawn-nursing-pathway/` 安装到任何 Codex 支持的 skills 目录中。
+也可以下载并解压 [`Suite ZIP`](dist/shawn-nursing-pathway-suite.zip)，再把其中 `skills/` 下的目录放进 Codex 支持的 skills 目录。
 
 安装后请重启 Codex，或开启新会话以刷新技能列表。
 
@@ -108,7 +132,7 @@ cp -R skills/shawn-nursing-pathway ~/.codex/skills/
 
 这个仓库不只服务 Codex。
 
-- Codex 用户使用 `skills/shawn-nursing-pathway/`
+- Codex 用户使用完整 `skills/` 套件；主入口仍是 `$shawn-nursing-pathway`
 - 普通聊天用户优先使用 `dist/shawn-nursing-pathway-lite.md`
 - 知识库平台优先使用 `dist/shawn-nursing-pathway-full.md`
 - 需要自行组合的高级用户使用 `universal/`
@@ -121,7 +145,7 @@ cp -R skills/shawn-nursing-pathway ~/.codex/skills/
 
 English:
 
-- Codex users should use `skills/shawn-nursing-pathway/`.
+- Codex users should install the complete `skills/` suite and invoke `$shawn-nursing-pathway` as the main router.
 - Other AI platform users can use the files in `universal/`.
 - Platform-specific adaptation notes are in `adapters/`.
 - Domestic AI platforms can treat this repository as a nursing-pathway agent prompt package.
@@ -157,6 +181,18 @@ English:
 ```
 
 ```text
+我已经暂定澳洲方向，今天只给我一个能完成的下一步，不要一次列全年计划。
+```
+
+```text
+我想一步一步练国际医院护士交班英语，先测我现在的水平，再给第一课。
+```
+
+```text
+我不想一直做临床，看到一个医疗器械临床培训岗位。先帮我拆真实工作和准入差距，再准备面试。
+```
+
+```text
 如果最后成为澳洲 RN，在悉尼私立医院做全职护士，当前大概是什么薪资水平？请区分税前基本工资、夜班和加班，不要只给一个漂亮数字。
 ```
 
@@ -177,6 +213,7 @@ shawn-nursing-pathway/
 │   ├── shawn-nursing-pathway-lite.md
 │   ├── shawn-nursing-pathway-full.md
 │   ├── shawn-nursing-pathway-workbuddy.zip
+│   ├── shawn-nursing-pathway-suite.zip
 │   └── manifest.json
 ├── assets/
 │   └── case-cards/
@@ -185,12 +222,14 @@ shawn-nursing-pathway/
 │   ├── README.md
 │   └── case-*.md
 ├── skills/
-│   └── shawn-nursing-pathway/
-│       ├── SKILL.md
-│       ├── agents/
-│       │   └── openai.yaml
-│       └── references/
-│           └── ...
+│   ├── shawn-nursing-pathway/        # SNP Skill 主路由
+│   ├── shawn-nursing-fit/            # SNP Fit
+│   ├── shawn-nursing-path-explorer/  # SNP Explore
+│   ├── shawn-nursing-path-planner/   # SNP Plan
+│   ├── shawn-nursing-learning/       # SNP Learn
+│   ├── shawn-nursing-career/         # SNP Career
+│   ├── shawn-nursing-job-readiness/  # SNP Interview
+│   └── shawn-nursing-verify/         # SNP Verify
 ├── universal/
 │   ├── system-prompt.md
 │   ├── knowledge-base.md
@@ -215,7 +254,7 @@ shawn-nursing-pathway/
 
 - 当前公开版本见 [`release.json`](release.json)。
 - 发行文件哈希和固定 URL 见 [`dist/manifest.json`](dist/manifest.json)。
-- `scripts/build_distribution.py` 从仓库当前源文件重新生成 Lite、Full 和 WorkBuddy ZIP，避免平台包各自分叉。
+- `scripts/build_distribution.py` 从仓库当前源文件重新生成 Lite、Full、WorkBuddy ZIP 和完整 Suite ZIP，避免平台包各自分叉。
 - GitHub 能保证固定 URL 指向最新提交，但不能主动替换第三方平台里已经上传的旧文件。
 
 ## 公开安全说明 / Public Safety

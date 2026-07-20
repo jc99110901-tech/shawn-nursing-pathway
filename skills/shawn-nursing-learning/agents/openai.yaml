@@ -1,0 +1,4 @@
+interface:
+  display_name: "SNP Learn"
+  short_description: "Adaptive nursing knowledge and professional English learning"
+  default_prompt: "Use $shawn-nursing-learning to teach me one practical nursing or nursing-English lesson at my current level."

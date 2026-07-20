@@ -1,4 +1,4 @@
-# 1 分钟开始使用
+# SNP Skill：1 分钟开始使用
 
 本仓库以 GitHub `main` 分支作为公开发行真源。普通用户不需要理解 Codex Skill 的目录结构，只需要根据使用场景选择一个文件。
 
@@ -9,7 +9,7 @@
 | 豆包、千问或其他普通 AI 对话 | [`shawn-nursing-pathway-lite.md`](dist/shawn-nursing-pathway-lite.md) | 上传文件，发送“请按文件规则回答我的问题” |
 | 扣子、Dify、FastGPT、MaxKB、百炼等知识库平台 | [`shawn-nursing-pathway-full.md`](dist/shawn-nursing-pathway-full.md) | 导入一个知识库文件，再把 Lite 文件设为角色提示词 |
 | WorkBuddy / 腾讯云智能体开发平台 | [`shawn-nursing-pathway-workbuddy.zip`](dist/shawn-nursing-pathway-workbuddy.zip) | 在自定义 Skills 中上传 ZIP |
-| Codex | [`skills/shawn-nursing-pathway/`](skills/shawn-nursing-pathway/) | 复制到 `~/.codex/skills/` |
+| Codex | [`完整 skills/ 套件`](skills/) 或 [`Suite ZIP`](dist/shawn-nursing-pathway-suite.zip) | 把 8 个 Skill 目录复制到 `~/.codex/skills/` |
 
 ## 手机聊天版
 
@@ -18,7 +18,7 @@
 3. 发送：
 
 ```text
-请把我上传的 Shawn Nursing Pathway 文件作为本次对话规则。先判断我的问题属于哪个模块；缺少关键信息时只问最少的问题，不要替我做最终决定。
+请把我上传的 SNP Skill 文件作为本次对话规则。先判断我的问题属于哪个模块；缺少关键信息时只问最少的问题，不要替我做最终决定。方向已经选定时，每次只给一个可以完成并带回结果的任务。
 ```
 
 如果当前 App 不支持上传 Markdown 文件，打开 Lite 文件，复制全文到一段新对话中即可。
@@ -41,6 +41,16 @@
 如果最后成为澳洲 RN，在悉尼私立医院做全职护士，当前大概是什么薪资水平？请说明年份、来源、税前税后、基本工资和轮班收入的区别。
 ```
 
+测试逐步规划和学习：
+
+```text
+我已经暂定澳洲方向，先给我今天唯一要做的一个任务，完成后生成 SNP 进度卡。
+```
+
+```text
+我想学国际医院护理英语。先测水平，只给第一课，不要一次生成整套课程。
+```
+
 只有在平台明确支持工作流时，才继续配置 `universal/workflow.md`。第一轮使用不需要先搭工作流。
 
 ## 最新版固定链接
@@ -51,6 +61,7 @@
 https://raw.githubusercontent.com/jc99110901-tech/shawn-nursing-pathway/main/dist/shawn-nursing-pathway-lite.md
 https://raw.githubusercontent.com/jc99110901-tech/shawn-nursing-pathway/main/dist/shawn-nursing-pathway-full.md
 https://raw.githubusercontent.com/jc99110901-tech/shawn-nursing-pathway/main/dist/shawn-nursing-pathway-workbuddy.zip
+https://raw.githubusercontent.com/jc99110901-tech/shawn-nursing-pathway/main/dist/shawn-nursing-pathway-suite.zip
 https://raw.githubusercontent.com/jc99110901-tech/shawn-nursing-pathway/main/dist/manifest.json
 ```
 

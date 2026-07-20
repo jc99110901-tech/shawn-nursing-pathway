@@ -1,0 +1,4 @@
+interface:
+  display_name: "SNP Verify"
+  short_description: "Verify current nursing policy, cost, pay, and claims"
+  default_prompt: "Use $shawn-nursing-verify to verify this nursing claim against the newest available official source."

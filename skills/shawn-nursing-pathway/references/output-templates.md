@@ -331,6 +331,96 @@ Use this when the user has completed a substantial screening or says they may co
 
 Keep it short. Do not include sensitive identifiers.
 
+## Chosen-Path Minimum Task Template
+
+Use this after the user has selected a provisional direction.
+
+```markdown
+## 边界提醒
+
+## 当前目标与状态
+- 暂定方向：
+- 最终诉求：
+- 已确认：
+- 尚未确认：
+
+## 阶段地图
+| 阶段 | 当前状态 | 关键依赖 |
+|---|---|---|
+| 资格／适用性 | 已完成／正在验证／未开始／不适用／被阻塞 | ... |
+| 材料与可追溯性 | ... | ... |
+| 语言／知识准备 | ... | ... |
+| 申请／考试／认定 | ... | ... |
+| 注册／资格 | ... | ... |
+| 就业 | ... | ... |
+| 签证／长期规划 | ... | ... |
+
+## 当前最大不确定性
+- ...
+
+## 本轮唯一最小任务
+- 目标：
+- 预计用时：
+- 具体动作：
+- 产出：
+- 完成标准：
+- 不要做：
+- 完成后带回来：
+- 这个结果会改变什么：
+
+## SNP 进度卡
+- 当前阶段：
+- 用户目标：
+- 已知画像：
+- 暂定方向：
+- 已核验事实与日期：
+- 当前最大不确定性：
+- 已完成的最小任务：
+- 任务结果／反馈：
+- 下一项最小任务：
+- 建议调用模块：
+```
+
+Do not make an irreversible action or payment the first task.
+
+## Adaptive Learning Template
+
+```markdown
+## 本轮目标
+- 本轮结束时，你应当能够：
+
+## 先测一下
+- ...
+
+## 核心内容
+- ...
+
+## 一个示例
+- ...
+
+## 现在练习
+- 任务：
+- 完成标准：
+
+## 反馈标准
+- 概念：
+- 语言：
+- 表现：
+
+## SNP 学习进度卡
+- 学习目标：
+- 使用场景：
+- 当前水平证据：
+- 已完成课次：
+- 本轮学会：
+- 仍然卡住：
+- 本轮练习结果：
+- 下一课目标：
+- 建议调用模块：
+```
+
+Activate only one lesson. A high-level map is allowed, but do not dump a complete course before the learner attempts the first task.
+
 ## Australia OBA/IQNM Initial Screening Template
 
 Use this when a domestic nurse, nursing graduate, or internationally registered nurse asks about Australia OBA, Ahpra, NMBA, Self-check, NCLEX-RN, OSCE, or Australian RN registration.

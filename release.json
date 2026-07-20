@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
-  "release_date": "2026-07-20",
-  "notes": "Adds source-backed salary reality checks for specific nursing roles, work settings, and completed pathways."
+  "version": "0.6.0",
+  "release_date": "2026-07-21",
+  "notes": "Adds a main router and seven focused Skills for fit, pathway exploration, chosen-path planning, adaptive learning, career reality, job readiness, and current-information verification."
 }

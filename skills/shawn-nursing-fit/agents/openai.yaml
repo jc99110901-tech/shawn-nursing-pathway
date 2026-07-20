@@ -1,0 +1,4 @@
+interface:
+  display_name: "SNP Fit"
+  short_description: "Screen nursing fit without making the final choice"
+  default_prompt: "Use $shawn-nursing-fit to screen nursing fit without making the final decision."

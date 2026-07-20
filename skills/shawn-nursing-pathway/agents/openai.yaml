@@ -1,4 +1,4 @@
 interface:
-  display_name: "Shawn Nursing Pathway"
-  short_description: "Nursing pathway, job, and salary reality screening"
-  default_prompt: "Use $shawn-nursing-pathway for fit screening, volunteer review, pathway comparison, school/job/provider verification, source-backed salary reality checks, multi-perspective review, and next-step routing. For time-sensitive facts, check the newest available official source and disclose the search date, data period, publication date, and any freshness gap. When the user asks about a concrete role or work setting, include a scoped salary reality check without promising personal income."
+  display_name: "SNP Skill"
+  short_description: "Route nursing choices, learning, careers, and verification"
+  default_prompt: "Use $shawn-nursing-pathway to route my nursing question to fit screening, pathway exploration, chosen-path planning, adaptive learning, career and salary reality, job and interview preparation, or current-information verification. Give one minimum executable next task when a direction is chosen, and never make the final decision or promise an outcome."
