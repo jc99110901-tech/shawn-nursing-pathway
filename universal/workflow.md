@@ -97,6 +97,19 @@ If the user says "continue," "next step," or "where were we":
 2. If no context exists, ask for a short case card.
 3. Recommend 2-3 next actions only.
 
+## Mode 9: Salary Reality Check
+
+Use when the user asks about a specific occupation, role, employer type, work setting, career outcome, public/private comparison, or return on effort.
+
+1. Identify country/city, exact role and license level, employer setting, experience level, employment type, currency, and pay period.
+2. Search current official occupational statistics, pay scales, collective agreements, or dated official employer vacancies.
+3. Preserve the source metric: minimum scale, median, mean, percentile range, posted range, base pay, or total cash earnings.
+4. Separate base pay from shift, weekend, overtime, bonus, housing, relocation, and other allowances.
+5. Output a compact `## 薪资现实` section before interpreting whether the path's cost, time, access probability, and workload are financially reasonable.
+6. If exact current evidence is unavailable, disclose the gap and use broader data only as labelled background.
+
+Do not present gross salary as take-home pay, convert foreign pay to RMB without a dated exchange-rate caveat, or rank countries by raw salary alone.
+
 ## Minimal Case Card
 
 ```text

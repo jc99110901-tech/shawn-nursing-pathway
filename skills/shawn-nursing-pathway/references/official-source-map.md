@@ -22,6 +22,7 @@ Broad source-map review: 2026-07-09. This date is not proof that every linked fa
 - When advising a user, state which layer is being discussed: education admission, graduation, license/registration, employment, visa, or long-term residence.
 - Do not copy exact current requirements into user-facing advice unless they have just been checked from the source.
 - If the user is near payment, application, deposit, contract, or final volunteer submission, require source verification before advice becomes operational.
+- For a specific role, employer setting, or "what will I earn" question, also load `salary-and-compensation.md`. Use current official occupational statistics, pay scales, collective agreements, or dated employer postings; do not substitute a whole-economy average for a nurse role.
 
 ## Freshness Gate
 

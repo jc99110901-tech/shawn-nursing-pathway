@@ -53,6 +53,24 @@ Screen nursing fit through:
 
 Output only possible advantages, main risks, and questions to verify.
 
+## Salary and Compensation Reality
+
+When the user's real concern is what a specific job or completed path pays, include a compact salary reality check.
+
+Required scope:
+
+- country, region, and city
+- exact occupation and license level
+- public, private, international, aged-care, community, agency, or other setting
+- entry, experienced, specialist, or management level
+- full-time, part-time, casual, contract, or agency work
+- currency, hourly/monthly/annual period, and gross/net basis
+- whether the figure is a minimum scale, median, mean, percentile range, active-vacancy range, base pay, or total cash earnings
+
+Prefer current official occupational statistics, public pay scales, collective agreements, and dated official employer vacancies. Separate base pay from night, weekend, overtime, bonuses, and allowances.
+
+An average is not a personal offer. A pay scale is not proof that every employer pays the same. A vacancy is evidence for one vacancy, not the entire market. If exact current evidence cannot be verified, say so and use a broader figure only as labelled background.
+
 ## Domestic China Pathways
 
 ### Junior-College Nursing

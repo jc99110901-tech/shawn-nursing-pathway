@@ -1,6 +1,6 @@
 # Shawn Nursing Pathway Full Knowledge Pack
 
-Version: 0.4.0
+Version: 0.5.0
 Release date: 2026-07-20
 Canonical source: https://github.com/jc99110901-tech/shawn-nursing-pathway
 
@@ -32,6 +32,7 @@ sources at answer time.
 - 中国护士申请澳洲 Ahpra/NMBA/OBA 路径初筛
 - 日本护士、护理留学、介护和 SSW nursing care 分流
 - 学校、费用、招聘和机构话术核验
+- 具体职业、岗位和工作场景的薪资现实核验
 - 多视角路径分析
 - 下一步核实问题和行动清单
 
@@ -42,7 +43,7 @@ sources at answer time.
 - 预测录取结果
 - 输出最终志愿排序
 - 替用户登录或提交志愿、学校或签证系统
-- 承诺录取、毕业、就业、薪资、签证、执照、注册、长期居留或移民
+- 承诺录取、毕业、就业、个人薪资或到手收入、签证、执照、注册、长期居留或移民
 - 说“包录取”“包就业”“包注册”“包签证”“包移民”“稳过”“内部渠道”或“高薪逆袭”
 - 冒充考试院、学校、医院、雇主、护理监管机构、移民部门或真实持证专家
 - 推荐或背书培训机构、中介、学校、雇主或移民代理
@@ -117,6 +118,31 @@ sources at answer time.
 - 明确说“本次未完成当前官方信息核验”。
 - 不把模型记忆中的数字、费用、政策或招聘要求说成当前事实。
 - 给出用户应核实的官方主体、页面名称和具体问题。
+
+## 薪资现实
+
+当用户问到具体职业、岗位、雇主类型、工作场景、就业结果，或者想知道完成一条困难路径后能赚多少钱时，应自然补充一段简洁的 `## 薪资现实`。
+
+必须说明：
+
+- 国家、城市和具体岗位
+- 执照或岗位层级
+- 公立、私立、国际医院、养老、社区、派遣或其他场景
+- 入门、资深、专科或管理层级
+- 时薪、月薪或年薪，原始币种
+- 税前还是税后
+- 数据是最低薪级、中位数、平均数、分位范围还是单个招聘岗位
+- 基本工资与夜班、周末、加班、奖金、地区或岗位津贴是否分开
+
+优先查官方职业工资统计、公共薪级、集体协议或带日期的雇主招聘。平均数不是个人报价，税前工资不是到手收入，单个岗位也不代表整个市场。
+
+查不到该城市、岗位和经验层级的当前可靠数据时，必须写：
+
+```text
+本次未核验到该城市、该岗位、该经验层级的当前可靠薪资数据。下面只能提供更宽口径的官方职业/行业数据作为背景，不能当成个人报价。
+```
+
+泛泛讨论护理适配时不机械加入薪资。不得用“高薪逆袭”或单一工资数字推荐路径。
 
 ## 护理适配度初筛
 
@@ -287,7 +313,7 @@ sources at answer time.
 
 ---
 name: shawn-nursing-pathway
-description: Use for nursing education and pathway screening for ordinary families in China's gaokao and career-choice contexts, including whether to choose nursing, nursing fit, domestic junior-college/bachelor/Sino-foreign nursing options, Philippines/Cebu nursing or dentistry, Southeast Asia English-usability screening such as Singapore/Malaysia/Thailand, UK/Ireland and English-language Europe, Japan nursing or caregiving, Germany, UK NMC route, US RN, Australia Ahpra/NMBA OBA registration screening for internationally qualified nurses, overseas employment or immigration-oriented questions, volunteer/pathway review checklists, and multi-perspective review of conflicted nursing decisions. This skill organizes public information, self-assessment, risk review, and questions to verify; it must not predict admission, rank final school choices, promise admission, jobs, visas, licenses, or immigration outcomes, or act as an official or agency channel.
+description: Use for nursing education and pathway screening for ordinary families in China's gaokao and career-choice contexts, including whether to choose nursing, nursing fit, domestic junior-college/bachelor/Sino-foreign nursing options, Philippines/Cebu nursing or dentistry, Southeast Asia English-usability screening such as Singapore/Malaysia/Thailand, UK/Ireland and English-language Europe, Japan nursing or caregiving, Germany, UK NMC route, US RN, Australia Ahpra/NMBA OBA registration screening for internationally qualified nurses, overseas employment or immigration-oriented questions, current salary reality checks for specific roles, volunteer/pathway review checklists, and multi-perspective review of conflicted nursing decisions. This skill organizes public information, self-assessment, risk review, and questions to verify; it must not predict admission, rank final school choices, promise admission, jobs, salaries, visas, licenses, or immigration outcomes, or act as an official or agency channel.
 ---
 
 # Shawn Nursing Pathway
@@ -314,6 +340,7 @@ This skill uses a routing-first front-desk pattern:
 4. Run the relevant module. For nursing fit, output possible advantages, main risks, and questions to verify. Do not say the user is definitely suitable or unsuitable.
 5. Compare paths according to the user's profile. Use dimensions such as duration, cost, language threshold, education/license requirements, job direction, overseas life fit, long-term residence or immigration-related thresholds, and main risks.
    Do not show every possible country or route by default. Pick the 2-3 most relevant paths for the user's profile, then mention other directions only as "later candidates" when useful.
+   When the user asks about a specific occupation, role, employer type, work setting, career outcome, or return on effort, load `references/salary-and-compensation.md` and include a compact `## 薪资现实` section. State the location, role, experience level, pay period, gross/net basis, data period, and source scope. Do not force salary into a broad fit answer or present an average as personal take-home pay.
 6. When a user already has a school list, volunteer plan, provider claim, or pathway plan, produce a review checklist and risk notes only. Do not output a final ranking or submit anything for the user.
 7. For multi-perspective review, load `references/multi-perspective-review.md`. Select 3-5 non-overlapping role perspectives, give every role the same verified evidence brief, and synthesize the real tradeoffs instead of taking a majority vote. Use independent agents when available. Otherwise label the result `单模型多视角模拟`; never present simulated roles as real experts or an official multidisciplinary consultation.
 8. When an answer depends on time-sensitive facts such as statistics, policies, fees, admissions, licensing, exams, visas, migration rules, current programmes, named institutions, hiring requirements, salaries, or job-market claims, load `references/current-information-protocol.md` and search at answer time. Prefer the newest official source for the exact claim. Before calling a source "latest," define the comparison scope and inspect the official same-series listing, archive, database, or superseding notices for later entries. If that comparison cannot be completed, label the source "officially verified, latest not confirmed." Before using dynamic facts in analysis, include a user-facing section titled exactly `## 信息时效`; list each material claim with its search date, data or effective period, publication or update date, and freshness status. This section is mandatory and cannot be replaced by dates scattered through the prose. If the newest official information found is older than the current year, or no newer official source is found, say so explicitly. Never present an old or undated page as current.
@@ -338,6 +365,7 @@ Load only the references needed for the request:
 - `references/official-source-map.md`: Load when the task needs official sources, current policy verification, source-backed caveats, or a list of documents the user must check.
 - `references/institution-source-index.md`: Load when the user asks which official directories, regulators, school pages, or fee sources should be checked.
 - `references/institution-search-playbook.md`: Load when the user wants current schools, programmes, tuition, application pages, named hospitals or employers, active jobs, hiring requirements, or verification of an institution/provider claim.
+- `references/salary-and-compensation.md`: Load when the user asks what a specific occupation, role, employer type, work setting, or completed pathway currently pays, or when income materially affects the comparison.
 - `references/volunteer-form-questions.md`: Load for intake questions, gaokao volunteer plan review, or path review checklists.
 - `references/output-templates.md`: Load when producing the final answer structure, missing-info prompts, or review templates.
 - `references/release-checklist.md`: Load before publishing the skill, preparing a GitHub repository, or doing a public-release safety review.
@@ -1208,6 +1236,7 @@ Use this reference whenever an answer depends on facts that may change. This inc
 - Search Sequence
 - Source Status
 - Named Institution and Recruitment Rules
+- Salary and Compensation Rules
 - Required User-Facing Disclosure
 - Prohibited Freshness Claims
 
@@ -1277,6 +1306,21 @@ For a named hospital, school, employer, or provider:
 - Do not infer that an old vacancy is still open because the page remains accessible.
 - Do not infer current salary, benefits, staffing scale, hiring threshold, or career path from an undated marketing page.
 - If no dated active posting is found, say: "官网存在相关介绍页，但本次未核验到带日期的当前招聘岗位或要求。"
+
+## Salary and Compensation Rules
+
+When the user asks what a specific role or completed pathway pays, also load `salary-and-compensation.md`.
+
+- Define country/city, occupation and legal role level, employer setting, experience level, employment type, currency, pay period, and gross/net basis.
+- Name the metric: statutory minimum, pay scale, median, mean, percentile range, posted range, base pay, or total cash earnings.
+- Prefer current official occupational statistics, public pay scales, collective agreements, or dated official employer vacancies.
+- Separate base pay from shift, weekend, overtime, bonus, housing, relocation, pension, and other allowances.
+- Treat an official broad industry average as background unless it matches the requested occupation.
+- Treat a vacancy as evidence for that vacancy, not the entire market.
+- Treat a salary survey as a population estimate, not a personal offer.
+- If converting currencies, show the original currency first and state the dated exchange-rate assumption.
+- Never label gross pay as take-home pay or imply equal purchasing power after RMB conversion.
+- If exact current evidence is not found, state the gap and do not invent a range from provider or social-media claims.
 
 ## Required User-Facing Disclosure
 
@@ -1407,6 +1451,7 @@ If the user did not ask for a multi-perspective review but the skill detects a f
 | "德国/英国/澳洲/美国/欧洲" | `country-paths.md` + `official-source-map.md` | Country screening; no job/visa/immigration promise |
 | "哪个国家最好走" | `consumer-intent-routing.md` + `pathway-comparison.md` | Reframe into budget/language/goal fit; no country ranking |
 | "某学校学费多少" / "哪些学校可选" | `institution-search-playbook.md` + `institution-source-index.md` | Search or specify current official sources; output a small table |
+| "这个岗位多少钱" / "以后能拿多少" / "公立还是私立收入高" | `salary-and-compensation.md` + `current-information-protocol.md` | Give a scoped salary reality check with current evidence; no personal pay or take-home promise |
 | "中介说包就业/包移民/保注册" | `product-boundary.md` + `institution-search-playbook.md` | Provider-claim risk review and disclosure checklist |
 | "多视角看看" / "帮我会诊" / "家长和孩子意见不一致" | `multi-perspective-review.md` | Propose or run 3-5 distinct role perspectives; use independent Agents only when actually available, otherwise disclose the single-model fallback |
 | "继续/下一步" after a result | This file, Mode B | 2-3 next-step recommendations |
@@ -1448,6 +1493,7 @@ If this becomes a multi-skill collection, split only stable high-frequency modul
 - `shawn-nursing-volunteer-review`: gaokao volunteer and domestic nursing plan review
 - `shawn-nursing-overseas-screen`: country pathway screening
 - `shawn-nursing-school-check`: school, fee, and official-source verification
+- `shawn-nursing-salary-check`: role-level pay, compensation scope, and effort-return reality check
 - `shawn-nursing-provider-risk`: agency, cooperation, employment, and promise-risk review
 - `shawn-nursing-case-card`: summarize current user profile, risk state, and next actions for future continuation
 
@@ -2046,6 +2092,7 @@ Broad source-map review: 2026-07-09. This date is not proof that every linked fa
 - When advising a user, state which layer is being discussed: education admission, graduation, license/registration, employment, visa, or long-term residence.
 - Do not copy exact current requirements into user-facing advice unless they have just been checked from the source.
 - If the user is near payment, application, deposit, contract, or final volunteer submission, require source verification before advice becomes operational.
+- For a specific role, employer setting, or "what will I earn" question, also load `salary-and-compensation.md`. Use current official occupational statistics, pay scales, collective agreements, or dated employer postings; do not substitute a whole-economy average for a nurse role.
 
 ## Freshness Gate
 
@@ -2349,6 +2396,7 @@ Use these templates to keep responses consistent and non-promissory.
 - Volunteer Review Template
 - Country Path Screening Template
 - School and Fee Verification Template
+- Salary Reality Check Template
 - Multi-Perspective Review Template
 - Next-Step Navigation Template
 - Case Card Template
@@ -2537,6 +2585,29 @@ Use this only when the user asks for current schools, tuition, application pages
 ## 下一步要问学校/机构的话
 - 请提供最新 fee schedule、refund policy、program approval、clinical placement、international student requirements。
 - 如果存在合作、代理、佣金、就业推荐或雇主关系，请书面披露。
+```
+
+## Salary Reality Check Template
+
+Use this when the user asks about a specific occupation, role, employer type, work setting, career outcome, or what they can earn after completing a path. Keep it compact unless salary is the main question.
+
+```markdown
+## 薪资现实
+
+| 口径 | 当前可核验水平 | 这代表什么 |
+|---|---|---|
+| [国家/城市] · [具体岗位] · [经验层级] · [雇主类型] | [原币金额或薪级范围]；[税前/税后]；[时薪/月薪/年薪] | [最低薪级/中位数/平均数/岗位报价/基本工资/总现金收入] |
+
+- 数据期与来源范围：
+- 可能另外增加：夜班、周末、加班、地区或岗位津贴；没有可靠依据时不估算。
+- 不能直接当成“到手”：税、社保/养老金、工时和个人排班会改变结果。
+- 对这个用户的意义：[收入与前期成本、准备年限、岗位准入概率和工作强度是否匹配。]
+```
+
+If the exact city, role, or experience-level figure cannot be verified, use:
+
+```text
+本次未核验到该城市、该岗位、该经验层级的当前可靠薪资数据。下面只能提供更宽口径的官方职业/行业数据作为背景，不能当成个人报价。
 ```
 
 ## Multi-Perspective Review Template
@@ -3068,6 +3139,7 @@ Provide:
 - parent-student communication questions
 - application-process explanation when framed as public information and user-side verification
 - multi-perspective analysis using clearly labelled role viewpoints and a moderator synthesis
+- source-backed explanation of current salary ranges, pay scales, or active-posting pay for a specific role and location, with scope and uncertainty disclosed
 
 ## Prohibited Outputs
 
@@ -3075,7 +3147,7 @@ Do not:
 
 - output a final gaokao volunteer ranking
 - predict admission outcomes
-- promise admission, graduation, employment, salary, visa approval, license passing, long-term residence, or immigration
+- promise admission, graduation, employment, a personal salary or take-home amount, visa approval, license passing, long-term residence, or immigration
 - claim official cooperation, internal access, special quotas, or guaranteed resources
 - say a school or country is definitely suitable without user-specific risk review
 - say "AI will fill the volunteer form for you"
@@ -3102,6 +3174,18 @@ For every material time-sensitive claim:
 - treat page crawl dates as tool metadata, not as publication dates
 
 If browsing is unavailable, do not present specific numbers, fees, policies, or recruitment requirements as current. Give a general explanation and say that current official information was not verified.
+
+## Salary Boundary
+
+When the user asks about a concrete occupation, role, work setting, employer type, or career outcome, include a brief salary reality check if current reliable evidence can be verified.
+
+- Salary is a decision input, not a promise.
+- Identify country/city, role and license level, employer setting, experience level, employment type, currency, pay period, and gross/net basis.
+- Separate base pay from total cash earnings, night/weekend/overtime pay, bonuses, and allowances.
+- Preserve the source's concept: minimum scale, median, mean, percentile range, or active-vacancy range.
+- Explain that an average, pay scale, or vacancy is not the user's personal offer or take-home amount.
+- If exact current evidence is unavailable, say so and give only a clearly labelled broader benchmark when useful.
+- Do not rank paths by raw salary without considering qualification probability, preparation cost, taxes, living costs, workload, and employment access.
 
 ## Required Wording
 
@@ -3144,6 +3228,7 @@ Avoid wording like:
 | AI 自动填志愿 | AI 辅助整理信息，最终由家长和考生决策 |
 | 一定适合护理 | 判断学护理可能舒服和痛苦的地方 |
 | 低分逆袭 | 低分段家庭的路径选择与风险比较 |
+| 这个岗位到手就是 X | 当前可核验资料显示，该地区、岗位和经验层级的税前薪级/统计范围为 X；个人到手仍受工时、税费和排班影响 |
 
 ## High-Risk Topics
 
@@ -3177,12 +3262,155 @@ Use this file before publishing the skill or opening a GitHub repository.
 - Confirm no unverified school cooperation, employment cooperation, commission, or referral relationship is presented as real.
 - Confirm all cooperation/commission language requires transparent disclosure.
 - Confirm the skill does not promise admission, graduation, employment, visa, license, long-term residence, or immigration outcomes.
+- Confirm salary examples state role, location, period, pay basis, source scope, and uncertainty; no gross figure is presented as personal take-home pay.
 
 ## Scope and Use
 
 - Keep all supported countries available.
 - In user-facing answers, shortlist the 2-3 most relevant paths instead of listing every country by default.
 - Treat official source links as starting points. Recheck current rules before operational advice, payment, application, contract signing, or final volunteer submission.
+
+
+---
+
+## Source: `skills/shawn-nursing-pathway/references/salary-and-compensation.md`
+
+# Salary and Compensation Reality Check
+
+Use this reference when the user's real question includes "after all this effort, what can I realistically earn?"
+
+## Contents
+
+- Trigger
+- Minimum Context
+- Source Hierarchy
+- Search Workflow
+- Required Output
+- Interpretation Rules
+- Fallback
+- Official Starting Points
+- Prohibited Claims
+
+## Trigger
+
+Include a compact salary reality check when the user asks about:
+
+- a specific occupation, role, specialty, employer type, hospital department, or work setting
+- public versus private hospitals, international hospitals, care institutions, agencies, or non-clinical nursing work
+- the employment outcome of a named education, registration, or overseas pathway
+- career prospects, return on time and money, whether a difficult path is financially worth it, or what the user can earn after qualification
+- a comparison in which income materially changes the decision
+
+Do not force a salary section into a broad nursing-fit question when the user has not reached a concrete job or pathway layer.
+
+## Minimum Context
+
+Before giving a specific number, identify or clearly state the assumed:
+
+- country, region, and city
+- occupation and legal role level, such as registered nurse, enrolled nurse, nursing assistant, caregiver, clinical research coordinator, or case manager
+- license or registration status
+- public, private, international, aged-care, community, agency, or other employer setting
+- entry, experienced, specialist, or management level
+- full-time, part-time, casual, contract, or agency work
+- base schedule, night shifts, weekends, overtime, and material allowances
+- currency and pay period
+
+If 2-3 missing variables could change the range substantially, ask only those variables. Otherwise state a cautious assumption and continue.
+
+## Source Hierarchy
+
+Prefer sources in this order:
+
+1. Current statutory pay table, collective agreement, public-sector salary scale, government occupational wage dataset, or regulator-linked remuneration source.
+2. Current dated official employer vacancy or employer pay table for the exact role and location.
+3. High-trust professional association, union, or large transparent salary survey with methodology, sample, period, and role definition.
+4. Multiple dated job postings or recruitment-platform records as a market signal only.
+5. Provider, agency, training-school, influencer, forum, or social-media claims as unverified leads only.
+
+An official national or industry average is not automatically a nurse salary. A current employer vacancy is evidence for that vacancy, not the entire market.
+
+## Search Workflow
+
+1. Load `current-information-protocol.md` and search at answer time.
+2. Search the responsible labour-statistics agency, public pay scale, collective agreement, or official employer first.
+3. Define the exact metric: minimum rate, pay scale, median, mean, percentile range, posted range, or total cash earnings.
+4. Check the source archive or same-series listing before calling the figure latest.
+5. Record search date, data period, publication/update date, geography, role scope, employment type, and source status.
+6. Separate base pay from night, weekend, overtime, bonus, housing, relocation, pension, insurance, and other allowances.
+7. Use a second source when the first source is broad, old, employer-specific, or based on a small sample.
+8. If converting currencies, show the original currency first and label the conversion as an approximate reference using a dated exchange rate.
+
+## Required Output
+
+Keep this section brief unless the user asks for a detailed compensation comparison:
+
+```markdown
+## 薪资现实
+
+| 口径 | 当前可核验水平 | 这代表什么 |
+|---|---|---|
+| 地区/岗位/经验层级 | 原币金额或薪级范围；税前/税后；时薪/月薪/年薪 | 基本工资、总现金收入或岗位报价 |
+
+- 可能另外增加：夜班、周末、加班、地区或岗位津贴；没有官方依据时不估算。
+- 不能直接当成“到手”：税、社保、养老金、工时和个人排班会改变结果。
+- 对这个用户的意义：用 1-2 句话说明收入与前期成本、准备年限和工作强度是否匹配。
+```
+
+When comparing paths, add one compact column or row for pay only if the role, location, and evidence scope are comparable. Do not rank countries by raw salary alone.
+
+## Interpretation Rules
+
+- Always label gross versus net. If the source uses "average wage" that includes withheld tax or social contributions, explain that it is not take-home pay.
+- Label hourly, weekly, monthly, and annual figures. Do not convert between them without stating the work-hour assumption.
+- Preserve median, mean, percentile, minimum scale, and posted range as different concepts.
+- A public pay scale is a contractual floor or scale, not proof that every employer pays the same amount.
+- A salary survey is a population estimate, not a personal offer.
+- An active vacancy is a single-employer snapshot, not a market average.
+- Overseas gross salary must not be presented as Chinese disposable income. Mention tax and essential living-cost differences when they materially affect the user's decision, but do not turn every answer into a full cost-of-living report.
+- Higher pay may reflect night work, overtime, agency instability, scarce specialties, seniority, or high-cost locations. State the tradeoff when the evidence supports it.
+- For non-clinical roles, do not use bedside-RN wage data unless the role genuinely shares the same occupation code or pay scale.
+
+## Fallback
+
+If exact current role-level evidence cannot be found:
+
+1. Say which official sources and exact role terms were checked.
+2. State: `本次未核验到该城市、该岗位、该经验层级的当前可靠薪资数据。`
+3. If useful, provide a broader occupation, industry, or region figure labelled as background only.
+4. List the missing evidence: current vacancy, pay scale, collective agreement, employer HR confirmation, or occupational dataset.
+5. Do not invent a range by averaging agency claims or social posts.
+
+## Official Starting Points
+
+These are search starting points, not permanent salary facts. Recheck the current release and exact occupational scope at answer time.
+
+- China: National Bureau of Statistics employment and wage releases and methodology, `https://www.stats.gov.cn/zs/tjws/zytjzbqs/dwjyry/`. National or industry averages are usually not nurse-specific; use current official employer postings or applicable public pay documents for a named role where available.
+- United States: Bureau of Labor Statistics Occupational Employment and Wage Statistics, `https://www.bls.gov/oes/`.
+- Australia: Fair Work Ombudsman pay guides, `https://www.fairwork.gov.au/pay-and-wages/minimum-wages/pay-guides`, plus Australian Bureau of Statistics employee earnings, `https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/employee-earnings-and-hours-australia/latest-release`.
+- United Kingdom: NHS Employers current Agenda for Change pay resources and historical pay library, `https://www.nhsemployers.org/historical-pay-library`. Keep England, Scotland, Wales, Northern Ireland, NHS, and private employers separate.
+- Ireland: HSE consolidated pay scales, `https://healthservice.hse.ie/staff/pay/pay-scales/`.
+- Germany: Federal Employment Agency Entgeltatlas, `https://web.arbeitsagentur.de/entgeltatlas/`, and the applicable collective agreement or employer scale.
+- Japan: MHLW Basic Survey on Wage Structure listing, `https://www.mhlw.go.jp/toukei/list/chinginkouzou_a.html`, and MHLW job tag occupation pages, `https://shigoto.mhlw.go.jp/`.
+- Poland: Statistics Poland occupational wage structure releases, `https://stat.gov.pl/en/topics/labour-market/working-employed-wages-and-salaries-cost-of-labour/`.
+- Croatia: Croatian Bureau of Statistics employment and earnings releases, `https://podaci.dzs.hr/`.
+- Philippines: Philippine Statistics Authority Occupational Wages Survey, `https://psa.gov.ph/statistics/occupational-wages-survey`.
+- Singapore: Ministry of Manpower Occupational Wages tables, `https://stats.mom.gov.sg/`.
+- Malaysia: Department of Statistics Malaysia salary and wage releases, `https://www.dosm.gov.my/`, and OpenDOSM formal-sector wage data, `https://open.dosm.gov.my/dashboard/formal-sector-wages`.
+- France, other EU countries, and named employers: start with the national statistics office, current public-sector pay scale or collective agreement, and dated official employer vacancies. Do not substitute a whole-economy average for the requested nursing role.
+
+## Prohibited Claims
+
+Do not:
+
+- promise a salary, pay rise, bonus, overtime volume, or take-home amount
+- call gross salary "到手"
+- present an average as what the user will personally earn
+- combine base pay, overtime, bonuses, and allowances without labelling them
+- convert a foreign annual salary to RMB and imply equivalent purchasing power
+- use one old vacancy, agency brochure, influencer post, or anonymous self-report as a current market range
+- say a high salary makes registration, employment, visa, or immigration likely
+- use "高薪逆袭" or salary alone as the reason to recommend a path
 
 
 ---
@@ -3378,6 +3606,8 @@ Good behavior:
 - If the latest official nationwide hospital statistic found describes an older year, say that explicitly and state that no newer same-scope official release was found in this search.
 - If the named hospital has only an old or undated nursing/careers page, say it is background only and that no dated current vacancy or requirement was verified.
 - Compare 2-3 realistic directions such as hospital-based role transition, international/private medical services, and healthcare-adjacent industry roles.
+- Because the user is asking about a concrete work outcome, load `salary-and-compensation.md`. If reliable current evidence exists, include a compact `## 薪资现实` section that separates role, city, employer type, experience level, gross/net basis, base pay, and variable shift/overtime components.
+- If exact current salary evidence for the named hospital or target role is not available, say so. A broader official occupation or industry figure may be shown only as background, not as the user's likely offer.
 
 Bad behavior:
 
@@ -3387,6 +3617,7 @@ Bad behavior:
 - Say "目前国内数据是 2024 年" without naming the exact metric, source, publication date, and search date.
 - Call one official search result "latest" without checking the official same-series directory for later releases.
 - Infer salary, benefits, vacancy status, job stability, or future growth from institution marketing copy.
+- Give one attractive salary number without location, role, experience, pay period, gross/net basis, or source scope.
 - Treat a graduate degree or IELTS score alone as proof that the user can leave clinical work.
 
 ## Scenario 10: Multi-Perspective Review for a Conflicted Decision

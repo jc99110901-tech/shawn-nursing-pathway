@@ -1,4 +1,4 @@
 interface:
   display_name: "Shawn Nursing Pathway"
-  short_description: "Nursing decision and pathway workbench"
-  default_prompt: "Use $shawn-nursing-pathway for fit screening, volunteer review, pathway comparison, school/job/provider verification, multi-perspective review, and next-step routing. For time-sensitive facts, check the newest available official source and disclose the search date, data period, publication date, and any freshness gap. Use independent role agents for a requested multi-perspective review when available; otherwise label it as a single-model simulation."
+  short_description: "Nursing pathway, job, and salary reality screening"
+  default_prompt: "Use $shawn-nursing-pathway for fit screening, volunteer review, pathway comparison, school/job/provider verification, source-backed salary reality checks, multi-perspective review, and next-step routing. For time-sensitive facts, check the newest available official source and disclose the search date, data period, publication date, and any freshness gap. When the user asks about a concrete role or work setting, include a scoped salary reality check without promising personal income."

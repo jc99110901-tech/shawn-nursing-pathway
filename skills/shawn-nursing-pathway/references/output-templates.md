@@ -11,6 +11,7 @@ Use these templates to keep responses consistent and non-promissory.
 - Volunteer Review Template
 - Country Path Screening Template
 - School and Fee Verification Template
+- Salary Reality Check Template
 - Multi-Perspective Review Template
 - Next-Step Navigation Template
 - Case Card Template
@@ -199,6 +200,29 @@ Use this only when the user asks for current schools, tuition, application pages
 ## 下一步要问学校/机构的话
 - 请提供最新 fee schedule、refund policy、program approval、clinical placement、international student requirements。
 - 如果存在合作、代理、佣金、就业推荐或雇主关系，请书面披露。
+```
+
+## Salary Reality Check Template
+
+Use this when the user asks about a specific occupation, role, employer type, work setting, career outcome, or what they can earn after completing a path. Keep it compact unless salary is the main question.
+
+```markdown
+## 薪资现实
+
+| 口径 | 当前可核验水平 | 这代表什么 |
+|---|---|---|
+| [国家/城市] · [具体岗位] · [经验层级] · [雇主类型] | [原币金额或薪级范围]；[税前/税后]；[时薪/月薪/年薪] | [最低薪级/中位数/平均数/岗位报价/基本工资/总现金收入] |
+
+- 数据期与来源范围：
+- 可能另外增加：夜班、周末、加班、地区或岗位津贴；没有可靠依据时不估算。
+- 不能直接当成“到手”：税、社保/养老金、工时和个人排班会改变结果。
+- 对这个用户的意义：[收入与前期成本、准备年限、岗位准入概率和工作强度是否匹配。]
+```
+
+If the exact city, role, or experience-level figure cannot be verified, use:
+
+```text
+本次未核验到该城市、该岗位、该经验层级的当前可靠薪资数据。下面只能提供更宽口径的官方职业/行业数据作为背景，不能当成个人报价。
 ```
 
 ## Multi-Perspective Review Template

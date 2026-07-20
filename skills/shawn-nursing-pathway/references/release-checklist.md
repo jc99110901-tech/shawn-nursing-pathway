@@ -15,6 +15,7 @@ Use this file before publishing the skill or opening a GitHub repository.
 - Confirm no unverified school cooperation, employment cooperation, commission, or referral relationship is presented as real.
 - Confirm all cooperation/commission language requires transparent disclosure.
 - Confirm the skill does not promise admission, graduation, employment, visa, license, long-term residence, or immigration outcomes.
+- Confirm salary examples state role, location, period, pay basis, source scope, and uncertainty; no gross figure is presented as personal take-home pay.
 
 ## Scope and Use
 

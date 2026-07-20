@@ -62,6 +62,7 @@ GitHub `main` 分支是公开发行真源。固定链接始终指向仓库当前
 - 日本护士、护理留学、介护/SSW nursing care 路径分流
 - 志愿方案复核
 - 学校、费用、机构话术核验
+- 具体职业、岗位或工作场景的当前薪资现实核验
 - 用户面对家庭分歧或路径冲突时进行多视角分析
 
 English:
@@ -74,6 +75,7 @@ English:
 - Japan nurse, nursing study, caregiving, and SSW nursing care triage
 - Volunteer plan review checklist
 - School, tuition, and provider-claim verification
+- Source-backed salary reality checks for specific roles and work settings
 - Multi-perspective review for conflicted nursing decisions
 
 ## 免责声明 / Disclaimer
@@ -82,7 +84,7 @@ English:
 
 - 不预测录取结果
 - 不输出最终志愿排序
-- 不承诺录取、就业、签证、执照或移民
+- 不承诺录取、就业、个人薪资、签证、执照或移民
 - 不代表官方、学校、雇主、机构或内部渠道
 - 不替代考试院、学校官网、执照机构、移民部门或专业人士意见
 
@@ -152,6 +154,10 @@ English:
 
 ```text
 我是国内注册护士，想通过澳洲 OBA 去做 RN，第一步该核实什么？
+```
+
+```text
+如果最后成为澳洲 RN，在悉尼私立医院做全职护士，当前大概是什么薪资水平？请区分税前基本工资、夜班和加班，不要只给一个漂亮数字。
 ```
 
 ```text

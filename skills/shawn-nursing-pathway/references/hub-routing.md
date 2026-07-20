@@ -88,6 +88,7 @@ If the user did not ask for a multi-perspective review but the skill detects a f
 | "德国/英国/澳洲/美国/欧洲" | `country-paths.md` + `official-source-map.md` | Country screening; no job/visa/immigration promise |
 | "哪个国家最好走" | `consumer-intent-routing.md` + `pathway-comparison.md` | Reframe into budget/language/goal fit; no country ranking |
 | "某学校学费多少" / "哪些学校可选" | `institution-search-playbook.md` + `institution-source-index.md` | Search or specify current official sources; output a small table |
+| "这个岗位多少钱" / "以后能拿多少" / "公立还是私立收入高" | `salary-and-compensation.md` + `current-information-protocol.md` | Give a scoped salary reality check with current evidence; no personal pay or take-home promise |
 | "中介说包就业/包移民/保注册" | `product-boundary.md` + `institution-search-playbook.md` | Provider-claim risk review and disclosure checklist |
 | "多视角看看" / "帮我会诊" / "家长和孩子意见不一致" | `multi-perspective-review.md` | Propose or run 3-5 distinct role perspectives; use independent Agents only when actually available, otherwise disclose the single-model fallback |
 | "继续/下一步" after a result | This file, Mode B | 2-3 next-step recommendations |
@@ -129,6 +130,7 @@ If this becomes a multi-skill collection, split only stable high-frequency modul
 - `shawn-nursing-volunteer-review`: gaokao volunteer and domestic nursing plan review
 - `shawn-nursing-overseas-screen`: country pathway screening
 - `shawn-nursing-school-check`: school, fee, and official-source verification
+- `shawn-nursing-salary-check`: role-level pay, compensation scope, and effort-return reality check
 - `shawn-nursing-provider-risk`: agency, cooperation, employment, and promise-risk review
 - `shawn-nursing-case-card`: summarize current user profile, risk state, and next actions for future continuation
 

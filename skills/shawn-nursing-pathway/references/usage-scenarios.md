@@ -187,6 +187,8 @@ Good behavior:
 - If the latest official nationwide hospital statistic found describes an older year, say that explicitly and state that no newer same-scope official release was found in this search.
 - If the named hospital has only an old or undated nursing/careers page, say it is background only and that no dated current vacancy or requirement was verified.
 - Compare 2-3 realistic directions such as hospital-based role transition, international/private medical services, and healthcare-adjacent industry roles.
+- Because the user is asking about a concrete work outcome, load `salary-and-compensation.md`. If reliable current evidence exists, include a compact `## 薪资现实` section that separates role, city, employer type, experience level, gross/net basis, base pay, and variable shift/overtime components.
+- If exact current salary evidence for the named hospital or target role is not available, say so. A broader official occupation or industry figure may be shown only as background, not as the user's likely offer.
 
 Bad behavior:
 
@@ -196,6 +198,7 @@ Bad behavior:
 - Say "目前国内数据是 2024 年" without naming the exact metric, source, publication date, and search date.
 - Call one official search result "latest" without checking the official same-series directory for later releases.
 - Infer salary, benefits, vacancy status, job stability, or future growth from institution marketing copy.
+- Give one attractive salary number without location, role, experience, pay period, gross/net basis, or source scope.
 - Treat a graduate degree or IELTS score alone as proof that the user can leave clinical work.
 
 ## Scenario 10: Multi-Perspective Review for a Conflicted Decision

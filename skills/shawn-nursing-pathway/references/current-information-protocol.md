@@ -9,6 +9,7 @@ Use this reference whenever an answer depends on facts that may change. This inc
 - Search Sequence
 - Source Status
 - Named Institution and Recruitment Rules
+- Salary and Compensation Rules
 - Required User-Facing Disclosure
 - Prohibited Freshness Claims
 
@@ -78,6 +79,21 @@ For a named hospital, school, employer, or provider:
 - Do not infer that an old vacancy is still open because the page remains accessible.
 - Do not infer current salary, benefits, staffing scale, hiring threshold, or career path from an undated marketing page.
 - If no dated active posting is found, say: "官网存在相关介绍页，但本次未核验到带日期的当前招聘岗位或要求。"
+
+## Salary and Compensation Rules
+
+When the user asks what a specific role or completed pathway pays, also load `salary-and-compensation.md`.
+
+- Define country/city, occupation and legal role level, employer setting, experience level, employment type, currency, pay period, and gross/net basis.
+- Name the metric: statutory minimum, pay scale, median, mean, percentile range, posted range, base pay, or total cash earnings.
+- Prefer current official occupational statistics, public pay scales, collective agreements, or dated official employer vacancies.
+- Separate base pay from shift, weekend, overtime, bonus, housing, relocation, pension, and other allowances.
+- Treat an official broad industry average as background unless it matches the requested occupation.
+- Treat a vacancy as evidence for that vacancy, not the entire market.
+- Treat a salary survey as a population estimate, not a personal offer.
+- If converting currencies, show the original currency first and state the dated exchange-rate assumption.
+- Never label gross pay as take-home pay or imply equal purchasing power after RMB conversion.
+- If exact current evidence is not found, state the gap and do not invent a range from provider or social-media claims.
 
 ## Required User-Facing Disclosure
 
