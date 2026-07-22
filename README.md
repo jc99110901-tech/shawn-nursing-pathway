@@ -15,7 +15,7 @@ English: A Codex skill for nursing education, gaokao nursing fit, and overseas n
 
 不懂 Skill、Prompt、RAG 或工作流也可以使用。先选一个文件：
 
-**第一次使用，直接打开 [`SNP Skill 1 分钟上手指南（PDF）`](docs/SNP-Skill-1分钟上手指南.pdf)。**
+**第一次使用，先看 [`SNP Skill 新手入门`](docs/新手入门.md)；想看图示步骤，再打开 [`1 分钟上手指南 PDF`](docs/SNP-Skill-1分钟上手指南.pdf)。**
 
 | 你在哪里使用 | 最简单的入口 |
 |---|---|
@@ -24,7 +24,7 @@ English: A Codex skill for nursing education, gaokao nursing fit, and overseas n
 | WorkBuddy / 腾讯云智能体开发平台 | 上传 [`WorkBuddy Skill ZIP`](dist/shawn-nursing-pathway-workbuddy.zip) |
 | Codex | 安装 [`完整 SNP Skill 套件`](skills/) 或下载 [`Suite ZIP`](dist/shawn-nursing-pathway-suite.zip) |
 
-完整的傻瓜式步骤见 [`QUICKSTART.md`](QUICKSTART.md)。
+完整的平台步骤见 [`QUICKSTART.md`](QUICKSTART.md)。
 
 GitHub `main` 分支是公开发行真源。固定链接始终指向仓库当前版本；已经下载或上传到第三方平台的文件属于版本快照，需要在仓库更新后重新同步。
 
@@ -212,6 +212,7 @@ shawn-nursing-pathway/
 ├── LICENSE
 ├── .gitignore
 ├── docs/
+│   ├── 新手入门.md
 │   └── SNP-Skill-1分钟上手指南.pdf
 ├── dist/
 │   ├── shawn-nursing-pathway-lite.md

@@ -2,7 +2,7 @@
 
 本仓库以 GitHub `main` 分支作为公开发行真源。普通用户不需要理解 Codex Skill 的目录结构，只需要根据使用场景选择一个文件。
 
-完全第一次使用，可以先看 [`SNP Skill 1 分钟上手指南（PDF）`](docs/SNP-Skill-1分钟上手指南.pdf)。
+完全第一次使用，可以先看 [`SNP Skill 新手入门`](docs/新手入门.md)。需要图示步骤时，再看 [`1 分钟上手指南 PDF`](docs/SNP-Skill-1分钟上手指南.pdf)。
 
 ## 最简单的选择
 
