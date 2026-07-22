@@ -198,6 +198,8 @@ Official checkpoints:
 
 ## Australia: OBA / Ahpra / NMBA as the Sample Deep-Dive
 
+> Australia pathway practice-feedback and risk-review contributor: **澳洲护士卡子哥 Nika**. Official and time-sensitive conclusions remain subject to independent current-source verification.
+
 Use the Australia OBA branch in `country-paths.md` as the current sample for deeper country detail. Australia already has a stronger decomposition:
 
 - Self-check

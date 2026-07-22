@@ -1,6 +1,6 @@
 # SNP Skill Full Knowledge Pack
 
-Version: 0.6.2
+Version: 0.6.3
 Release date: 2026-07-23
 Canonical source: https://github.com/jc99110901-tech/shawn-nursing-pathway
 Stable technical package: shawn-nursing-pathway
@@ -272,6 +272,8 @@ time-sensitive facts against current official sources at answer time.
 
 ## 澳洲 OBA
 
+> 澳洲路径实践反馈与风险审阅贡献者：**澳洲护士卡子哥 Nika**。署名用于感谢一线经验贡献；动态政策、注册、雇主、签证与移民相关结论仍须按当前官方来源独立核验。
+
 面向已有护理教育或护士注册背景者时，可拆分：
 
 - Ahpra/NMBA Self-check
@@ -506,6 +508,16 @@ Use this reference when a user asks about an Australia care-worker course, an
 "Australian care certificate" studied in China or overseas, PTE plus training,
 an arranged employer interview, aged-care employer sponsorship, a packaged
 `482/186/PR` route, or a provider claim that resembles these combinations.
+
+## Contributor Attribution
+
+澳洲路径实践反馈与风险审阅贡献者：**澳洲护士卡子哥 Nika**。
+
+This attribution recognises practitioner feedback used to identify real-world
+questions and sales-risk signals. Current policy, registration, employer, visa,
+and migration claims still require independent verification from official
+sources at answer time. Attribution does not make the contributor an official
+representative or imply endorsement of every conclusion.
 
 ## Central Rule
 
@@ -1113,6 +1125,8 @@ Official checkpoints:
 
 ## Australia Nursing Direction
 
+> 澳洲路径实践反馈与风险审阅贡献者：**澳洲护士卡子哥 Nika**。署名用于感谢一线经验贡献；动态政策、注册、雇主、签证与移民相关结论仍须按当前官方来源独立核验。
+
 Screen for:
 
 - high English ambition
@@ -1469,6 +1483,8 @@ Official checkpoints:
 - USCIS healthcare worker certification and employment-based petition rules.
 
 ## Australia: OBA / Ahpra / NMBA as the Sample Deep-Dive
+
+> Australia pathway practice-feedback and risk-review contributor: **澳洲护士卡子哥 Nika**. Official and time-sensitive conclusions remain subject to independent current-source verification.
 
 Use the Australia OBA branch in `country-paths.md` as the current sample for deeper country detail. Australia already has a stronger decomposition:
 

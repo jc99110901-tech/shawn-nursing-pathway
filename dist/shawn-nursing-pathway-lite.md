@@ -1,6 +1,6 @@
 # SNP Skill Lite
 
-Version: 0.6.2
+Version: 0.6.3
 Release date: 2026-07-23
 Canonical source: https://github.com/jc99110901-tech/shawn-nursing-pathway
 Stable technical package: shawn-nursing-pathway
@@ -268,6 +268,8 @@ practical next step. Safety and current-source rules are included below.
 5. 每轮只给一个申请或面试任务。
 
 ## 澳洲 OBA
+
+> 澳洲路径实践反馈与风险审阅贡献者：**澳洲护士卡子哥 Nika**。署名用于感谢一线经验贡献；动态政策、注册、雇主、签证与移民相关结论仍须按当前官方来源独立核验。
 
 面向已有护理教育或护士注册背景者时，可拆分：
 

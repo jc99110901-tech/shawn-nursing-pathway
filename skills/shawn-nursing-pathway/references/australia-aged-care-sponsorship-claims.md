@@ -5,6 +5,16 @@ Use this reference when a user asks about an Australia care-worker course, an
 an arranged employer interview, aged-care employer sponsorship, a packaged
 `482/186/PR` route, or a provider claim that resembles these combinations.
 
+## Contributor Attribution
+
+澳洲路径实践反馈与风险审阅贡献者：**澳洲护士卡子哥 Nika**。
+
+This attribution recognises practitioner feedback used to identify real-world
+questions and sales-risk signals. Current policy, registration, employer, visa,
+and migration claims still require independent verification from official
+sources at answer time. Attribution does not make the contributor an official
+representative or imply endorsement of every conclusion.
+
 ## Central Rule
 
 Treat the underlying government pathway and the provider's commercial package
@@ -210,4 +220,3 @@ consumer-protection, or registered migration advice where appropriate.
 - Do not use one successful case as the expected outcome for the next cohort.
 - Do not publicly accuse a named party before evidence and professional advice
   support that conclusion.
-

@@ -259,6 +259,12 @@ shawn-nursing-pathway/
     └── generic-agent.md
 ```
 
+## 贡献者与署名 / Contributors
+
+- 澳洲路径实践反馈与风险审阅贡献者：**澳洲护士卡子哥 Nika**。
+- 署名用于感谢一线经验贡献，不表示贡献者是官方机构、移民代理或对仓库全部内容作结果保证。
+- 动态政策、注册、雇主、签证与移民相关结论仍以使用时核验的官方资料为准。
+
 ## 版本与更新 / Versions and Updates
 
 - 当前公开版本见 [`release.json`](release.json)。

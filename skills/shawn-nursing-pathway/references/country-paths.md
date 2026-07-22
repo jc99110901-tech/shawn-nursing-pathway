@@ -239,6 +239,8 @@ Official checkpoints:
 
 ## Australia Nursing Direction
 
+> 澳洲路径实践反馈与风险审阅贡献者：**澳洲护士卡子哥 Nika**。署名用于感谢一线经验贡献；动态政策、注册、雇主、签证与移民相关结论仍须按当前官方来源独立核验。
+
 Screen for:
 
 - high English ambition
