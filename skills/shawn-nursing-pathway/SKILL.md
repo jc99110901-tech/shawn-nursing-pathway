@@ -58,6 +58,7 @@ Load only the references needed for the request:
 - `references/nursing-fit-assessment.md`: Load for nursing fit, self-assessment, or "should I/should my child choose nursing" questions.
 - `references/pathway-comparison.md`: Load for comparing domestic junior-college, bachelor, Sino-foreign, and overseas nursing-related routes.
 - `references/country-paths.md`: Load for Philippines/Cebu, Japan, Germany, US RN, Australia, Southeast Asia English nursing degree, or dentistry/caregiving path screening.
+- `references/australia-aged-care-sponsorship-claims.md`: Load when a user asks about an Australian care-worker certificate, PTE plus training, CHC33021/RTO claims, an arranged aged-care employer interview, employer sponsorship, a packaged 482/186/PR route, or whether this kind of provider offer is credible.
 - `references/country-scenario-cards.md`: Load when the user needs concrete scenario-level landing explanation for a country path, such as Japan nurse versus caregiving, Germany recognition, US RN, Australia OBA, Philippines/Cebu, or Europe/UK/Ireland.
 - `references/current-information-protocol.md`: Load whenever the answer uses current or latest statistics, policy, fees, school/program facts, licensing rules, exams, visas, migration rules, named-institution claims, job openings, hiring requirements, salaries, or career-market claims.
 - `references/official-source-map.md`: Load when the task needs official sources, current policy verification, source-backed caveats, or a list of documents the user must check.

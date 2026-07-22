@@ -52,6 +52,18 @@ Use when the user quotes a provider, school representative, or agency.
 4. Flag guarantee language and hidden cooperation/commission risk.
 5. Give a verification checklist.
 
+For an Australia care-worker package combining PTE/English, a care certificate,
+an interview, employer sponsorship, 482/186, PR, or family migration:
+
+1. Separate the official government pathway from the commercial package.
+2. Verify course code, RTO identity/scope, delivery, assessment and placement.
+3. Verify occupation, skills assessment, employer identity, labour-agreement
+   basis, vacancy and written terms.
+4. Keep interview, offer, nomination, visa and residence as different outcomes.
+5. Ask for same-period enrolment, completion, interview, offer, nomination and
+   visa-grant counts.
+6. Classify risk without making a fraud finding from anecdote or screenshots.
+
 ## Mode 5: Australia OBA/IQNM Screening
 
 Use when the user mentions Australia OBA, Ahpra, NMBA, Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, Chinese registered nurse, domestic nurse applying for Australian RN registration, or internationally qualified nurse registration.

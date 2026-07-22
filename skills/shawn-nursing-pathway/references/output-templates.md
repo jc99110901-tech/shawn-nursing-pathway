@@ -16,6 +16,7 @@ Use these templates to keep responses consistent, constructive, and safe. Safety
 - Next-Step Navigation Template
 - Case Card Template
 - Australia OBA/IQNM Initial Screening Template
+- Australia Aged-Care Training and Sponsorship Claim Template
 - Japan Path Triage Template
 - "Do Not Do Now" Options
 
@@ -469,6 +470,66 @@ Use this when a domestic nurse, nursing graduate, or internationally registered 
 - 不建议先交培训费或中介费，再确认自己是不是 OBA 目标人群。
 - 不建议把 NCLEX-RN、OSCE、注册、签证、就业和移民合成一个结果。
 - 不建议用机构口头说法替代 Ahpra/NMBA/ANMAC 官方文件。
+```
+
+## Australia Aged-Care Training and Sponsorship Claim Template
+
+Use this when a user asks whether a package combining PTE/English, an
+"Australian care certificate", an employer interview, sponsorship, 482/186,
+PR, or family migration is credible.
+
+```markdown
+## 这次核验什么
+把对方整包说法拆成英语、培训/证书、岗位/技能评估、雇主/面试、提名/签证和长期居留，逐层判断证据。
+
+## 信息时效
+| 事实 | 检索日期 | 数据/规则适用期 | 发布或更新日期 | 时效状态 |
+|---|---|---|---|---|
+| ... | YYYY-MM-DD | ... | ... | ... |
+
+- 尚未找到或仍需核验：
+
+## 对方完整说法
+- 总收费：
+- 每一笔费用购买的服务：
+- 承诺原文：
+- 合同写法与销售说法是否一致：
+
+## 分层核验
+| 层级 | 对方承诺 | 当前证据 | 能证明什么 | 不能证明什么 | 风险状态 |
+|---|---|---|---|---|---|
+| 英语/PTE | ... | ... | ... | 雇主或签证结果 | ... |
+| 培训/证书/RTO | ... | ... | ... | 工作、提名或签证 | ... |
+| 岗位/技能评估 | ... | ... | ... | 雇主会选择申请人 | ... |
+| 雇主/面试/Offer | ... | ... | ... | 已获批提名或签证 | ... |
+| 提名/签证 | ... | ... | ... | 永居或家庭结果 | ... |
+| 长期居留 | ... | ... | ... | 保证结果 | ... |
+
+## 当前结论
+- 已由当前官方资料支持：
+- 部分支持但被扩大解释：
+- 证据不足：
+- 与当前官方资料冲突：
+- 高风险商业话术：
+
+## 目前最关键的缺失证据
+- 课程代码、RTO 名称/编号和注册范围：
+- 培训地点、考核和实习安排：
+- 雇主法定名称、岗位、地点和协议依据：
+- 面试、Offer、提名分别处于什么状态：
+- 失败情形和退款条款：
+- 报名、结业、面试、Offer、提名、获签的同周期人数：
+
+## 付款前必须问清的问题
+1. ...
+2. ...
+3. ...
+
+## 当前不建议做的事
+- 不建议因口头“名额”支付下一笔费用。
+- 不建议把安排面试当成雇主提名。
+- 不建议用少数成功案例推算自己的结果。
+- 不建议在证据不足时公开指控具名机构诈骗；先保存材料并寻求适当专业意见。
 ```
 
 ## Japan Path Triage Template

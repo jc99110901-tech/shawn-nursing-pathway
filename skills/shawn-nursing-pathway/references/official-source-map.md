@@ -253,6 +253,13 @@ Official or high-trust sources:
 - Ahpra second OSCE location news: `https://www.ahpra.gov.au/News/2023-11-20-Second-location-selected-for-examination-of-internationally-qualified-nurses-and-midwives.aspx`
 - Ahpra English language skills: `https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills.aspx`
 - ANMAC ANZSCO codes: `https://anmac.org.au/skilled-migrants/anzsco-codes-information`
+- Department of Home Affairs industry labour agreements, including aged care: `https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/labour-agreements/types-of-labour-agreements/industry-labour-agreements`
+- Department of Home Affairs Skills in Demand visa subclass 482: `https://immi.homeaffairs.gov.au/Visa-subsite/Pages/work/skills-in-demand-482-landing.aspx`
+- Department of Home Affairs Employer Nomination Scheme subclass 186 labour-agreement stream: `https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186/labour-agreement-stream`
+- Australian national training register, CHC33021 Certificate III in Individual Support: `https://training.gov.au/Training/Details/CHC33021`
+- ASQA national register and RTO verification guidance: `https://www.asqa.gov.au/sector-partners/national-register-of-VET`
+- ASQA explanation of registered training organisations: `https://www.asqa.gov.au/for-providers/about-providers`
+- ANMAC skills-assessment application entry, including Direct Care Skills Assessment: `https://anmac.org.au/skilled-migrants/apply`
 - Australian Bureau of Statistics ANZSCO 2544 Registered Nurses: `https://www.abs.gov.au/statistics/classifications/anzsco-australian-and-new-zealand-standard-classification-occupations/2022/browse-classification/2/25/254/2544`
 
 Stable facts to use carefully:
@@ -267,6 +274,10 @@ Stable facts to use carefully:
 - NMBA states that registration, immigration/visa, and employment are separate processes, and success in one does not automatically guarantee success in another.
 - ANZSCO 2544 registered nurses are treated as requiring registration/licensing.
 - Treat "OBA" as a user-facing shorthand. In official-source checks, map it back to NMBA internationally qualified nurse or midwife assessment stages, including Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, and registration.
+- The Aged Care Industry Labour Agreement is an employer-side framework for specified direct-care occupations. Its existence does not prove that a training provider owns a transferable quota or can guarantee a nomination.
+- Nationally recognised VET qualifications must be checked against the current qualification record, issuing RTO and RTO scope. A provider-created attendance certificate is not interchangeable with a nationally recognised qualification.
+- A training completion, qualification, provider-arranged interview, conditional offer, employer nomination, visa, and later permanent-residence outcome are separate evidence stages.
+- If overseas qualification or work-experience evidence is used for a direct-care occupation, check the current Home Affairs route and responsible skills-assessing authority instead of assuming a care course removes assessment requirements.
 
 Verify next:
 
@@ -276,6 +287,9 @@ Verify next:
 - English pathway or test score standard in force at the time of application, especially because English standards and transition rules can change
 - ANMAC skilled migration assessment requirements, ANZSCO code, occupation list, visa subclass, invitation, and state nomination rules
 - provider claims, service contracts, refund rules, training claims, and any cooperation or commission disclosure if the user has contacted an agency or training provider
+- for a PTE plus care-certificate package: exact course code, RTO number, scope, delivery location, assessment, required placement, and the document actually issued
+- for an aged-care employer claim: employer legal name, occupation, labour-agreement/sponsorship basis, vacancy, interview status, written offer, nomination status, contract terms, commission disclosure, and refund triggers
+- funnel evidence for the stated period: enrolments, completions, interviews, offers, nominations and visa grants; do not use isolated success stories as a cohort success rate
 
 ## ASEAN and Southeast Asia English Nursing Degrees
 

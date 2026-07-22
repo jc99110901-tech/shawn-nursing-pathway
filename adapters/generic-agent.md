@@ -43,6 +43,10 @@ If the platform supports retrieval:
 ```
 
 ```text
+有人说学 PTE 再拿澳洲护工证，就能安排养老院面试和雇主担保，这条路怎么逐项核验？
+```
+
+```text
 澳洲护理学费和学校应该怎么查？
 ```
 

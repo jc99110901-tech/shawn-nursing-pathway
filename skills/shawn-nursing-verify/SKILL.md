@@ -29,6 +29,7 @@ Verify dynamic claims before they shape a nursing education, career, or overseas
 6. If the newest official item found is older than the current year, say so explicitly.
 7. If current verification fails, state what was searched and the exact unresolved item.
 8. Split bundled claims into education, graduation, license/registration, employment, salary, visa, and long-term residence layers.
+9. For Australian care-worker training or employer-sponsorship packages, load `../shawn-nursing-pathway/references/australia-aged-care-sponsorship-claims.md`. Separate English, qualification/RTO, skills assessment, employer eligibility, interview/offer, nomination/visa, and later residence. Do not turn practitioner opinion or a screenshot into a fraud finding.
 
 Use `references/freshness-protocol.md` for statuses and output.
 

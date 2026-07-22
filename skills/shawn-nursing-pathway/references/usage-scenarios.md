@@ -14,6 +14,10 @@ Use this file to keep the skill grounded in real consumer use. Load it when test
 - Scenario 8: Japan Nurse, Nursing Study, or Caregiving Triage
 - Scenario 9: Domestic Nurse Asking About Career Change and an International Hospital
 - Scenario 10: Multi-Perspective Review for a Conflicted Decision
+- Scenario 11: A Direction Is Chosen, but the User Does Not Know the First Step
+- Scenario 12: Long-Term Nursing English Learning
+- Scenario 13: From Role Exploration to a Real Interview
+- Scenario 14: Australia Care Certificate Plus Employer Sponsorship Claim
 - Common Defects to Avoid
 
 ## Scenario 1: Gaokao Parent
@@ -292,6 +296,44 @@ Bad behavior:
 - Promise the role is less stressful, higher paid, or easier to enter.
 - Submit the application or claim a likely offer.
 
+## Scenario 14: Australia Care Certificate Plus Employer Sponsorship Claim
+
+User:
+
+> 有人说我花钱学 PTE，再在国内学一个澳洲护工证，就能安排澳洲养老院面试。拿到雇主担保后可以带全家移民，这条路靠谱吗？
+
+Good behavior:
+
+- Route to `$shawn-nursing-verify` and load
+  `australia-aged-care-sponsorship-claims.md`.
+- Explain that the official aged-care labour-agreement framework and the
+  provider's commercial package must be verified separately.
+- Ask for redacted written claims, fee breakdown, contract deliverables, course
+  code, RTO identity and scope, delivery/assessment/placement plan, employer
+  legal identity, occupation, visa stream and refund triggers.
+- Split the offer into English, qualification, occupation/skills assessment,
+  employer eligibility, interview/offer, nomination/visa, and later residence.
+- Search the current Home Affairs, `training.gov.au`, ASQA, ANMAC or responsible
+  assessing-authority sources before stating current requirements.
+- Distinguish interview, job offer, nomination and visa. Do not allow one to
+  stand in for another.
+- Ask for cohort funnel evidence: enrolments, completions, interviews, offers,
+  nominations and visa grants in the same stated period.
+- Classify each claim as supported, expanded, evidence-insufficient,
+  contradicted, or high-risk commercial wording.
+
+Bad behavior:
+
+- Say the package is legitimate merely because an official aged-care route exists.
+- Say the package is a scam based only on screenshots, price, practitioner
+  opinion or a failed interview.
+- Treat a training certificate, provider-arranged interview, employer interest,
+  nomination, visa and PR as one continuous outcome.
+- Accept "internal quota", "partner employer" or isolated success cases without
+  independently verifiable employer-side evidence and a denominator.
+- Recommend paying to preserve a place before the RTO, employer, visa stream and
+  refund terms are verified.
+
 ## Common Defects to Avoid
 
 - Single-answer trap: answering one question but not suggesting the next useful module.
@@ -307,3 +349,5 @@ Bad behavior:
 - Giant-plan trap: giving a full-year plan before the user completes one evidence-producing task.
 - Permanent-memory trap: claiming cross-platform lifelong memory instead of using a portable progress card.
 - Course-dump trap: generating a complete syllabus before testing the learner's current level and first task.
+- Package-route trap: treating a real policy framework as proof that a provider controls training, employer selection, nomination, visa and residence outcomes.
+- Accusation trap: converting practitioner opinion, screenshots or a disappointing result into a public fraud finding without sufficient evidence.

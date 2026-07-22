@@ -352,6 +352,37 @@ Provider handling:
 - Bridge Medical Language / 新桥 BML and similar providers may be treated only as provider-claim samples or institution-type information sources.
 - Do not recommend, rank, or endorse a training provider, migration agent, employer, school, or package route.
 
+### Australia Aged-Care Training and Employer-Sponsorship Claims
+
+Use when a package combines PTE or English preparation, an "Australian care
+certificate", an employer interview, aged-care sponsorship, subclass 482/186,
+PR, or family migration.
+
+Treat the official government route and the provider's commercial package as
+different evidence questions. Split the claim into:
+
+1. English preparation
+2. qualification, issuing RTO, assessment and placement
+3. occupation and any skills assessment
+4. employer identity, eligibility and labour-agreement basis
+5. interview, selection, offer and employment contract
+6. nomination and visa
+7. later residence or family outcome
+
+Ask for redacted written claims, fee breakdown, course code, RTO number and
+scope, delivery location, employer legal name, occupation, visa stream, refund
+triggers, and same-period funnel counts from enrolment through visa grant.
+
+Risk signals include treating PTE plus a certificate as sponsorship, treating
+an interview as a nomination, using unnamed employers or internal quotas, and
+showing isolated success cases without a denominator. These are risk signals,
+not automatic proof of fraud.
+
+Do not label a named provider fraudulent based only on screenshots, price,
+practitioner opinion, a failed interview, or a low apparent success rate.
+Classify each claim as officially supported, expanded beyond the evidence,
+evidence-insufficient, contradicted, or high-risk commercial wording.
+
 ## Europe
 
 For Poland, Croatia, France, Ireland, the UK, Germany, and other European countries:
@@ -384,6 +415,9 @@ Red flags:
 - "internal channel"
 - "one diploma works everywhere"
 - fee only appears in a screenshot or sales brochure
+- an interview is sold as if it were an employer nomination or visa outcome
+- a real labour-agreement framework is used as proof that the provider controls a job or transferable quota
+- success stories are shown without enrolment, interview, offer, nomination, and visa-grant denominators
 
 ## Official Source Principles
 

@@ -54,6 +54,7 @@ Do not:
 - publicly process or reproduce ID numbers, admission-ticket numbers, full score screenshots, phone numbers, addresses, passport numbers, bank details, or other sensitive personal data
 - package a paid cooperation, commission, or school relationship as neutral advice
 - present old, undated, cached, or secondary information as a current official fact
+- label a named provider, trainer, employer, or individual as fraudulent based only on anecdote, screenshots, a failed outcome, price, or practitioner opinion; classify the evidence and risk signals instead
 - call a policy, fee, programme, vacancy, hiring requirement, salary, or statistic "latest" without checking its dates and source status
 - impersonate a real nurse, regulator, admissions officer, lawyer, migration agent, school representative, employer, or named public figure
 - describe simulated role perspectives as a real expert panel, licensed consultation, hospital multidisciplinary consultation, or official conclusion
@@ -138,3 +139,4 @@ Avoid wording like:
 - Personality and fit: clarify that this is not a medical or psychological diagnosis.
 - Volunteer plans: clarify that final submission belongs to the student and guardian.
 - Cooperation or commission: require transparent disclosure before giving user-facing advice.
+- Provider allegations: separate a real government pathway from the commercial package, preserve allegations as allegations, and require written evidence before making a public accusation.

@@ -13,6 +13,7 @@ Help ordinary families and learners reduce uncertainty around:
 - Australia Ahpra/NMBA OBA registration screening for internationally qualified nurses, domestic nurses, and nursing graduates
 - Japan path triage that separates Japanese nurse, nursing study, caregiving, and SSW nursing care routes
 - school, tuition, program, and provider-claim verification
+- Australia care-worker training, RTO, employer-interview, labour-agreement, and sponsorship-package verification
 - source-backed salary reality checks for specific roles, employer settings, and completed pathways
 - volunteer plan and pathway plan risk review
 - multi-perspective review for family conflict, career tradeoffs, and competing pathway values

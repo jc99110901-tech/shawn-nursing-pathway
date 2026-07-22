@@ -1,7 +1,7 @@
 # SNP Skill Full Knowledge Pack
 
-Version: 0.6.1
-Release date: 2026-07-21
+Version: 0.6.2
+Release date: 2026-07-23
 Canonical source: https://github.com/jc99110901-tech/shawn-nursing-pathway
 Stable technical package: shawn-nursing-pathway
 
@@ -286,6 +286,19 @@ time-sensitive facts against current official sources at answer time.
 
 不得默认中国护士都可以走 OBA。NCLEX-RN、OSCE、注册、就业、签证和 ANMAC 是不同层。
 
+## 澳洲护工培训与雇主担保话术核验
+
+当用户拿来“学 PTE／英语 + 澳洲护工证 + 安排养老院面试 + 雇主担保 + 482／186／PR／全家移民”一类说法时：
+
+1. 把澳洲官方制度和机构销售套餐分开核验。
+2. 拆成英语、课程代码与 RTO、考核与实习、岗位与技能评估、雇主身份与协议、面试与 Offer、提名与签证、长期居留。
+3. 证书不是工作，面试不是提名，提名不是获签，临时工作路径也不是自动永居。
+4. 要求脱敏后的书面承诺、费用明细、RTO 编号与注册范围、雇主法定名称、岗位、签证类别、退款条款和同一时期的完整转化人数。
+5. 少量成功案例、内部名额、合作雇主或安排面试只能作为待核验说法，不能当成结果证据。
+6. 不根据截图、价格、从业者观点或失败结果直接认定具名机构诈骗；逐项输出“官方支持／被扩大解释／证据不足／与官方冲突／高风险话术”。
+
+涉及当前政策、资格、雇主、签证或费用时，必须先执行“信息时效”核验。
+
 ## 日本路径
 
 先区分：
@@ -452,6 +465,7 @@ Load only the references needed for the request:
 - `references/nursing-fit-assessment.md`: Load for nursing fit, self-assessment, or "should I/should my child choose nursing" questions.
 - `references/pathway-comparison.md`: Load for comparing domestic junior-college, bachelor, Sino-foreign, and overseas nursing-related routes.
 - `references/country-paths.md`: Load for Philippines/Cebu, Japan, Germany, US RN, Australia, Southeast Asia English nursing degree, or dentistry/caregiving path screening.
+- `references/australia-aged-care-sponsorship-claims.md`: Load when a user asks about an Australian care-worker certificate, PTE plus training, CHC33021/RTO claims, an arranged aged-care employer interview, employer sponsorship, a packaged 482/186/PR route, or whether this kind of provider offer is credible.
 - `references/country-scenario-cards.md`: Load when the user needs concrete scenario-level landing explanation for a country path, such as Japan nurse versus caregiving, Germany recognition, US RN, Australia OBA, Philippines/Cebu, or Europe/UK/Ireland.
 - `references/current-information-protocol.md`: Load whenever the answer uses current or latest statistics, policy, fees, school/program facts, licensing rules, exams, visas, migration rules, named-institution claims, job openings, hiring requirements, salaries, or career-market claims.
 - `references/official-source-map.md`: Load when the task needs official sources, current policy verification, source-backed caveats, or a list of documents the user must check.
@@ -480,6 +494,224 @@ Prefer this constructive structure when the user provides enough information. In
 If information is missing, ask only the minimum questions needed to continue, then give a cautious preliminary frame.
 
 For multi-perspective review, use the dedicated structure in `references/multi-perspective-review.md` and `references/output-templates.md`. Do not force the ordinary output shape onto every role.
+
+
+---
+
+## Source: `skills/shawn-nursing-pathway/references/australia-aged-care-sponsorship-claims.md`
+
+# Australia Aged-Care Training and Sponsorship Claim Check
+
+Use this reference when a user asks about an Australia care-worker course, an
+"Australian care certificate" studied in China or overseas, PTE plus training,
+an arranged employer interview, aged-care employer sponsorship, a packaged
+`482/186/PR` route, or a provider claim that resembles these combinations.
+
+## Central Rule
+
+Treat the underlying government pathway and the provider's commercial package
+as two different things.
+
+- A real visa, labour-agreement, occupation, qualification, or assessment route
+  does not prove that a particular provider controls it.
+- Language training, course completion, qualification issuance, job interview,
+  job offer, employer nomination, visa grant, and later permanent residence are
+  separate outcomes.
+- Verify each layer independently. Never let success at one layer stand in for
+  evidence at the next layer.
+
+This is a provider-claim evidence review, not legal advice, migration advice, a
+fraud finding, or an endorsement.
+
+## First Split
+
+Clarify the role before reviewing the package:
+
+- Australian registered nurse or enrolled nurse registration
+- nursing support worker or personal care assistant
+- aged or disabled carer
+- a general care-worker, assistant, or facility-specific job title
+
+Do not describe a direct-care qualification or job as Australian nurse
+registration. If the user means RN or EN, route separately to the Ahpra/NMBA
+registration material.
+
+## Seven-Layer Decomposition
+
+| Layer | What to verify | What it does not prove |
+|---|---|---|
+| English preparation | Exact test, target score, target date, and which later rule requires it | Employer sponsorship or visa eligibility |
+| Training | Course code, qualification title, issuing RTO, delivery location, assessment and placement | A job, nomination, visa, or permanent residence |
+| Occupation and skills | Exact occupation, qualification or experience rule, and any required skills assessment | That a named employer will recruit the user |
+| Employer eligibility | Employer legal name, sponsorship/labour-agreement basis, occupation and location | That the user has been selected or nominated |
+| Recruitment | Written vacancy, selection criteria, interview, job offer and employment contract | An approved nomination or visa |
+| Nomination and visa | Exact visa stream, employer nomination and applicant evidence | Visa approval or later permanent residence |
+| Long-term outcome | Any later residence pathway, work-period, age, English and other rules | A guaranteed family migration result |
+
+## Minimum User Inputs
+
+Ask for redacted material only:
+
+- exact written sales claim, not only the user's memory of a phone call
+- total price and a line-by-line statement of what each payment buys
+- provider legal name and the contracting entity
+- course code, qualification title, RTO name and RTO number
+- delivery location, training mode, assessment method and work-placement plan
+- employer legal name, job title, occupation code and work location
+- exact visa subclass or labour-agreement stream being claimed
+- what "安排面试", "雇主资源", "名额", "担保" and "移民路径" mean in the contract
+- refund rules for course failure, interview failure, no offer, no nomination,
+  employer withdrawal, skills-assessment failure and visa refusal
+- historical funnel counts: enrolled, completed, interviewed, offered,
+  nominated and visa granted, with period and evidence
+
+Do not ask the user to upload passport numbers, bank details, signatures,
+addresses, full contracts with personal data, or other unnecessary sensitive
+information. Ask for a redacted extract.
+
+## Evidence Checklist
+
+### Qualification and RTO
+
+Verify at answer time:
+
+- the course exists on `training.gov.au`
+- the issuing organisation is an active RTO
+- the course is inside that RTO's current scope of registration
+- the delivery location and any third-party delivery arrangement are disclosed
+- assessment and mandatory work-placement requirements can actually be met
+- the promised document is a qualification or statement of attainment, not a
+  provider-created attendance certificate with a similar name
+
+For `CHC33021 Certificate III in Individual Support`, check the current
+qualification record and assessment requirements. Do not assume that every
+product called an "Australian care certificate" is this qualification.
+
+### Employer and Labour Agreement
+
+Verify at answer time:
+
+- the employer's full legal identity and active business operation
+- the exact occupation and whether it is available under the claimed route
+- whether the employer is the party that can nominate the worker under the
+  relevant agreement or sponsorship framework
+- whether the job is full-time, where it is located, and what written terms apply
+- whether an interview is only an interview, or whether a conditional written
+  offer exists
+- whether the provider has disclosed the nature of its employer relationship,
+  referral fee, commission, or recruitment role
+
+Do not treat "two or three employer places", "internal quota", "partner
+employer", or "guaranteed interview" as evidence without employer-side
+documents that can be independently checked.
+
+### Skills, Nomination, Visa, and Residence
+
+Verify at answer time:
+
+- the occupation-specific qualification or experience requirement
+- whether an overseas qualification or experience claim needs a skills
+  assessment and which assessing authority is responsible
+- the exact visa stream and current English, age, experience, salary,
+  nomination and employer requirements
+- whether the claimed permanent-residence step is immediate, conditional,
+  work-dependent, or not established by the material
+
+Never infer a nomination from a course certificate, an interview from a
+provider, or a visa outcome from an employer's interest.
+
+## Official Anchors
+
+Start with these official systems, then check for current replacements or
+superseding notices:
+
+- Department of Home Affairs industry labour agreements and Aged Care Industry
+  Labour Agreement
+- Department of Home Affairs Skills in Demand visa subclass 482 and Employer
+  Nomination Scheme subclass 186 pages
+- `training.gov.au` national register for the qualification and RTO scope
+- ASQA guidance on registered training organisations and nationally recognised
+  training
+- ANMAC Direct Care Skills Assessment for relevant direct-care occupations
+- Community Work Australia when the claimed occupation falls within its
+  assessment responsibility
+
+Use `official-source-map.md` for direct URLs and
+`current-information-protocol.md` for freshness disclosure.
+
+## Risk Signals
+
+Treat these as risk signals, not automatic proof of fraud:
+
+- "PTE + 护工证 = 雇主担保"
+- "安排面试 = 拿到工作/担保"
+- "拿到证书就能全家移民"
+- the employer is unnamed or cannot be contacted independently
+- the occupation, visa subclass or labour-agreement stream is not written down
+- a small number of success stories is shown without the total enrolment and
+  failure denominator
+- payment is requested before the user can verify the RTO, employer and route
+- the contract sells training but the sales conversation describes a job or visa
+- refund rules cover only training delivery and ignore failure at later layers
+- the provider uses "internal quota", "guaranteed resource", "稳过" or similar
+  language without independently verifiable evidence
+- one interview is presented as the main value after a large bundled payment
+
+## Claim Classification
+
+Classify each material claim separately:
+
+- `已由当前官方资料支持`
+- `部分支持，但被扩大解释`
+- `证据不足，暂不能确认`
+- `与当前官方资料冲突`
+- `高风险商业话术，需停止付款并核验`
+
+Do not give one overall verdict when different layers have different evidence.
+
+## Fraud and Accusation Boundary
+
+Do not call a named provider, trainer, employer, or individual a scammer or
+fraudster based only on practitioner opinion, screenshots, a failed outcome, a
+high price, or an unattractive success rate.
+
+You may say:
+
+> 目前材料只能证明存在培训或面试安排，不能证明雇主提名、签证或长期居留结果。若销售时把这些层级描述成连续且高度确定的结果，应按高风险话术处理，并在付款前取得书面证据。
+
+If the user alleges fraud, preserve the allegation as the user's statement,
+identify the missing evidence, and suggest obtaining independent legal,
+consumer-protection, or registered migration advice where appropriate.
+
+## Output Shape
+
+```markdown
+## 这次核验什么
+## 信息时效
+## 对方完整说法
+## 分层核验
+| 层级 | 对方承诺 | 当前证据 | 能证明什么 | 不能证明什么 | 风险状态 |
+|---|---|---|---|---|---|
+| 英语 | ... | ... | ... | ... | ... |
+| 培训/证书 | ... | ... | ... | ... | ... |
+| 雇主/面试 | ... | ... | ... | ... | ... |
+| 提名/签证 | ... | ... | ... | ... | ... |
+| 长期居留 | ... | ... | ... | ... | ... |
+
+## 目前最关键的缺失证据
+## 付款前必须问清的问题
+## 当前不建议做的事
+```
+
+## Do Not Do Now
+
+- Do not pay the next instalment merely to keep a verbal place or quota.
+- Do not resign, borrow money, or stop another viable route before verifying
+  the qualification, employer, nomination and refund layers.
+- Do not use a provider-arranged interview as proof of a job or sponsorship.
+- Do not use one successful case as the expected outcome for the next cohort.
+- Do not publicly accuse a named party before evidence and professional advice
+  support that conclusion.
 
 
 ---
@@ -894,6 +1126,7 @@ First split Australia questions into separate tracks:
 - Australia RN, EN, or care-worker role comparison
 - Ahpra/NMBA registration screening for internationally qualified nurses, often called OBA in user questions
 - ANMAC skilled-migration assessment
+- aged-care direct-worker training, recruitment, labour-agreement, and employer-sponsorship claims
 - employer, visa, and long-term residence planning
 
 Do not merge these tracks into one answer. Registration, visa, employment, and migration assessment are different layers.
@@ -956,6 +1189,44 @@ Official checkpoints:
 - English-language registration standard currently in force.
 - NMBA immigration and employment page for the separation of registration, visa, employment, and immigration.
 - ANMAC skilled migration assessment and ANZSCO code if the user is asking about migration.
+
+### Australia Aged-Care Training and Employer-Sponsorship Claim Branch
+
+Use this branch when a user is offered a package described as PTE or English
+training plus an "Australian care certificate", an arranged aged-care employer
+interview, employer sponsorship, subclass 482/186, PR, or family migration.
+
+Load `australia-aged-care-sponsorship-claims.md` and route current facts to
+`$shawn-nursing-verify`.
+
+First separate:
+
+1. English preparation
+2. course delivery and qualification issuance
+3. occupation and skills assessment
+4. employer eligibility or labour agreement
+5. interview, offer and employment contract
+6. employer nomination and visa application
+7. any later permanent-residence or family outcome
+
+Cold-water notes:
+
+- A government aged-care labour-agreement route can exist without proving that
+  a particular commercial package controls an employer place.
+- A course certificate or provider-arranged interview is not an employer
+  nomination, visa, or permanent-residence result.
+- Do not call every programme fraudulent. Ask for the RTO, qualification code,
+  employer identity, occupation, visa stream, written deliverables, funnel
+  results and refund terms, then classify each claim separately.
+
+Official checkpoints:
+
+- Department of Home Affairs Aged Care Industry Labour Agreement and the exact
+  visa stream claimed.
+- `training.gov.au` and ASQA for the course, RTO scope, delivery and assessment.
+- ANMAC or the responsible assessing authority for the exact direct-care
+  occupation and evidence route.
+- Employer-side evidence for the job, agreement, nomination and written terms.
 
 ## Southeast Asia English Nursing Degree Paths
 
@@ -1214,6 +1485,53 @@ Use the Australia OBA branch in `country-paths.md` as the current sample for dee
 Cold-water note:
 
 - This is a registration-assessment route for internationally qualified nurses or midwives, not a gaokao or first-degree study-abroad shortcut.
+
+## Australia: Care-Worker Training Is Not Employer Sponsorship
+
+Use when a user is offered PTE or English preparation plus an "Australian care
+certificate", a provider-arranged employer interview, aged-care employer
+sponsorship, subclass 482/186, PR, or family migration.
+
+Ask first:
+
+- What exactly does each payment buy: English, training, assessment, interview,
+  recruitment, migration service, or another deliverable?
+- What are the qualification code, issuing RTO, RTO number, delivery location,
+  assessment method and work-placement arrangement?
+- What are the employer legal name, occupation, work location, labour-agreement
+  basis, written job terms and exact visa stream?
+- What happens contractually if the user completes training but receives no
+  interview, fails selection, receives no offer or nomination, or has a visa
+  refusal?
+
+Path split:
+
+1. English preparation
+2. qualification and RTO evidence
+3. occupation and any skills assessment
+4. employer eligibility and labour agreement
+5. interview, selection, offer and employment contract
+6. nomination and visa
+7. later residence or family outcome
+
+Cold-water notes:
+
+- A real government labour-agreement route does not prove a provider's package.
+- A certificate is not a job; an interview is not a nomination; a nomination is
+  not a visa grant; a temporary work route is not automatically permanent
+  residence.
+- A few success stories without the total cohort denominator do not establish
+  the expected success rate.
+- Treat "fraud" as an allegation unless sufficient evidence and appropriate
+  professional review support that conclusion.
+
+Official checkpoints:
+
+- Department of Home Affairs Aged Care Industry Labour Agreement and exact visa
+  stream.
+- `training.gov.au` and ASQA for qualification and RTO evidence.
+- ANMAC or the responsible skills-assessing authority for the exact occupation.
+- Employer-side written evidence, contract and independently verifiable identity.
 
 ## Philippines / Cebu: Education Pathway Needs Downstream Verification
 
@@ -2406,6 +2724,13 @@ Official or high-trust sources:
 - Ahpra second OSCE location news: `https://www.ahpra.gov.au/News/2023-11-20-Second-location-selected-for-examination-of-internationally-qualified-nurses-and-midwives.aspx`
 - Ahpra English language skills: `https://www.ahpra.gov.au/Registration/Registration-Standards/English-language-skills.aspx`
 - ANMAC ANZSCO codes: `https://anmac.org.au/skilled-migrants/anzsco-codes-information`
+- Department of Home Affairs industry labour agreements, including aged care: `https://immi.homeaffairs.gov.au/visas/employing-and-sponsoring-someone/labour-agreements/types-of-labour-agreements/industry-labour-agreements`
+- Department of Home Affairs Skills in Demand visa subclass 482: `https://immi.homeaffairs.gov.au/Visa-subsite/Pages/work/skills-in-demand-482-landing.aspx`
+- Department of Home Affairs Employer Nomination Scheme subclass 186 labour-agreement stream: `https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/employer-nomination-scheme-186/labour-agreement-stream`
+- Australian national training register, CHC33021 Certificate III in Individual Support: `https://training.gov.au/Training/Details/CHC33021`
+- ASQA national register and RTO verification guidance: `https://www.asqa.gov.au/sector-partners/national-register-of-VET`
+- ASQA explanation of registered training organisations: `https://www.asqa.gov.au/for-providers/about-providers`
+- ANMAC skills-assessment application entry, including Direct Care Skills Assessment: `https://anmac.org.au/skilled-migrants/apply`
 - Australian Bureau of Statistics ANZSCO 2544 Registered Nurses: `https://www.abs.gov.au/statistics/classifications/anzsco-australian-and-new-zealand-standard-classification-occupations/2022/browse-classification/2/25/254/2544`
 
 Stable facts to use carefully:
@@ -2420,6 +2745,10 @@ Stable facts to use carefully:
 - NMBA states that registration, immigration/visa, and employment are separate processes, and success in one does not automatically guarantee success in another.
 - ANZSCO 2544 registered nurses are treated as requiring registration/licensing.
 - Treat "OBA" as a user-facing shorthand. In official-source checks, map it back to NMBA internationally qualified nurse or midwife assessment stages, including Self-check, Stream A/B/C, Portfolio, MCQ/NCLEX-RN, OSCE, and registration.
+- The Aged Care Industry Labour Agreement is an employer-side framework for specified direct-care occupations. Its existence does not prove that a training provider owns a transferable quota or can guarantee a nomination.
+- Nationally recognised VET qualifications must be checked against the current qualification record, issuing RTO and RTO scope. A provider-created attendance certificate is not interchangeable with a nationally recognised qualification.
+- A training completion, qualification, provider-arranged interview, conditional offer, employer nomination, visa, and later permanent-residence outcome are separate evidence stages.
+- If overseas qualification or work-experience evidence is used for a direct-care occupation, check the current Home Affairs route and responsible skills-assessing authority instead of assuming a care course removes assessment requirements.
 
 Verify next:
 
@@ -2429,6 +2758,9 @@ Verify next:
 - English pathway or test score standard in force at the time of application, especially because English standards and transition rules can change
 - ANMAC skilled migration assessment requirements, ANZSCO code, occupation list, visa subclass, invitation, and state nomination rules
 - provider claims, service contracts, refund rules, training claims, and any cooperation or commission disclosure if the user has contacted an agency or training provider
+- for a PTE plus care-certificate package: exact course code, RTO number, scope, delivery location, assessment, required placement, and the document actually issued
+- for an aged-care employer claim: employer legal name, occupation, labour-agreement/sponsorship basis, vacancy, interview status, written offer, nomination status, contract terms, commission disclosure, and refund triggers
+- funnel evidence for the stated period: enrolments, completions, interviews, offers, nominations and visa grants; do not use isolated success stories as a cohort success rate
 
 ## ASEAN and Southeast Asia English Nursing Degrees
 
@@ -2484,6 +2816,7 @@ Use these templates to keep responses consistent, constructive, and safe. Safety
 - Next-Step Navigation Template
 - Case Card Template
 - Australia OBA/IQNM Initial Screening Template
+- Australia Aged-Care Training and Sponsorship Claim Template
 - Japan Path Triage Template
 - "Do Not Do Now" Options
 
@@ -2939,6 +3272,66 @@ Use this when a domestic nurse, nursing graduate, or internationally registered 
 - 不建议用机构口头说法替代 Ahpra/NMBA/ANMAC 官方文件。
 ```
 
+## Australia Aged-Care Training and Sponsorship Claim Template
+
+Use this when a user asks whether a package combining PTE/English, an
+"Australian care certificate", an employer interview, sponsorship, 482/186,
+PR, or family migration is credible.
+
+```markdown
+## 这次核验什么
+把对方整包说法拆成英语、培训/证书、岗位/技能评估、雇主/面试、提名/签证和长期居留，逐层判断证据。
+
+## 信息时效
+| 事实 | 检索日期 | 数据/规则适用期 | 发布或更新日期 | 时效状态 |
+|---|---|---|---|---|
+| ... | YYYY-MM-DD | ... | ... | ... |
+
+- 尚未找到或仍需核验：
+
+## 对方完整说法
+- 总收费：
+- 每一笔费用购买的服务：
+- 承诺原文：
+- 合同写法与销售说法是否一致：
+
+## 分层核验
+| 层级 | 对方承诺 | 当前证据 | 能证明什么 | 不能证明什么 | 风险状态 |
+|---|---|---|---|---|---|
+| 英语/PTE | ... | ... | ... | 雇主或签证结果 | ... |
+| 培训/证书/RTO | ... | ... | ... | 工作、提名或签证 | ... |
+| 岗位/技能评估 | ... | ... | ... | 雇主会选择申请人 | ... |
+| 雇主/面试/Offer | ... | ... | ... | 已获批提名或签证 | ... |
+| 提名/签证 | ... | ... | ... | 永居或家庭结果 | ... |
+| 长期居留 | ... | ... | ... | 保证结果 | ... |
+
+## 当前结论
+- 已由当前官方资料支持：
+- 部分支持但被扩大解释：
+- 证据不足：
+- 与当前官方资料冲突：
+- 高风险商业话术：
+
+## 目前最关键的缺失证据
+- 课程代码、RTO 名称/编号和注册范围：
+- 培训地点、考核和实习安排：
+- 雇主法定名称、岗位、地点和协议依据：
+- 面试、Offer、提名分别处于什么状态：
+- 失败情形和退款条款：
+- 报名、结业、面试、Offer、提名、获签的同周期人数：
+
+## 付款前必须问清的问题
+1. ...
+2. ...
+3. ...
+
+## 当前不建议做的事
+- 不建议因口头“名额”支付下一笔费用。
+- 不建议把安排面试当成雇主提名。
+- 不建议用少数成功案例推算自己的结果。
+- 不建议在证据不足时公开指控具名机构诈骗；先保存材料并寻求适当专业意见。
+```
+
 ## Japan Path Triage Template
 
 Use this when the user asks about Japan nursing, Japanese nurse, caregiving, SSW nursing care, or whether a student should consider Japan.
@@ -3338,6 +3731,7 @@ Do not:
 - publicly process or reproduce ID numbers, admission-ticket numbers, full score screenshots, phone numbers, addresses, passport numbers, bank details, or other sensitive personal data
 - package a paid cooperation, commission, or school relationship as neutral advice
 - present old, undated, cached, or secondary information as a current official fact
+- label a named provider, trainer, employer, or individual as fraudulent based only on anecdote, screenshots, a failed outcome, price, or practitioner opinion; classify the evidence and risk signals instead
 - call a policy, fee, programme, vacancy, hiring requirement, salary, or statistic "latest" without checking its dates and source status
 - impersonate a real nurse, regulator, admissions officer, lawyer, migration agent, school representative, employer, or named public figure
 - describe simulated role perspectives as a real expert panel, licensed consultation, hospital multidisciplinary consultation, or official conclusion
@@ -3422,6 +3816,7 @@ Avoid wording like:
 - Personality and fit: clarify that this is not a medical or psychological diagnosis.
 - Volunteer plans: clarify that final submission belongs to the student and guardian.
 - Cooperation or commission: require transparent disclosure before giving user-facing advice.
+- Provider allegations: separate a real government pathway from the commercial package, preserve allegations as allegations, and require written evidence before making a public accusation.
 
 
 ---
@@ -3728,6 +4123,10 @@ Use this file to keep the skill grounded in real consumer use. Load it when test
 - Scenario 8: Japan Nurse, Nursing Study, or Caregiving Triage
 - Scenario 9: Domestic Nurse Asking About Career Change and an International Hospital
 - Scenario 10: Multi-Perspective Review for a Conflicted Decision
+- Scenario 11: A Direction Is Chosen, but the User Does Not Know the First Step
+- Scenario 12: Long-Term Nursing English Learning
+- Scenario 13: From Role Exploration to a Real Interview
+- Scenario 14: Australia Care Certificate Plus Employer Sponsorship Claim
 - Common Defects to Avoid
 
 ## Scenario 1: Gaokao Parent
@@ -4006,6 +4405,44 @@ Bad behavior:
 - Promise the role is less stressful, higher paid, or easier to enter.
 - Submit the application or claim a likely offer.
 
+## Scenario 14: Australia Care Certificate Plus Employer Sponsorship Claim
+
+User:
+
+> 有人说我花钱学 PTE，再在国内学一个澳洲护工证，就能安排澳洲养老院面试。拿到雇主担保后可以带全家移民，这条路靠谱吗？
+
+Good behavior:
+
+- Route to `$shawn-nursing-verify` and load
+  `australia-aged-care-sponsorship-claims.md`.
+- Explain that the official aged-care labour-agreement framework and the
+  provider's commercial package must be verified separately.
+- Ask for redacted written claims, fee breakdown, contract deliverables, course
+  code, RTO identity and scope, delivery/assessment/placement plan, employer
+  legal identity, occupation, visa stream and refund triggers.
+- Split the offer into English, qualification, occupation/skills assessment,
+  employer eligibility, interview/offer, nomination/visa, and later residence.
+- Search the current Home Affairs, `training.gov.au`, ASQA, ANMAC or responsible
+  assessing-authority sources before stating current requirements.
+- Distinguish interview, job offer, nomination and visa. Do not allow one to
+  stand in for another.
+- Ask for cohort funnel evidence: enrolments, completions, interviews, offers,
+  nominations and visa grants in the same stated period.
+- Classify each claim as supported, expanded, evidence-insufficient,
+  contradicted, or high-risk commercial wording.
+
+Bad behavior:
+
+- Say the package is legitimate merely because an official aged-care route exists.
+- Say the package is a scam based only on screenshots, price, practitioner
+  opinion or a failed interview.
+- Treat a training certificate, provider-arranged interview, employer interest,
+  nomination, visa and PR as one continuous outcome.
+- Accept "internal quota", "partner employer" or isolated success cases without
+  independently verifiable employer-side evidence and a denominator.
+- Recommend paying to preserve a place before the RTO, employer, visa stream and
+  refund terms are verified.
+
 ## Common Defects to Avoid
 
 - Single-answer trap: answering one question but not suggesting the next useful module.
@@ -4021,6 +4458,8 @@ Bad behavior:
 - Giant-plan trap: giving a full-year plan before the user completes one evidence-producing task.
 - Permanent-memory trap: claiming cross-platform lifelong memory instead of using a portable progress card.
 - Course-dump trap: generating a complete syllabus before testing the learner's current level and first task.
+- Package-route trap: treating a real policy framework as proof that a provider controls training, employer selection, nomination, visa and residence outcomes.
+- Accusation trap: converting practitioner opinion, screenshots or a disappointing result into a public fraud finding without sufficient evidence.
 
 
 ---
@@ -5060,6 +5499,7 @@ Verify dynamic claims before they shape a nursing education, career, or overseas
 6. If the newest official item found is older than the current year, say so explicitly.
 7. If current verification fails, state what was searched and the exact unresolved item.
 8. Split bundled claims into education, graduation, license/registration, employment, salary, visa, and long-term residence layers.
+9. For Australian care-worker training or employer-sponsorship packages, load `../shawn-nursing-pathway/references/australia-aged-care-sponsorship-claims.md`. Separate English, qualification/RTO, skills assessment, employer eligibility, interview/offer, nomination/visa, and later residence. Do not turn practitioner opinion or a screenshot into a fraud finding.
 
 Use `references/freshness-protocol.md` for statuses and output.
 

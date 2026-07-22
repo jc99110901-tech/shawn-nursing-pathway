@@ -252,6 +252,7 @@ First split Australia questions into separate tracks:
 - Australia RN, EN, or care-worker role comparison
 - Ahpra/NMBA registration screening for internationally qualified nurses, often called OBA in user questions
 - ANMAC skilled-migration assessment
+- aged-care direct-worker training, recruitment, labour-agreement, and employer-sponsorship claims
 - employer, visa, and long-term residence planning
 
 Do not merge these tracks into one answer. Registration, visa, employment, and migration assessment are different layers.
@@ -314,6 +315,44 @@ Official checkpoints:
 - English-language registration standard currently in force.
 - NMBA immigration and employment page for the separation of registration, visa, employment, and immigration.
 - ANMAC skilled migration assessment and ANZSCO code if the user is asking about migration.
+
+### Australia Aged-Care Training and Employer-Sponsorship Claim Branch
+
+Use this branch when a user is offered a package described as PTE or English
+training plus an "Australian care certificate", an arranged aged-care employer
+interview, employer sponsorship, subclass 482/186, PR, or family migration.
+
+Load `australia-aged-care-sponsorship-claims.md` and route current facts to
+`$shawn-nursing-verify`.
+
+First separate:
+
+1. English preparation
+2. course delivery and qualification issuance
+3. occupation and skills assessment
+4. employer eligibility or labour agreement
+5. interview, offer and employment contract
+6. employer nomination and visa application
+7. any later permanent-residence or family outcome
+
+Cold-water notes:
+
+- A government aged-care labour-agreement route can exist without proving that
+  a particular commercial package controls an employer place.
+- A course certificate or provider-arranged interview is not an employer
+  nomination, visa, or permanent-residence result.
+- Do not call every programme fraudulent. Ask for the RTO, qualification code,
+  employer identity, occupation, visa stream, written deliverables, funnel
+  results and refund terms, then classify each claim separately.
+
+Official checkpoints:
+
+- Department of Home Affairs Aged Care Industry Labour Agreement and the exact
+  visa stream claimed.
+- `training.gov.au` and ASQA for the course, RTO scope, delivery and assessment.
+- ANMAC or the responsible assessing authority for the exact direct-care
+  occupation and evidence route.
+- Employer-side evidence for the job, agreement, nomination and written terms.
 
 ## Southeast Asia English Nursing Degree Paths
 

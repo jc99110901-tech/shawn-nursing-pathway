@@ -214,6 +214,53 @@ Cold-water note:
 
 - This is a registration-assessment route for internationally qualified nurses or midwives, not a gaokao or first-degree study-abroad shortcut.
 
+## Australia: Care-Worker Training Is Not Employer Sponsorship
+
+Use when a user is offered PTE or English preparation plus an "Australian care
+certificate", a provider-arranged employer interview, aged-care employer
+sponsorship, subclass 482/186, PR, or family migration.
+
+Ask first:
+
+- What exactly does each payment buy: English, training, assessment, interview,
+  recruitment, migration service, or another deliverable?
+- What are the qualification code, issuing RTO, RTO number, delivery location,
+  assessment method and work-placement arrangement?
+- What are the employer legal name, occupation, work location, labour-agreement
+  basis, written job terms and exact visa stream?
+- What happens contractually if the user completes training but receives no
+  interview, fails selection, receives no offer or nomination, or has a visa
+  refusal?
+
+Path split:
+
+1. English preparation
+2. qualification and RTO evidence
+3. occupation and any skills assessment
+4. employer eligibility and labour agreement
+5. interview, selection, offer and employment contract
+6. nomination and visa
+7. later residence or family outcome
+
+Cold-water notes:
+
+- A real government labour-agreement route does not prove a provider's package.
+- A certificate is not a job; an interview is not a nomination; a nomination is
+  not a visa grant; a temporary work route is not automatically permanent
+  residence.
+- A few success stories without the total cohort denominator do not establish
+  the expected success rate.
+- Treat "fraud" as an allegation unless sufficient evidence and appropriate
+  professional review support that conclusion.
+
+Official checkpoints:
+
+- Department of Home Affairs Aged Care Industry Labour Agreement and exact visa
+  stream.
+- `training.gov.au` and ASQA for qualification and RTO evidence.
+- ANMAC or the responsible skills-assessing authority for the exact occupation.
+- Employer-side written evidence, contract and independently verifiable identity.
+
 ## Philippines / Cebu: Education Pathway Needs Downstream Verification
 
 Use when the user asks about Cebu nursing, Philippines nursing, dentistry-adjacent routes, English healthcare education, or lower-cost overseas study.
